@@ -1,7 +1,7 @@
 {
   "id": "cove.official.custom-home-page",
   "name": "Custom Home Page",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Replaces the default home page with an enhanced dashboard featuring recent activity, statistics, and quick actions.",
   "author": "Cove Team",
   "url": "https://github.com/yourcove/cove-extensions-ui",
@@ -18,6 +18,13 @@
       "changelog": "Initial release",
       "minCoveVersion": "0.0.1",
       "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page/v0.0.3/cove.official.custom-home-page-0.0.3.zip"
+    },
+    {
+      "version": "0.0.4",
+      "releasedAt": "2025-01-01T00:00:00Z",
+      "changelog": "Initial release",
+      "minCoveVersion": "0.0.1",
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page/v0.0.4/cove.official.custom-home-page-0.0.4.zip"
     }
   ]
 }

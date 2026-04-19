@@ -4,7 +4,7 @@
     {
       "id": "cove.official.custom-home-page",
       "name": "Custom Home Page",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "description": "Replaces the default home page with an enhanced dashboard featuring recent activity, statistics, and quick actions.",
       "author": "Cove Team",
       "categories": ["UI", "Layout"],
