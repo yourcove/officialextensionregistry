@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0",
+  "extensions": [
+    {
+      "id": "cove.official.custom-home-page",
+      "name": "Custom Home Page",
+      "version": "1.0.0",
+      "description": "Replaces the default home page with an enhanced dashboard featuring recent activity, statistics, and quick actions.",
+      "author": "Cove Team",
+      "categories": ["UI", "Layout"],
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "minCoveVersion": "1.0.0"
+    },
+    {
+      "id": "cove.official.scene-analytics",
+      "name": "Scene Analytics",
+      "version": "1.0.0",
+      "description": "Adds play count tracking and analytics tab to scene details with viewing history and statistics.",
+      "author": "Cove Team",
+      "categories": ["UI", "Analytics"],
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "minCoveVersion": "1.0.0"
+    },
+    {
+      "id": "cove.official.notification-settings",
+      "name": "Notification Settings",
+      "version": "1.0.0",
+      "description": "Adds notification preferences to extension settings, allowing users to configure alerts for scan completion, metadata updates, and more.",
+      "author": "Cove Team",
+      "categories": ["UI", "Notification"],
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "minCoveVersion": "1.0.0"
+    }
+  ]
+}

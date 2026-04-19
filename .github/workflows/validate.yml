@@ -1,0 +1,142 @@
+name: Validate Registry
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Validate index.json
+        run: |
+          echo "Validating index.json..."
+          python3 -c "
+          import json, sys
+
+          with open('index.json') as f:
+              index = json.load(f)
+
+          assert 'schemaVersion' in index, 'Missing schemaVersion'
+          assert 'extensions' in index, 'Missing extensions array'
+
+          ids = set()
+          for ext in index['extensions']:
+              assert 'id' in ext, f'Extension missing id'
+              assert 'name' in ext, f'Extension {ext.get(\"id\", \"?\")} missing name'
+              assert 'version' in ext, f'Extension {ext.get(\"id\", \"?\")} missing version'
+              assert ext['id'] not in ids, f'Duplicate extension id: {ext[\"id\"]}'
+              ids.add(ext['id'])
+
+          print(f'✓ index.json valid with {len(index[\"extensions\"])} extensions')
+          "
+
+      - name: Validate extension metadata
+        run: |
+          echo "Validating extension metadata..."
+          python3 -c "
+          import json, os, sys
+
+          with open('index.json') as f:
+              index = json.load(f)
+
+          errors = []
+          for ext in index['extensions']:
+              ext_id = ext['id']
+              meta_path = f'extensions/{ext_id}/metadata.json'
+
+              if not os.path.exists(meta_path):
+                  errors.append(f'Missing metadata: {meta_path}')
+                  continue
+
+              with open(meta_path) as f:
+                  meta = json.load(f)
+
+              if meta.get('id') != ext_id:
+                  errors.append(f'{ext_id}: metadata id mismatch ({meta.get(\"id\")})')
+              if meta.get('version') != ext.get('version'):
+                  errors.append(f'{ext_id}: version mismatch (index={ext.get(\"version\")}, meta={meta.get(\"version\")})')
+
+              # Validate versions array
+              versions = meta.get('versions', [])
+              for v in versions:
+                  if not v.get('version'):
+                      errors.append(f'{ext_id}: version entry missing version string')
+                  if not v.get('downloadUrl'):
+                      errors.append(f'{ext_id}: version {v.get(\"version\", \"?\")} missing downloadUrl')
+
+          if errors:
+              for e in errors:
+                  print(f'✗ {e}', file=sys.stderr)
+              sys.exit(1)
+
+          print(f'✓ All {len(index[\"extensions\"])} extension metadata files valid')
+          "
+
+      - name: Auto-populate dates
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          python3 -c "
+          import json, os
+          from datetime import datetime, timezone
+
+          now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+          # Update updatedAt in index.json from latest version's releasedAt in metadata
+          with open('index.json') as f:
+              index = json.load(f)
+
+          changed = False
+          for ext in index['extensions']:
+              ext_id = ext['id']
+              meta_path = f'extensions/{ext_id}/metadata.json'
+              if not os.path.exists(meta_path):
+                  continue
+
+              with open(meta_path) as f:
+                  meta = json.load(f)
+
+              # Auto-set releasedAt on version entries that are missing it
+              meta_changed = False
+              for v in meta.get('versions', []):
+                  if not v.get('releasedAt'):
+                      v['releasedAt'] = now
+                      meta_changed = True
+
+              # Auto-set updatedAt on metadata from latest version's releasedAt
+              versions = meta.get('versions', [])
+              if versions:
+                  latest_date = max((v.get('releasedAt', '') for v in versions), default='')
+                  if latest_date and meta.get('updatedAt') != latest_date:
+                      meta['updatedAt'] = latest_date
+                      meta_changed = True
+
+              if meta_changed:
+                  with open(meta_path, 'w') as f:
+                      json.dump(meta, f, indent=2)
+                      f.write('\n')
+
+              # Sync updatedAt to index entry
+              if meta.get('updatedAt') and ext.get('updatedAt') != meta.get('updatedAt'):
+                  ext['updatedAt'] = meta['updatedAt']
+                  changed = True
+
+          if changed:
+              with open('index.json', 'w') as f:
+                  json.dump(index, f, indent=2)
+                  f.write('\n')
+
+          print(f'✓ Dates auto-populated at {now}')
+          "
+
+      - name: Commit date changes
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: auto-populate registry dates"
+          git push
