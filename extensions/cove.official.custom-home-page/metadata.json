@@ -6,7 +6,10 @@
   "author": "Cove Team",
   "url": "https://github.com/yourcove/cove-extensions-ui",
   "repositoryUrl": "https://github.com/yourcove/cove-extensions-ui",
-  "categories": ["UI", "Layout"],
+  "categories": [
+    "UI",
+    "Layout"
+  ],
   "minCoveVersion": "0.0.1",
   "dependencies": {},
   "changelog": "## 0.0.3\n- Initial release\n- Dashboard with recent scenes, performers, and studios\n- Quick action buttons\n- Library statistics overview",
@@ -26,5 +29,6 @@
       "minCoveVersion": "0.0.1",
       "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page/v0.0.4/cove.official.custom-home-page-0.0.4.zip"
     }
-  ]
+  ],
+  "updatedAt": "2025-01-01T00:00:00Z"
 }
