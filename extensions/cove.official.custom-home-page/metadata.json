@@ -18,7 +18,7 @@
       "releasedAt": "2025-01-01T00:00:00Z",
       "changelog": "Initial release",
       "minCoveVersion": "1.0.0",
-      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/v0.0.3/cove.official.custom-home-page-0.0.3.zip"
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page%2Fv0.0.3/cove.official.custom-home-page-0.0.3.zip"
     }
   ]
 }
