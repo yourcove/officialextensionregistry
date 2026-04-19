@@ -3,12 +3,6 @@
   "extensions": [
     {
       "id": "cove.official.custom-home-page"
-    },
-    {
-      "id": "cove.official.notification-settings"
-    },
-    {
-      "id": "cove.official.scene-analytics"
     }
   ]
 }
