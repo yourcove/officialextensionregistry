@@ -1,7 +1,7 @@
 {
   "id": "cove.official.custom-home-page",
   "name": "Custom Home Page",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "Replaces the default home page with an enhanced dashboard featuring recent activity, statistics, and quick actions.",
   "author": "Cove Team",
   "url": "https://github.com/yourcove/cove-extensions-ui",
@@ -10,15 +10,15 @@
   "updatedAt": "2025-01-01T00:00:00Z",
   "minCoveVersion": "1.0.0",
   "dependencies": {},
-  "changelog": "## 1.0.0\n- Initial release\n- Dashboard with recent scenes, performers, and studios\n- Quick action buttons\n- Library statistics overview",
+  "changelog": "## 0.0.3\n- Initial release\n- Dashboard with recent scenes, performers, and studios\n- Quick action buttons\n- Library statistics overview",
   "screenshots": [],
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "0.0.3",
       "releasedAt": "2025-01-01T00:00:00Z",
       "changelog": "Initial release",
       "minCoveVersion": "1.0.0",
-      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/v1.0.0/cove.official.custom-home-page-1.0.0.zip"
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/v0.0.3/cove.official.custom-home-page-0.0.3.zip"
     }
   ]
 }
