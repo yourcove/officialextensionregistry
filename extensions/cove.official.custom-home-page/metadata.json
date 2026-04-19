@@ -1,8 +1,8 @@
 {
   "id": "cove.official.custom-home-page",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/cove-extensions-ui/main/extensions/CustomHomePage/extension.json",
   "name": "Custom Home Page",
-  "version": "0.0.4",
-  "description": "Replaces the default home page with an enhanced dashboard featuring recent activity, statistics, and quick actions.",
+  "description": "Enhanced dashboard replacing the default home page with recent activity, statistics, and quick actions.",
   "author": "Cove Team",
   "url": "https://github.com/yourcove/cove-extensions-ui",
   "repositoryUrl": "https://github.com/yourcove/cove-extensions-ui",
@@ -10,25 +10,23 @@
     "UI",
     "Layout"
   ],
-  "minCoveVersion": "0.0.1",
   "dependencies": {},
-  "changelog": "## 0.0.3\n- Initial release\n- Dashboard with recent scenes, performers, and studios\n- Quick action buttons\n- Library statistics overview",
-  "screenshots": [],
   "versions": [
     {
       "version": "0.0.3",
       "releasedAt": "2025-01-01T00:00:00Z",
       "changelog": "Initial release",
-      "minCoveVersion": "0.0.1",
+      "checksum": "sha256:2ba96eecef5d03428cb3e87064c2e61cb29081608269f761ffd078042471a389",
       "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page/v0.0.3/cove.official.custom-home-page-0.0.3.zip"
     },
     {
       "version": "0.0.4",
       "releasedAt": "2025-01-01T00:00:00Z",
       "changelog": "Initial release",
-      "minCoveVersion": "0.0.1",
-      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page/v0.0.4/cove.official.custom-home-page-0.0.4.zip"
+      "checksum": "sha256:a59dd2dc4af46d7d44608e24aec19efa4947442e9bd9b8aaec8717568b47ce27",
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/custom-home-page/v0.0.4/cove.official.custom-home-page-0.0.4.zip",
+      "minCoveVersion": "0.0.1"
     }
   ],
-  "updatedAt": "2025-01-01T00:00:00Z"
+  "minCoveVersion": "0.0.1"
 }

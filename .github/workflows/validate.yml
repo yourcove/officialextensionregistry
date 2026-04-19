@@ -11,132 +11,195 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Validate index.json
+      - name: Validate index and metadata
         run: |
-          echo "Validating index.json..."
-          python3 -c "
-          import json, sys
+          python3 <<'PY'
+          import json
+          import pathlib
+          import re
+          import sys
 
-          with open('index.json') as f:
-              index = json.load(f)
+          index_path = pathlib.Path('index.json')
+          index = json.loads(index_path.read_text(encoding='utf-8'))
 
-          assert 'schemaVersion' in index, 'Missing schemaVersion'
-          assert 'extensions' in index, 'Missing extensions array'
+          assert index.get('schemaVersion'), 'Missing schemaVersion'
+          assert isinstance(index.get('extensions'), list), 'Missing extensions array'
 
-          ids = set()
+          ids = []
           for ext in index['extensions']:
-              assert 'id' in ext, f'Extension missing id'
-              assert 'name' in ext, f'Extension {ext.get(\"id\", \"?\")} missing name'
-              assert 'version' in ext, f'Extension {ext.get(\"id\", \"?\")} missing version'
-              assert ext['id'] not in ids, f'Duplicate extension id: {ext[\"id\"]}'
-              ids.add(ext['id'])
+              if set(ext.keys()) != {'id'}:
+                  raise AssertionError(f'index entry must contain only id: {ext}')
+              ids.append(ext['id'])
+          if len(ids) != len(set(ids)):
+              raise AssertionError('Duplicate extension IDs in index.json')
 
-          print(f'✓ index.json valid with {len(index[\"extensions\"])} extensions')
-          "
-
-      - name: Validate extension metadata
-        run: |
-          echo "Validating extension metadata..."
-          python3 -c "
-          import json, os, sys
-
-          with open('index.json') as f:
-              index = json.load(f)
-
+          meta_ids = []
           errors = []
-          for ext in index['extensions']:
-              ext_id = ext['id']
-              meta_path = f'extensions/{ext_id}/metadata.json'
-
-              if not os.path.exists(meta_path):
-                  errors.append(f'Missing metadata: {meta_path}')
-                  continue
-
-              with open(meta_path) as f:
-                  meta = json.load(f)
+          for meta_path in sorted(pathlib.Path('extensions').glob('*/metadata.json')):
+              ext_id = meta_path.parent.name
+              meta = json.loads(meta_path.read_text(encoding='utf-8'))
+              meta_ids.append(ext_id)
 
               if meta.get('id') != ext_id:
-                  errors.append(f'{ext_id}: metadata id mismatch ({meta.get(\"id\")})')
-              if meta.get('version') != ext.get('version'):
-                  errors.append(f'{ext_id}: version mismatch (index={ext.get(\"version\")}, meta={meta.get(\"version\")})')
+                  errors.append(f'{ext_id}: metadata id mismatch')
 
-              # Validate versions array
               versions = meta.get('versions', [])
+              if not versions:
+                  errors.append(f'{ext_id}: metadata has no versions')
+                  continue
+
               for v in versions:
                   if not v.get('version'):
                       errors.append(f'{ext_id}: version entry missing version string')
                   if not v.get('downloadUrl'):
-                      errors.append(f'{ext_id}: version {v.get(\"version\", \"?\")} missing downloadUrl')
+                      errors.append(f"{ext_id}: version {v.get('version') or '?'} missing downloadUrl")
+
+                  checksum = (v.get('checksum') or '').strip()
+                  if not checksum:
+                      errors.append(f"{ext_id}: version {v.get('version') or '?'} missing checksum")
+                      continue
+
+                  if checksum.lower().startswith('sha256:'):
+                      checksum = checksum[7:]
+                  if not re.fullmatch(r'[A-Fa-f0-9]{64}', checksum):
+                      errors.append(f"{ext_id}: version {v.get('version') or '?'} has invalid checksum format")
+
+              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
+              if not has_summary and not meta.get('sourceManifestUrl'):
+                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
+
+          if set(ids) != set(meta_ids):
+              errors.append(f'index IDs and metadata IDs mismatch (index={sorted(set(ids))}, metadata={sorted(set(meta_ids))})')
 
           if errors:
               for e in errors:
-                  print(f'✗ {e}', file=sys.stderr)
+                  print(f'ERROR: {e}', file=sys.stderr)
               sys.exit(1)
 
-          print(f'✓ All {len(index[\"extensions\"])} extension metadata files valid')
-          "
+          print(f'Validated {len(meta_ids)} metadata files and {len(ids)} index entries')
+          PY
 
-      - name: Auto-populate dates
+      - name: Verify release assets and checksums (strict)
+        run: |
+          python3 <<'PY'
+          import hashlib
+          import json
+          import pathlib
+          import re
+          import sys
+          import urllib.request
+
+          errors = []
+          for meta_path in sorted(pathlib.Path('extensions').glob('*/metadata.json')):
+              ext_id = meta_path.parent.name
+              meta = json.loads(meta_path.read_text(encoding='utf-8'))
+
+              for v in meta.get('versions', []):
+                  version = v.get('version') or '?'
+                  url = v.get('downloadUrl')
+                  checksum = (v.get('checksum') or '').strip()
+
+                  if not url:
+                      errors.append(f'{ext_id} {version}: missing downloadUrl')
+                      continue
+                  if not checksum:
+                      errors.append(f'{ext_id} {version}: missing checksum')
+                      continue
+
+                  normalized = checksum[7:] if checksum.lower().startswith('sha256:') else checksum
+                  if not re.fullmatch(r'[A-Fa-f0-9]{64}', normalized):
+                      errors.append(f'{ext_id} {version}: invalid checksum format')
+                      continue
+
+                  try:
+                      with urllib.request.urlopen(url, timeout=120) as r:
+                          payload = r.read()
+                  except Exception as ex:
+                      errors.append(f'{ext_id} {version}: failed to download release asset: {ex}')
+                      continue
+
+                  actual = hashlib.sha256(payload).hexdigest().lower()
+                  if actual != normalized.lower():
+                      errors.append(f'{ext_id} {version}: checksum mismatch expected={normalized.lower()} actual={actual}')
+
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}', file=sys.stderr)
+              sys.exit(1)
+
+          print('All release assets exist and checksums match')
+          PY
+
+      - name: Auto-sync metadata and index
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          python3 -c "
-          import json, os
+          python3 <<'PY'
+          import json
+          import pathlib
+          import urllib.request
           from datetime import datetime, timezone
 
           now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
-
-          # Update updatedAt in index.json from latest version's releasedAt in metadata
-          with open('index.json') as f:
-              index = json.load(f)
-
           changed = False
-          for ext in index['extensions']:
-              ext_id = ext['id']
-              meta_path = f'extensions/{ext_id}/metadata.json'
-              if not os.path.exists(meta_path):
-                  continue
+          extension_ids = []
 
-              with open(meta_path) as f:
-                  meta = json.load(f)
+          def write_json(path, data):
+              path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
 
-              # Auto-set releasedAt on version entries that are missing it
+          for meta_path in sorted(pathlib.Path('extensions').glob('*/metadata.json')):
+              ext_id = meta_path.parent.name
+              meta = json.loads(meta_path.read_text(encoding='utf-8'))
               meta_changed = False
+              extension_ids.append(ext_id)
+
+              if meta.get('id') != ext_id:
+                  meta['id'] = ext_id
+                  meta_changed = True
+
+              source_manifest_url = meta.get('sourceManifestUrl')
+              if source_manifest_url:
+                  try:
+                      with urllib.request.urlopen(source_manifest_url, timeout=60) as r:
+                          source_manifest = json.loads(r.read().decode('utf-8'))
+
+                      sync_fields = ['name', 'description', 'author', 'url', 'categories', 'minCoveVersion']
+                      for field in sync_fields:
+                          if source_manifest.get(field) is not None and meta.get(field) != source_manifest.get(field):
+                              meta[field] = source_manifest[field]
+                              meta_changed = True
+                  except Exception:
+                      pass
+
               for v in meta.get('versions', []):
                   if not v.get('releasedAt'):
                       v['releasedAt'] = now
                       meta_changed = True
-
-              # Auto-set updatedAt on metadata from latest version's releasedAt
-              versions = meta.get('versions', [])
-              if versions:
-                  latest_date = max((v.get('releasedAt', '') for v in versions), default='')
-                  if latest_date and meta.get('updatedAt') != latest_date:
-                      meta['updatedAt'] = latest_date
+                  if not v.get('minCoveVersion') and meta.get('minCoveVersion'):
+                      v['minCoveVersion'] = meta['minCoveVersion']
                       meta_changed = True
 
               if meta_changed:
-                  with open(meta_path, 'w') as f:
-                      json.dump(meta, f, indent=2)
-                      f.write('\n')
-
-              # Sync updatedAt to index entry
-              if meta.get('updatedAt') and ext.get('updatedAt') != meta.get('updatedAt'):
-                  ext['updatedAt'] = meta['updatedAt']
+                  write_json(meta_path, meta)
                   changed = True
 
-          if changed:
-              with open('index.json', 'w') as f:
-                  json.dump(index, f, indent=2)
-                  f.write('\n')
+          index_path = pathlib.Path('index.json')
+          generated = {
+              'schemaVersion': '2.0',
+              'extensions': [{'id': ext_id} for ext_id in sorted(set(extension_ids))]
+          }
+          existing = json.loads(index_path.read_text(encoding='utf-8')) if index_path.exists() else {}
+          if existing != generated:
+              write_json(index_path, generated)
+              changed = True
 
-          print(f'✓ Dates auto-populated at {now}')
-          "
+          print(f'Registry sync complete at {now}; changed={changed}')
+          PY
 
-      - name: Commit date changes
+      - name: Commit sync changes
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: auto-populate registry dates"
+          git diff --cached --quiet || git commit -m "chore: sync registry metadata and index"
           git push
