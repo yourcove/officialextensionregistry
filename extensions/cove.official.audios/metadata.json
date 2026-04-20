@@ -1,0 +1,23 @@
+{
+  "id": "cove.official.audios",
+  "sourceManifestUrl": "https://github.com/yourcove/cove-extensions-ui/blob/main/extensions/Audios/extension.json",
+  "name": "Audios",
+  "description": "Audios description",
+  "author": "Cove Team",
+  "url": "https://github.com/yourcove/cove-extensions-ui",
+  "repositoryUrl": "https://github.com/yourcove/cove-extensions-ui",
+  "categories": [
+    "UI",
+    "Layout"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "releasedAt": "2025-01-01T00:00:00Z",
+      "changelog": "Initial release",
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/audios/v0.0.1/cove.official.audios-0.0.1.zip"
+    }
+  ],
+  "minCoveVersion": "0.0.2"
+}
