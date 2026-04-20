@@ -17,7 +17,8 @@
       "releasedAt": "2025-01-01T00:00:00Z",
       "changelog": "Initial release",
       "checksum": "3679868a8077d631a0f6c515499bd9c3d7e7f62175049d67828f80ce4f8a9a85",
-      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/audios/v0.0.1/cove.official.audios-0.0.1.zip"
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/audios/v0.0.1/cove.official.audios-0.0.1.zip",
+      "minCoveVersion": "0.0.2"
     }
   ],
   "minCoveVersion": "0.0.2"
