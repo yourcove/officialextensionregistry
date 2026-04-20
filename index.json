@@ -3,6 +3,9 @@
   "extensions": [
     {
       "id": "cove.official.custom-home-page"
+    },
+    {
+      "id": "cove.official.audios"
     }
   ]
 }
