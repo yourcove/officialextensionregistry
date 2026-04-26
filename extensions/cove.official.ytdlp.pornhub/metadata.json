@@ -6,7 +6,12 @@
   "author": "Cove Team",
   "url": "https://github.com/yourcove/cove-extensions-ui",
   "repositoryUrl": "https://github.com/yourcove/cove-extensions-ui",
-  "categories": ["downloader", "scraper", "metadata", "integration"],
+  "categories": [
+    "downloader",
+    "scraper",
+    "metadata",
+    "integration"
+  ],
   "dependencies": {},
   "versions": [
     {
@@ -14,7 +19,8 @@
       "releasedAt": "2025-01-01T00:00:00Z",
       "changelog": "Initial release",
       "checksum": "b6aba05633c6e3b1b89b2dc016a5af9da4140b4902ce7e32a853bcffeadfa91b",
-      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/ytdlp/v0.0.1/cove.official.ytdlp.pornhub-0.0.1.zip"
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/ytdlp/v0.0.1/cove.official.ytdlp.pornhub-0.0.1.zip",
+      "minCoveVersion": "0.0.10"
     }
   ],
   "minCoveVersion": "0.0.10"
