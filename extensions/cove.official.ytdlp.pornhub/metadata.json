@@ -1,5 +1,5 @@
 {
-  "id": "cove.official.audios",
+  "id": "cove.official.ytdlp.pornhub",
   "sourceManifestUrl": "https://github.com/yourcove/cove-extensions-ui/blob/main/extensions/YtDlpPornhub/extension.json",
   "name": "YTDLP Downloader",
   "description": "YTDLP Downloader extension for downloading videos from various platforms.",
@@ -17,5 +17,5 @@
       "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/ytdlp/v0.0.1/cove.official.ytdlp.pornhub-0.0.1.zip"
     }
   ],
-  "minCoveVersion": "0.0.2"
+  "minCoveVersion": "0.0.10"
 }
