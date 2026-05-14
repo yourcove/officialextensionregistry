@@ -5,14 +5,18 @@
   "description": "Downloads audio from common hosted-audio pages such as Soundgasm and Whyp.",
   "author": "Cove Team",
   "repositoryUrl": "https://github.com/yourcove/communitydownloaders",
-  "categories": ["downloader", "audio"],
+  "categories": [
+    "downloader",
+    "audio"
+  ],
   "dependencies": {},
   "versions": [
     {
       "version": "0.0.1",
       "changelog": "Initial split downloader release.",
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/common-audio/v0.0.1/cove.official.downloaders.common-audio-0.0.1.zip",
-      "minCoveVersion": "0.0.16"
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:a156d55f8fbcf28bb639950191d69ffc84d908a25aee481f963feb326ba2de4d"
     }
   ]
 }

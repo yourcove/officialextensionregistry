@@ -5,14 +5,19 @@
   "description": "Extracts metadata from Reddit posts and Redgifs links.",
   "author": "Cove Team",
   "repositoryUrl": "https://github.com/yourcove/communityscrapers",
-  "categories": ["scraper", "metadata", "integration"],
+  "categories": [
+    "scraper",
+    "metadata",
+    "integration"
+  ],
   "dependencies": {},
   "versions": [
     {
       "version": "0.0.1",
       "changelog": "Initial split scraper release.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/reddit/v0.0.1/cove.official.scrapers.reddit-0.0.1.zip",
-      "minCoveVersion": "0.0.16"
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:34f346bb9a22547032cac3233d9a4b7d9358129b6d893bedfb45f4de87e51ef6"
     }
   ]
 }

@@ -10,10 +10,10 @@
     "integration"
   ],
   "dependencies": {
-    "cove.official.downloaders.common-audio": ">=0.0.1",
-    "cove.official.downloaders.common-text": ">=0.0.1",
-    "cove.official.downloaders.reddit": ">=0.0.1",
-    "cove.official.downloaders.ytdlp": ">=0.0.1"
+    "cove.official.downloaders.common-audio": ">=1.0.0",
+    "cove.official.downloaders.common-text": ">=1.0.0",
+    "cove.official.downloaders.reddit": ">=1.0.0",
+    "cove.official.downloaders.ytdlp": ">=1.0.0"
   },
   "versions": [
     {
@@ -32,5 +32,6 @@
       "minCoveVersion": "0.0.16",
       "releasedAt": ""
     }
-  ]
+  ],
+  "kind": "bundle"
 }

@@ -35,10 +35,10 @@
       "id": "cove.official.scrapers.reddit"
     },
     {
-      "id": "cove.official.scrapers.ytdlp"
+      "id": "cove.official.scrapers.yaml-video"
     },
     {
-      "id": "cove.official.scrapers.yaml-video"
+      "id": "cove.official.scrapers.ytdlp"
     }
   ]
 }
