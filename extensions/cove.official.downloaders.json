@@ -17,10 +17,20 @@
   },
   "versions": [
     {
-      "version": "1.0.0",
-      "changelog": "Split common downloader providers into dedicated leaf extensions.",
-      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/common/v1.0.0/cove.official.downloaders-1.0.0.zip",
-      "minCoveVersion": "0.0.16"
+      "version": "0.0.1",
+      "changelog": "Initial release",
+      "checksum": "sha256:80cd26c2e7e6fd577cb9ccda3ed3c9ee10998551fa42e5507c6dadefac9d055a",
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/downloaders/v0.0.1/cove.official.downloaders-0.0.1.zip",
+      "minCoveVersion": "0.0.16",
+      "releasedAt": "2026-05-14T20:02:02Z"
+    },
+    {
+      "version": "0.0.2",
+      "changelog": "02 test",
+      "checksum": "sha256:afafd76ae0e6eaaf6dbe939c891bd4fce9ecb9bbb691482206648fb4b339cb20",
+      "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/downloaders/v0.0.2/cove.official.downloaders-0.0.2.zip",
+      "minCoveVersion": "0.0.16",
+      "releasedAt": ""
     }
   ]
 }
