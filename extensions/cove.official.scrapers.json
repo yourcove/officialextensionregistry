@@ -11,11 +11,11 @@
     "integration"
   ],
   "dependencies": {
-    "cove.official.scrapers.common-audio": ">=1.0.0",
-    "cove.official.scrapers.common-text": ">=1.0.0",
-    "cove.official.scrapers.reddit": ">=1.0.0",
-    "cove.official.scrapers.ytdlp": ">=1.0.0",
-    "cove.official.scrapers.yaml-video": ">=1.0.0"
+    "cove.official.scrapers.common-audio": ">=0.0.1",
+    "cove.official.scrapers.common-text": ">=0.0.1",
+    "cove.official.scrapers.reddit": ">=0.0.1",
+    "cove.official.scrapers.ytdlp": ">=0.0.1",
+    "cove.official.scrapers.yaml-video": ">=0.0.1"
   },
   "versions": [
     {
