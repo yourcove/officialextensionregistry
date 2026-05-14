@@ -1,4 +1,5 @@
 name: Validate Registry
+
 on:
   push:
     branches: [main]
@@ -10,175 +11,69 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
-      - name: Validate index and metadata
-        run: |
-          python3 <<'PY'
-          import json
-          import pathlib
-          import re
-          import sys
-
-          index_path = pathlib.Path('index.json')
-          index = json.loads(index_path.read_text(encoding='utf-8'))
-
-          assert index.get('schemaVersion'), 'Missing schemaVersion'
-          assert isinstance(index.get('extensions'), list), 'Missing extensions array'
-
-          ids = []
-          for ext in index['extensions']:
-              if set(ext.keys()) != {'id'}:
-                  raise AssertionError(f'index entry must contain only id: {ext}')
-              ids.append(ext['id'])
-          if len(ids) != len(set(ids)):
-              raise AssertionError('Duplicate extension IDs in index.json')
-
-          meta_ids = []
-          errors = []
-          for meta_path in sorted(pathlib.Path('extensions').glob('*/metadata.json')):
-              ext_id = meta_path.parent.name
-              meta = json.loads(meta_path.read_text(encoding='utf-8'))
-              meta_ids.append(ext_id)
-
-              if meta.get('id') != ext_id:
-                  errors.append(f'{ext_id}: metadata id mismatch')
-
-              versions = meta.get('versions', [])
-              if not versions:
-                  errors.append(f'{ext_id}: metadata has no versions')
-                  continue
-
-              for v in versions:
-                  if not v.get('version'):
-                      errors.append(f'{ext_id}: version entry missing version string')
-                  if not v.get('downloadUrl'):
-                      errors.append(f"{ext_id}: version {v.get('version') or '?'} missing downloadUrl")
-
-                  checksum = (v.get('checksum') or '').strip()
-                  if not checksum:
-                      errors.append(f"{ext_id}: version {v.get('version') or '?'} missing checksum")
-                      continue
-
-                  if checksum.lower().startswith('sha256:'):
-                      checksum = checksum[7:]
-                  if not re.fullmatch(r'[A-Fa-f0-9]{64}', checksum):
-                      errors.append(f"{ext_id}: version {v.get('version') or '?'} has invalid checksum format")
-
-              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
-              if not has_summary and not meta.get('sourceManifestUrl'):
-                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
-
-          if set(ids) != set(meta_ids):
-              errors.append(f'index IDs and metadata IDs mismatch (index={sorted(set(ids))}, metadata={sorted(set(meta_ids))})')
-
-          if errors:
-              for e in errors:
-                  print(f'ERROR: {e}', file=sys.stderr)
-              sys.exit(1)
-
-          print(f'Validated {len(meta_ids)} metadata files and {len(ids)} index entries')
-          PY
-
-      - name: Verify release assets and checksums (strict)
+      - name: Normalize metadata, checksums, release dates, and index
+        env:
+          SET_RELEASE_DATES: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         run: |
           python3 <<'PY'
           import hashlib
           import json
-          import pathlib
-          import re
-          import sys
-          import urllib.request
-
-          errors = []
-          for meta_path in sorted(pathlib.Path('extensions').glob('*/metadata.json')):
-              ext_id = meta_path.parent.name
-              meta = json.loads(meta_path.read_text(encoding='utf-8'))
-
-              for v in meta.get('versions', []):
-                  version = v.get('version') or '?'
-                  url = v.get('downloadUrl')
-                  checksum = (v.get('checksum') or '').strip()
-
-                  if not url:
-                      errors.append(f'{ext_id} {version}: missing downloadUrl')
-                      continue
-                  if not checksum:
-                      errors.append(f'{ext_id} {version}: missing checksum')
-                      continue
-
-                  normalized = checksum[7:] if checksum.lower().startswith('sha256:') else checksum
-                  if not re.fullmatch(r'[A-Fa-f0-9]{64}', normalized):
-                      errors.append(f'{ext_id} {version}: invalid checksum format')
-                      continue
-
-                  try:
-                      with urllib.request.urlopen(url, timeout=120) as r:
-                          payload = r.read()
-                  except Exception as ex:
-                      errors.append(f'{ext_id} {version}: failed to download release asset: {ex}')
-                      continue
-
-                  actual = hashlib.sha256(payload).hexdigest().lower()
-                  if actual != normalized.lower():
-                      errors.append(f'{ext_id} {version}: checksum mismatch expected={normalized.lower()} actual={actual}')
-
-          if errors:
-              for e in errors:
-                  print(f'ERROR: {e}', file=sys.stderr)
-              sys.exit(1)
-
-          print('All release assets exist and checksums match')
-          PY
-
-      - name: Auto-sync metadata and index
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          python3 <<'PY'
-          import json
+          import os
           import pathlib
           import urllib.request
           from datetime import datetime, timezone
 
           now = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+          set_release_dates = os.environ.get('SET_RELEASE_DATES', '').lower() == 'true'
           changed = False
           extension_ids = []
 
           def write_json(path, data):
               path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
 
-          for meta_path in sorted(pathlib.Path('extensions').glob('*/metadata.json')):
-              ext_id = meta_path.parent.name
+          def compute_sha256(url):
+              with urllib.request.urlopen(url, timeout=120) as response:
+                  payload = response.read()
+              return hashlib.sha256(payload).hexdigest().lower()
+
+          for meta_path in sorted(pathlib.Path('extensions').glob('*.json')):
+              ext_id = meta_path.stem
               meta = json.loads(meta_path.read_text(encoding='utf-8'))
-              meta_changed = False
+              original = json.dumps(meta, sort_keys=True)
               extension_ids.append(ext_id)
 
               if meta.get('id') != ext_id:
                   meta['id'] = ext_id
-                  meta_changed = True
 
               source_manifest_url = meta.get('sourceManifestUrl')
               if source_manifest_url:
                   try:
-                      with urllib.request.urlopen(source_manifest_url, timeout=60) as r:
-                          source_manifest = json.loads(r.read().decode('utf-8'))
+                      with urllib.request.urlopen(source_manifest_url, timeout=60) as response:
+                          source_manifest = json.loads(response.read().decode('utf-8'))
 
-                      sync_fields = ['name', 'description', 'author', 'url', 'categories', 'minCoveVersion']
+                      # Keep registry entries thin: sync display metadata only.
+                      sync_fields = ['name', 'description', 'author', 'iconUrl', 'kind', 'categories', 'dependencies']
                       for field in sync_fields:
                           if source_manifest.get(field) is not None and meta.get(field) != source_manifest.get(field):
                               meta[field] = source_manifest[field]
-                              meta_changed = True
                   except Exception:
                       pass
 
-              for v in meta.get('versions', []):
-                  if not v.get('releasedAt'):
-                      v['releasedAt'] = now
-                      meta_changed = True
-                  if not v.get('minCoveVersion') and meta.get('minCoveVersion'):
-                      v['minCoveVersion'] = meta['minCoveVersion']
-                      meta_changed = True
+              for version in meta.get('versions', []):
+                  download_url = version.get('downloadUrl')
+                  if download_url:
+                      actual = compute_sha256(download_url)
+                      expected = f'sha256:{actual}'
+                      if version.get('checksum') != expected:
+                          version['checksum'] = expected
 
-              if meta_changed:
+                  if set_release_dates and not version.get('releasedAt'):
+                      version['releasedAt'] = now
+
+              if json.dumps(meta, sort_keys=True) != original:
                   write_json(meta_path, meta)
                   changed = True
 
@@ -192,14 +87,126 @@ jobs:
               write_json(index_path, generated)
               changed = True
 
-          print(f'Registry sync complete at {now}; changed={changed}')
+          print(f'Registry normalization complete at {now}; changed={changed}')
           PY
 
-      - name: Commit sync changes
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      - name: Commit generated registry changes
+        if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "chore: sync registry metadata and index"
-          git push
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: sync registry metadata"
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git push origin HEAD:${{ github.head_ref }}
+          else
+            git push
+          fi
+
+      - name: Validate schema and generated fields
+        env:
+          REQUIRE_RELEASED_AT: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        run: |
+          python3 <<'PY'
+          import json
+          import os
+          import pathlib
+          import re
+          import sys
+
+          require_released_at = os.environ.get('REQUIRE_RELEASED_AT', '').lower() == 'true'
+          index_path = pathlib.Path('index.json')
+          index = json.loads(index_path.read_text(encoding='utf-8'))
+
+          errors = []
+          if not index.get('schemaVersion'):
+              errors.append('Missing schemaVersion')
+          if not isinstance(index.get('extensions'), list):
+              errors.append('Missing extensions array')
+
+          ids = []
+          for entry in index.get('extensions', []):
+              if set(entry.keys()) != {'id'}:
+                  errors.append(f'index entry must contain only id: {entry}')
+                  continue
+              ids.append(entry['id'])
+          if len(ids) != len(set(ids)):
+              errors.append('Duplicate extension IDs in index.json')
+
+          legacy_paths = sorted(pathlib.Path('extensions').glob('*/metadata.json'))
+          for legacy_path in legacy_paths:
+              errors.append(f'{legacy_path}: old extensions/<id>/metadata.json layout is not allowed; use extensions/<id>.json')
+
+          forbidden_top_level = {'url', 'minCoveVersion', 'version', 'releasedAt', 'checksum', 'downloadUrl', 'updatedAt'}
+          meta_ids = []
+          for meta_path in sorted(pathlib.Path('extensions').glob('*.json')):
+              ext_id = meta_path.stem
+              meta = json.loads(meta_path.read_text(encoding='utf-8'))
+              meta_ids.append(ext_id)
+
+              if meta.get('id') != ext_id:
+                  errors.append(f'{ext_id}: metadata id mismatch')
+
+              extra_generated_fields = sorted(forbidden_top_level.intersection(meta.keys()))
+              if extra_generated_fields:
+                  errors.append(f'{ext_id}: top-level fields must move to versions[] or source manifest: {extra_generated_fields}')
+
+              versions = meta.get('versions', [])
+              if not versions:
+                  errors.append(f'{ext_id}: metadata has no versions')
+                  continue
+
+              for version in versions:
+                  version_id = version.get('version') or '?'
+                  if not version.get('version'):
+                      errors.append(f'{ext_id}: version entry missing version string')
+                  if not version.get('downloadUrl'):
+                      errors.append(f'{ext_id}: version {version_id} missing downloadUrl')
+                  if not version.get('minCoveVersion'):
+                      errors.append(f'{ext_id}: version {version_id} missing minCoveVersion')
+                  if require_released_at and not version.get('releasedAt'):
+                      errors.append(f'{ext_id}: version {version_id} missing generated releasedAt')
+
+                  checksum = (version.get('checksum') or '').strip()
+                  if not checksum:
+                      errors.append(f'{ext_id}: version {version_id} missing generated checksum')
+                      continue
+                  if not checksum.lower().startswith('sha256:'):
+                      errors.append(f'{ext_id}: version {version_id} checksum must use sha256:<64-hex> format')
+                      continue
+                  normalized = checksum[7:]
+                  if not re.fullmatch(r'[A-Fa-f0-9]{64}', normalized):
+                      errors.append(f'{ext_id}: version {version_id} has invalid checksum format')
+
+              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
+              if not has_summary and not meta.get('sourceManifestUrl'):
+                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
+
+              source_manifest_url = meta.get('sourceManifestUrl') or ''
+              if 'github.com/' in source_manifest_url and '/blob/' in source_manifest_url:
+                  errors.append(f'{ext_id}: sourceManifestUrl must use raw.githubusercontent.com, not a github.com blob URL')
+
+              if not meta.get('repositoryUrl'):
+                  errors.append(f'{ext_id}: repositoryUrl is required')
+
+              for category in meta.get('categories', []):
+                  if category != category.lower() or ' ' in category:
+                      errors.append(f'{ext_id}: category must be lowercase kebab-case: {category}')
+
+          if set(ids) != set(meta_ids):
+              errors.append(f'index IDs and metadata IDs mismatch (index={sorted(set(ids))}, metadata={sorted(set(meta_ids))})')
+
+          if errors:
+              for error in errors:
+                  print(f'ERROR: {error}', file=sys.stderr)
+              sys.exit(1)
+
+          print(f'Validated {len(meta_ids)} flat registry entries')
+          PY
+
+      - name: Ensure generated changes are committed for fork PRs
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
+        run: git diff --exit-code

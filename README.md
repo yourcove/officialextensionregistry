@@ -7,17 +7,14 @@ This repository serves as the official extension registry for [Cove](https://git
 ```
 index.json                              # Master index of all extensions
 extensions/
-  {extension-id}/
-    metadata.json                       # Canonical extension metadata + version history
-    README.md                           # Extension documentation
-    icon.png                            # Optional icon (128x128 recommended)
+  {extension-id}.json                   # Canonical extension metadata + version history
 ```
 
 ## How It Works
 
 1. The Cove application fetches `index.json` from this repository's `main` branch via GitHub raw content URLs
 2. Users can browse and search extensions in Settings → Extensions → Find and Install Extensions
-3. Cove resolves extension summary/version data from each extension's `metadata.json`
+3. Cove resolves extension summary/version data from each `extensions/{extension-id}.json` file
 4. When a user installs an extension, Cove downloads the release ZIP from the extension's own GitHub repository
 5. Extensions are extracted to the local extensions directory and loaded automatically
 
@@ -28,14 +25,12 @@ extensions/
 1. **Build your extension** following the [Cove Extension Development Guide](https://github.com/yourcove/cove/blob/main/docs/ARCHITECTURE.md)
 2. **Create GitHub releases** with ZIP packages named `{extension-id}-{version}.zip`
 3. **Submit a PR** to this repository adding your extension metadata:
-  - Create `extensions/{your-extension-id}/metadata.json` as the source of truth
-   - Create `extensions/{your-extension-id}/README.md`
-4. **Include SHA-256 checksums** in every `versions[].checksum` (`sha256:<64-hex>` or plain 64-hex)
-  - PR validation is strict: CI fails if the release asset is unreachable, hash cannot be computed, or checksum mismatches.
+  - Create `extensions/{your-extension-id}.json` as the source of truth
+4. **Do not hand-write generated release fields.** CI computes `versions[].checksum` from `downloadUrl` during PR validation and stamps missing `versions[].releasedAt` when the PR merges to `main`.
 
 `index.json` is generated/synchronized by CI as an ID-only list. Do not manually duplicate version/summary fields there.
 
-### metadata.json Schema
+### Extension Entry Schema
 
 ```json
 {
@@ -44,17 +39,15 @@ extensions/
   "name": "My Extension",
   "description": "What this extension does.",
   "author": "Your Name",
-  "url": "https://github.com/your-org/your-repo",
   "repositoryUrl": "https://github.com/your-org/your-repo",
-  "categories": ["UI", "Analytics"],
+  "categories": ["ui", "analytics"],
   "dependencies": {},
   "screenshots": [],
   "versions": [
     {
       "version": "1.0.0",
-      "releasedAt": "2026-01-01T00:00:00Z",
       "changelog": "Initial release",
-      "checksum": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "minCoveVersion": "1.0.0",
       "downloadUrl": "https://github.com/your-org/your-repo/releases/download/v1.0.0/com.example.my-extension-1.0.0.zip"
     }
   ]
@@ -63,9 +56,9 @@ extensions/
 
 ## Consolidation Rules
 
-- `metadata.json` is the canonical source for extension identity and summary.
+- `extensions/{extension-id}.json` is the canonical source for extension identity and summary.
 - `versions[]` is the canonical source for version-specific data (`version`, `releasedAt`, `changelog`, `downloadUrl`, `checksum`, `minCoveVersion` where needed).
-- Top-level metadata fields like `version`, `updatedAt`, and top-level changelog are not required.
+- Top-level release fields like `version`, `minCoveVersion`, `releasedAt`, `checksum`, `downloadUrl`, and `updatedAt` are not allowed.
 - CI can sync metadata summary fields from `sourceManifestUrl` to reduce duplication with extension source repos.
 
 ## Source Repo De-duplication
@@ -75,9 +68,11 @@ extensions/
 
 ## Registry Maintenance Rules
 
-- `metadata.json` is the canonical source for `name`, `version`, `description`, `author`, `categories`, `minCoveVersion`, and `updatedAt`.
-- CI derives `metadata.version` and `metadata.updatedAt` from the latest entry in `versions[]`.
-- CI syncs canonical metadata fields into `index.json`, so maintainers do not manually duplicate version/date updates in both files.
+- `extensions/{extension-id}.json` is the canonical source for `name`, `description`, `author`, `repositoryUrl`, `categories`, and `versions[]`.
+- `minCoveVersion` lives on each `versions[]` entry because compatibility can change between extension releases.
+- CI computes `versions[].checksum` from `versions[].downloadUrl` and writes it back to the PR branch when possible.
+- CI sets missing `versions[].releasedAt` on merge to `main`.
+- CI syncs the ID-only `index.json`, so maintainers do not manually duplicate summary/version fields there.
 
 ### Extension ID Convention
 
@@ -87,19 +82,19 @@ Official extensions use `cove.official.{name}`.
 
 ### Categories
 
-Available categories: `UI`, `Backend`, `Theme`, `Color Palette`, `Style`, `Layout`, `Analytics`, `Tools`, `Library`, `Scraper`, `Metadata`, `Integration`, `Automation`, `Content Management`, `Search`, `Import`, `Export`, `Notification`, `Security`, `Media Player`, `Recommendation System`
+Use lowercase kebab-case categories. Common categories: `ui`, `ai`, `scraper`, `downloader`, `metadata`, `metadata-consumer`, `integration`, `automation`, `content-management`, `media-player`, `library`, `theme`, `layout`, `analytics`, `tools`, `search`, `import`, `export`, `notification`, `security`.
+
+Scrapers and downloaders are ordinary extensions in this registry. Do not create separate scraper or downloader registries.
 
 ## Repo Patterns for Extension Authors
 
 Extensions can be organized in two ways:
 
 ### Single-Extension Repository
-One repository per extension. Simpler CI, clear ownership.
-- Example: [cove-extension-notification-settings](https://github.com/yourcove/cove-extension-notification-settings)
+One repository per extension. Simpler CI, clear ownership. Use the Cove single-extension template.
 
 ### Multi-Extension Repository
-Multiple extensions in one repository. Saves repos, shared tooling.
-- Example: [cove-extensions-ui](https://github.com/yourcove/cove-extensions-ui) (Custom Home Page + Scene Analytics)
+Multiple extensions in one repository. Use this for official Cove-provided packs that share CI or tests. `cove-extensions-ui` is the current official multi-extension repo, but its long-term successor should be named for all official extensions, not only UI extensions.
 
 ## License
 
