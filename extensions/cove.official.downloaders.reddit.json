@@ -16,7 +16,8 @@
       "changelog": "Initial split downloader release.",
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/reddit/v0.0.1/cove.official.downloaders.reddit-0.0.1.zip",
       "minCoveVersion": "0.0.16",
-      "checksum": "sha256:3dac0d8b00793a126341e90a028881485ff6a05a804a8eb1943d51190278f55e"
+      "checksum": "sha256:3dac0d8b00793a126341e90a028881485ff6a05a804a8eb1943d51190278f55e",
+      "releasedAt": "2026-05-14T22:46:29Z"
     }
   ]
 }

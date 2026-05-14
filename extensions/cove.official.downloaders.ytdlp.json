@@ -17,7 +17,8 @@
       "changelog": "Initial split downloader release.",
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v0.0.1/cove.official.downloaders.ytdlp-0.0.1.zip",
       "minCoveVersion": "0.0.16",
-      "checksum": "sha256:7e844a798b0a8e373587cf61585e5f7bcbce27e1eb8c64021664b3089c303c0f"
+      "checksum": "sha256:7e844a798b0a8e373587cf61585e5f7bcbce27e1eb8c64021664b3089c303c0f",
+      "releasedAt": "2026-05-14T22:46:29Z"
     }
   ]
 }
