@@ -7,17 +7,17 @@
   "repositoryUrl": "https://github.com/yourcove/communityscrapers",
   "categories": ["scraper", "metadata", "integration"],
   "dependencies": {
-    "cove.official.scrapers.common-audio": ">=1.0.0",
-    "cove.official.scrapers.common-text": ">=1.0.0",
-    "cove.official.scrapers.reddit": ">=1.0.0",
-    "cove.official.scrapers.ytdlp": ">=1.0.0",
-    "cove.official.scrapers.yaml-video": ">=1.0.0"
+    "cove.official.scrapers.common-audio": ">=0.0.1",
+    "cove.official.scrapers.common-text": ">=0.0.1",
+    "cove.official.scrapers.reddit": ">=0.0.1",
+    "cove.official.scrapers.ytdlp": ">=0.0.1",
+    "cove.official.scrapers.yaml-video": ">=0.0.1"
   },
   "versions": [
     {
-      "version": "1.0.0",
+      "version": "0.0.1",
       "changelog": "Initial common scraper bundle release.",
-      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common/v1.0.0/cove.official.scrapers-1.0.0.zip",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common/v0.0.1/cove.official.scrapers-0.0.1.zip",
       "minCoveVersion": "0.0.16"
     }
   ]
