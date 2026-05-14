@@ -94,7 +94,7 @@ Extensions can be organized in two ways:
 One repository per extension. Simpler CI, clear ownership. Use the Cove single-extension template.
 
 ### Multi-Extension Repository
-Multiple extensions in one repository. Use this for official Cove-provided packs that share CI or tests. `cove-extensions-ui` is the current official multi-extension repo, but its long-term successor should be named for all official extensions, not only UI extensions.
+Multiple extensions in one repository. Use this for official Cove-provided packs that share CI or tests. Current official multi-extension repos are split by capability boundary: `cove-extensions-ui` for UI extensions, `communitydownloaders` for downloader extensions, and `communityscrapers` for scraper extensions.
 
 ## License
 

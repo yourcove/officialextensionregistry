@@ -1,0 +1,25 @@
+{
+  "id": "cove.official.scrapers.yaml-video",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/YamlVideoScrapers/extension.json",
+  "name": "YAML Video Scrapers",
+  "description": "Installable YAML metadata scrapers for video sites.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "video",
+    "yaml-scraper"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial YAML scraper-pack release.",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/yaml-video/v0.0.1/cove.official.scrapers.yaml-video-0.0.1.zip",
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:6888a0142e70cf7a86f342d43c50e70dc78ab9848fc2942870864017636d70db"
+    }
+  ]
+}

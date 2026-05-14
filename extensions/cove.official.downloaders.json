@@ -1,17 +1,20 @@
 {
   "id": "cove.official.downloaders",
-  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/cove-extensions-ui/main/extensions/OfficialDownloaders/extension.json",
-  "name": "Official Downloaders",
-  "description": "Official Cove downloaders for yt-dlp media, Reddit posts, common audio sites, and common text sites.",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communitydownloaders/main/extensions/CommonDownloadersBundle/extension.json",
+  "name": "Common Downloaders Bundle",
+  "description": "Bundle of Cove's common downloader extensions.",
   "author": "Cove Team",
-  "repositoryUrl": "https://github.com/yourcove/cove-extensions-ui",
+  "repositoryUrl": "https://github.com/yourcove/communitydownloaders",
   "categories": [
     "downloader",
-    "scraper",
-    "metadata",
     "integration"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "cove.official.downloaders.common-audio": ">=1.0.0",
+    "cove.official.downloaders.common-text": ">=1.0.0",
+    "cove.official.downloaders.reddit": ">=1.0.0",
+    "cove.official.downloaders.ytdlp": ">=1.0.0"
+  },
   "versions": [
     {
       "version": "0.0.1",
@@ -29,5 +32,6 @@
       "minCoveVersion": "0.0.16",
       "releasedAt": "2026-05-14T20:36:14Z"
     }
-  ]
+  ],
+  "kind": "bundle"
 }
