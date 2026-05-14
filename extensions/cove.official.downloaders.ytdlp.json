@@ -25,7 +25,7 @@
       "changelog": "02 test",
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v0.0.2/cove.official.downloaders.ytdlp-0.0.2.zip",
       "minCoveVersion": "0.0.16",
-      "checksum": ""
+      "checksum": "sha256:232dafbfaba142f1486c3f1f62d9116d5560a8994bd6adef29dbc3fd9869b908"
     }
   ]
 }
