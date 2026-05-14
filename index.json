@@ -9,6 +9,36 @@
     },
     {
       "id": "cove.official.downloaders"
+    },
+    {
+      "id": "cove.official.downloaders.common-audio"
+    },
+    {
+      "id": "cove.official.downloaders.common-text"
+    },
+    {
+      "id": "cove.official.downloaders.reddit"
+    },
+    {
+      "id": "cove.official.downloaders.ytdlp"
+    },
+    {
+      "id": "cove.official.scrapers"
+    },
+    {
+      "id": "cove.official.scrapers.common-audio"
+    },
+    {
+      "id": "cove.official.scrapers.common-text"
+    },
+    {
+      "id": "cove.official.scrapers.reddit"
+    },
+    {
+      "id": "cove.official.scrapers.ytdlp"
+    },
+    {
+      "id": "cove.official.scrapers.yaml-video"
     }
   ]
 }
