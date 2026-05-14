@@ -19,6 +19,13 @@
       "minCoveVersion": "0.0.16",
       "checksum": "sha256:7e844a798b0a8e373587cf61585e5f7bcbce27e1eb8c64021664b3089c303c0f",
       "releasedAt": "2026-05-14T22:46:29Z"
+    },
+    {
+      "version": "0.0.2",
+      "changelog": "02 test",
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v0.0.2/cove.official.downloaders.ytdlp-0.0.2.zip",
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:232dafbfaba142f1486c3f1f62d9116d5560a8994bd6adef29dbc3fd9869b908"
     }
   ]
 }
