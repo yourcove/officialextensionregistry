@@ -15,7 +15,7 @@
       "version": "1.0.0",
       "changelog": "Initial .NET scraper port from the community Black Male Me scraper.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/blackmaleme/v1.0.0/cove.community.scrapers.blackmaleme-1.0.0.zip",
-      "minCoveVersion": "0.0.16",
+      "minCoveVersion": "0.0.28",
       "checksum": "",
       "releasedAt": "2026-05-30T00:00:00Z"
     }

@@ -21,7 +21,7 @@
       "changelog": "Initial release",
       "checksum": "sha256:80cd26c2e7e6fd577cb9ccda3ed3c9ee10998551fa42e5507c6dadefac9d055a",
       "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/downloaders/v0.0.1/cove.community.downloaders-0.0.1.zip",
-      "minCoveVersion": "0.0.16",
+      "minCoveVersion": "0.0.28",
       "releasedAt": "2026-05-14T20:02:02Z"
     },
     {
@@ -29,7 +29,7 @@
       "changelog": "02 test",
       "checksum": "sha256:afafd76ae0e6eaaf6dbe939c891bd4fce9ecb9bbb691482206648fb4b339cb20",
       "downloadUrl": "https://github.com/yourcove/cove-extensions-ui/releases/download/downloaders/v0.0.2/cove.community.downloaders-0.0.2.zip",
-      "minCoveVersion": "0.0.16",
+      "minCoveVersion": "0.0.28",
       "releasedAt": "2026-05-14T20:36:14Z"
     }
   ],

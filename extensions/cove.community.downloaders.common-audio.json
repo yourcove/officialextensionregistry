@@ -15,7 +15,7 @@
       "version": "0.0.1",
       "changelog": "Initial split downloader release.",
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/common-audio/v0.0.1/cove.community.downloaders.common-audio-0.0.1.zip",
-      "minCoveVersion": "0.0.16",
+      "minCoveVersion": "0.0.28",
       "checksum": "sha256:a156d55f8fbcf28bb639950191d69ffc84d908a25aee481f963feb326ba2de4d",
       "releasedAt": "2026-05-14T22:46:29Z"
     }

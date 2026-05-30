@@ -16,7 +16,7 @@
       "version": "0.0.1",
       "changelog": "Initial split scraper release.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common-audio/v0.0.1/cove.community.scrapers.common-audio-0.0.1.zip",
-      "minCoveVersion": "0.0.16",
+      "minCoveVersion": "0.0.28",
       "checksum": "sha256:f2091fecf8be7c92b96b61400588766ccd7dcd29502260da7788d4ee6e4018aa",
       "releasedAt": "2026-05-14T22:46:29Z"
     }
