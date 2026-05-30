@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mpl-studios",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mpl-studios/extension.json",
+  "name": "MPL Studios",
+  "description": "YAML metadata scraper for MPL Studios.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

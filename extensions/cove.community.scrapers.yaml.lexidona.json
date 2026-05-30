@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.lexidona",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/lexidona/extension.json",
+  "name": "LexiDona",
+  "description": "YAML metadata scraper for LexiDona.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

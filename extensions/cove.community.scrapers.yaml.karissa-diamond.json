@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.karissa-diamond",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/karissa-diamond/extension.json",
+  "name": "Karissa Diamond",
+  "description": "YAML metadata scraper for Karissa Diamond.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

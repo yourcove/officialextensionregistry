@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pigboyruben",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pigboyruben/extension.json",
+  "name": "PigBoyRuben",
+  "description": "YAML metadata scraper for PigBoyRuben.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

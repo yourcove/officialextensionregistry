@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.naughty-alysha",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/naughty-alysha/extension.json",
+  "name": "Naughty Alysha",
+  "description": "YAML metadata scraper for Naughty Alysha.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

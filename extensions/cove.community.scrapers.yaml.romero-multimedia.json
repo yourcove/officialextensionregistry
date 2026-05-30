@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.romero-multimedia",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/romero-multimedia/extension.json",
+  "name": "Romero Multimedia",
+  "description": "YAML metadata scraper for Romero Multimedia.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

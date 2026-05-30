@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.antoniosuleiman-com",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/antoniosuleiman-com/extension.json",
+  "name": "AntonioSuleiman.com",
+  "description": "YAML metadata scraper for AntonioSuleiman.com.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

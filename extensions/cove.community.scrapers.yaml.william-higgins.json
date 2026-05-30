@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.william-higgins",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/william-higgins/extension.json",
+  "name": "William Higgins",
+  "description": "YAML metadata scraper for William Higgins.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

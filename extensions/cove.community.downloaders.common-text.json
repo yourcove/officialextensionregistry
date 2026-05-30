@@ -1,0 +1,23 @@
+{
+  "id": "cove.community.downloaders.common-text",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communitydownloaders/main/extensions/CommonTextDownloader/extension.json",
+  "name": "Common Text Downloader",
+  "description": "Downloads stories from common text sites. Currently supports Literotica.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communitydownloaders",
+  "categories": [
+    "downloader",
+    "text"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial split downloader release.",
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/common-text/v0.0.1/cove.community.downloaders.common-text-0.0.1.zip",
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:341b286649e8862c2237e553fe5a58381f949f3bb345e90aa96b38be8bc42924",
+      "releasedAt": "2026-05-14T22:46:29Z"
+    }
+  ]
+}

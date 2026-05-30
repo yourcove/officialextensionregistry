@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.futile-struggles",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/futile-struggles/extension.json",
+  "name": "Futile Struggles",
+  "description": "YAML metadata scraper for Futile Struggles.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

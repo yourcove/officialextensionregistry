@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.kinkyfamily",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/kinkyfamily/extension.json",
+  "name": "kinkyfamily",
+  "description": "YAML metadata scraper for kinkyfamily.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

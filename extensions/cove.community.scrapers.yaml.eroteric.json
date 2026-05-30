@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.eroteric",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/eroteric/extension.json",
+  "name": "Eroteric",
+  "description": "YAML metadata scraper for Eroteric.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

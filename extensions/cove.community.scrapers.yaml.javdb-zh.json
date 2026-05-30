@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.javdb-zh",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/javdb-zh/extension.json",
+  "name": "JavDB_zh",
+  "description": "YAML metadata scraper for JavDB_zh.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

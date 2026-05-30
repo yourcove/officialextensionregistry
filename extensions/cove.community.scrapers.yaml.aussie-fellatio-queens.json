@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.aussie-fellatio-queens",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/aussie-fellatio-queens/extension.json",
+  "name": "Aussie Fellatio Queens",
+  "description": "YAML metadata scraper for Aussie Fellatio Queens.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

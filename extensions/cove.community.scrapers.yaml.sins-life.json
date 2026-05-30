@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sins-life",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sins-life/extension.json",
+  "name": "Sins Life",
+  "description": "YAML metadata scraper for Sins Life.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pantyjobs",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pantyjobs/extension.json",
+  "name": "pantyjobs",
+  "description": "YAML metadata scraper for pantyjobs.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vogov",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vogov/extension.json",
+  "name": "vogov",
+  "description": "YAML metadata scraper for vogov.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

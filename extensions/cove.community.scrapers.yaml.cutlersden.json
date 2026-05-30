@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cutlersden",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cutlersden/extension.json",
+  "name": "CutlersDen",
+  "description": "YAML metadata scraper for CutlersDen.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

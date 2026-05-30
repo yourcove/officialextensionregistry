@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fandom-wiki",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fandom-wiki/extension.json",
+  "name": "fandom-wiki",
+  "description": "YAML metadata scraper for fandom-wiki.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

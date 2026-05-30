@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.paco-en",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/paco-en/extension.json",
+  "name": "Paco (EN)",
+  "description": "YAML metadata scraper for Paco (EN).",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

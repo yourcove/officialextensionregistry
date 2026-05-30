@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.data18",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/data18/extension.json",
+  "name": "data18",
+  "description": "YAML metadata scraper for data18.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.interracialpass",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/interracialpass/extension.json",
+  "name": "InterracialPass",
+  "description": "YAML metadata scraper for InterracialPass.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

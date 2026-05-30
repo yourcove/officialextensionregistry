@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cockhero",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cockhero/extension.json",
+  "name": "Cockhero",
+  "description": "YAML metadata scraper for Cockhero.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

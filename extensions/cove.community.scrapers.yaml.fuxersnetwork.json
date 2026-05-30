@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fuxersnetwork",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fuxersnetwork/extension.json",
+  "name": "FuxersNetwork",
+  "description": "YAML metadata scraper for FuxersNetwork.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

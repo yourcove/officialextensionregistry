@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.newsensationsmain",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/newsensationsmain/extension.json",
+  "name": "NewSensationsMain",
+  "description": "YAML metadata scraper for NewSensationsMain.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

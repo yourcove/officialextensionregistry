@@ -1,0 +1,31 @@
+{
+  "id": "cove.community.scrapers.ytdlp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/YtDlpScraper/extension.json",
+  "name": "yt-dlp Scraper",
+  "description": "Extracts scene metadata with yt-dlp.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "categories": [
+    "scraper",
+    "metadata",
+    "integration"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial split scraper release.",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/ytdlp/v0.0.1/cove.community.scrapers.ytdlp-0.0.1.zip",
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:0cf41dfe9292975702426d7d78863fa26942426f714e7747d26dc4cd2abe6410",
+      "releasedAt": "2026-05-14T22:46:29Z"
+    },
+    {
+      "version": "0.0.2",
+      "changelog": "02 test",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/ytdlp/v0.0.2/cove.community.scrapers.ytdlp-0.0.2.zip",
+      "minCoveVersion": "0.0.16",
+      "checksum": ""
+    }
+  ]
+}

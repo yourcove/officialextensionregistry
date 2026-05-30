@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.swallowsalon",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/swallowsalon/extension.json",
+  "name": "SwallowSalon",
+  "description": "YAML metadata scraper for SwallowSalon.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

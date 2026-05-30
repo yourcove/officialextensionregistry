@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.unkotare-com",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/unkotare-com/extension.json",
+  "name": "unkotare.com",
+  "description": "YAML metadata scraper for unkotare.com.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

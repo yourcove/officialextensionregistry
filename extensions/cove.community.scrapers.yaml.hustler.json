@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hustler",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hustler/extension.json",
+  "name": "Hustler",
+  "description": "YAML metadata scraper for Hustler.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

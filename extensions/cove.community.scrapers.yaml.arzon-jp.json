@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.arzon-jp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/arzon-jp/extension.json",
+  "name": "arzon.jp",
+  "description": "YAML metadata scraper for arzon.jp.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

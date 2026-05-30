@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.babes-stars",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/babes-stars/extension.json",
+  "name": "Babes&Stars",
+  "description": "YAML metadata scraper for Babes&Stars.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

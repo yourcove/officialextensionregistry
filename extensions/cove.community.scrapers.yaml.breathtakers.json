@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.breathtakers",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/breathtakers/extension.json",
+  "name": "BreathTakers",
+  "description": "YAML metadata scraper for BreathTakers.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

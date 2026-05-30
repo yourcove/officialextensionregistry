@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.clubdom",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/clubdom/extension.json",
+  "name": "ClubDom",
+  "description": "YAML metadata scraper for ClubDom.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

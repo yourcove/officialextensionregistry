@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cjxxx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cjxxx/extension.json",
+  "name": "CJXXX",
+  "description": "YAML metadata scraper for CJXXX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

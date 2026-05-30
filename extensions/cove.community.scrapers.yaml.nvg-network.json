@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.nvg-network",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/nvg-network/extension.json",
+  "name": "NVG Network",
+  "description": "YAML metadata scraper for NVG Network.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

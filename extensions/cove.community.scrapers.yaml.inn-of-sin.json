@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.inn-of-sin",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/inn-of-sin/extension.json",
+  "name": "Inn of Sin",
+  "description": "YAML metadata scraper for Inn of Sin.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

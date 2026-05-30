@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sinematica",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sinematica/extension.json",
+  "name": "SINematica",
+  "description": "YAML metadata scraper for SINematica.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

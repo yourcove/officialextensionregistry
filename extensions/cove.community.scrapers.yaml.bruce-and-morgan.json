@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.bruce-and-morgan",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/bruce-and-morgan/extension.json",
+  "name": "Bruce and Morgan",
+  "description": "YAML metadata scraper for Bruce and Morgan.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

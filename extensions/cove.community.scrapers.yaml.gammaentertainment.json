@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.gammaentertainment",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/gammaentertainment/extension.json",
+  "name": "GammaEntertainment",
+  "description": "YAML metadata scraper for GammaEntertainment.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

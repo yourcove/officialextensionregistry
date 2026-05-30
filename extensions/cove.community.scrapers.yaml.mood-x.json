@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mood-x",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mood-x/extension.json",
+  "name": "Mood X",
+  "description": "YAML metadata scraper for Mood X.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.melon-juggler",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/melon-juggler/extension.json",
+  "name": "Melon Juggler",
+  "description": "YAML metadata scraper for Melon Juggler.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

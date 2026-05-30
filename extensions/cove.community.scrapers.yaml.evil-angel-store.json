@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.evil-angel-store",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/evil-angel-store/extension.json",
+  "name": "Evil Angel Store",
+  "description": "YAML metadata scraper for Evil Angel Store.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

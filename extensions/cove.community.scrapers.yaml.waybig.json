@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.waybig",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/waybig/extension.json",
+  "name": "Waybig",
+  "description": "YAML metadata scraper for Waybig.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

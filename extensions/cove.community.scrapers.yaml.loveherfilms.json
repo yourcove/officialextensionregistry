@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.loveherfilms",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/loveherfilms/extension.json",
+  "name": "LoveHerFilms",
+  "description": "YAML metadata scraper for LoveHerFilms.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

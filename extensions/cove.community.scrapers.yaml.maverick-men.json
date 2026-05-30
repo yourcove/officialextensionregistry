@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.maverick-men",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/maverick-men/extension.json",
+  "name": "Maverick Men",
+  "description": "YAML metadata scraper for Maverick Men.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

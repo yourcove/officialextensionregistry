@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.seemomsuck",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/seemomsuck/extension.json",
+  "name": "SeeMomSuck",
+  "description": "YAML metadata scraper for SeeMomSuck.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

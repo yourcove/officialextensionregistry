@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.taboo-handjobs",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/taboo-handjobs/extension.json",
+  "name": "Taboo Handjobs",
+  "description": "YAML metadata scraper for Taboo Handjobs.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

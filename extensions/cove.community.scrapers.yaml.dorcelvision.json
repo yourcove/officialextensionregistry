@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.dorcelvision",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/dorcelvision/extension.json",
+  "name": "DorcelVision",
+  "description": "YAML metadata scraper for DorcelVision.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

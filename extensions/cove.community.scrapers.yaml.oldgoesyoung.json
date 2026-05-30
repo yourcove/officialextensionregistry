@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.oldgoesyoung",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/oldgoesyoung/extension.json",
+  "name": "OldGoesYoung",
+  "description": "YAML metadata scraper for OldGoesYoung.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

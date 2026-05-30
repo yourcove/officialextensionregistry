@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mandyflores",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mandyflores/extension.json",
+  "name": "Mandyflores",
+  "description": "YAML metadata scraper for Mandyflores.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

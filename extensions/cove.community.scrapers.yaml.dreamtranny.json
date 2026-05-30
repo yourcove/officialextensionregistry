@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.dreamtranny",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/dreamtranny/extension.json",
+  "name": "DreamTranny",
+  "description": "YAML metadata scraper for DreamTranny.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.boyfun",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/boyfun/extension.json",
+  "name": "BoyFun",
+  "description": "YAML metadata scraper for BoyFun.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

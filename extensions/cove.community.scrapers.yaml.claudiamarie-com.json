@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.claudiamarie-com",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/claudiamarie-com/extension.json",
+  "name": "ClaudiaMarie.com",
+  "description": "YAML metadata scraper for ClaudiaMarie.com.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

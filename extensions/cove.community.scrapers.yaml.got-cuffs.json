@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.got-cuffs",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/got-cuffs/extension.json",
+  "name": "Got Cuffs",
+  "description": "YAML metadata scraper for Got Cuffs.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

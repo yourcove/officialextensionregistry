@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.lara-larsen",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/lara-larsen/extension.json",
+  "name": "Lara Larsen",
+  "description": "YAML metadata scraper for Lara Larsen.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.breeditraw",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/breeditraw/extension.json",
+  "name": "BreedItRaw",
+  "description": "YAML metadata scraper for BreedItRaw.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

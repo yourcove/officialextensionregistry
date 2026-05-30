@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pissplay",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pissplay/extension.json",
+  "name": "PissPlay",
+  "description": "YAML metadata scraper for PissPlay.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

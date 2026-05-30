@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fakku",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fakku/extension.json",
+  "name": "Fakku",
+  "description": "YAML metadata scraper for Fakku.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

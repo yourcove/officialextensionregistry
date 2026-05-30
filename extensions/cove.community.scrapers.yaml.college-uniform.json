@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.college-uniform",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/college-uniform/extension.json",
+  "name": "College-Uniform",
+  "description": "YAML metadata scraper for College-Uniform.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

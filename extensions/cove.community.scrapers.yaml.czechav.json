@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.czechav",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/czechav/extension.json",
+  "name": "CzechAV",
+  "description": "YAML metadata scraper for CzechAV.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

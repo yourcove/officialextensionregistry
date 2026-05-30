@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sapphicnetwork",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sapphicnetwork/extension.json",
+  "name": "sapphicnetwork",
+  "description": "YAML metadata scraper for sapphicnetwork.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

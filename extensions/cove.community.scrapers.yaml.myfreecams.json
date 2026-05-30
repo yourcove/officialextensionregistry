@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.myfreecams",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/myfreecams/extension.json",
+  "name": "MyFreeCams",
+  "description": "YAML metadata scraper for MyFreeCams.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

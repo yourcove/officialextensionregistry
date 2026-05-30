@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sexpov",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sexpov/extension.json",
+  "name": "SexPOV",
+  "description": "YAML metadata scraper for SexPOV.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

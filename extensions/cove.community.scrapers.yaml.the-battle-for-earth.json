@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.the-battle-for-earth",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/the-battle-for-earth/extension.json",
+  "name": "The Battle For Earth",
+  "description": "YAML metadata scraper for The Battle For Earth.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

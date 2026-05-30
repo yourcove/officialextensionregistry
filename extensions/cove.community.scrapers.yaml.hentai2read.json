@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hentai2read",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hentai2read/extension.json",
+  "name": "hentai2read",
+  "description": "YAML metadata scraper for hentai2read.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.babestationtv",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/babestationtv/extension.json",
+  "name": "BabestationTV",
+  "description": "YAML metadata scraper for BabestationTV.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

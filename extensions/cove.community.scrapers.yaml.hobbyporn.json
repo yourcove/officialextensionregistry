@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hobbyporn",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hobbyporn/extension.json",
+  "name": "HobbyPorn",
+  "description": "YAML metadata scraper for HobbyPorn.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.timtales",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/timtales/extension.json",
+  "name": "TimTales",
+  "description": "YAML metadata scraper for TimTales.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

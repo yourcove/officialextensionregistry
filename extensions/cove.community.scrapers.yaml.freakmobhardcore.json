@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.freakmobhardcore",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/freakmobhardcore/extension.json",
+  "name": "FreakMobHardcore",
+  "description": "YAML metadata scraper for FreakMobHardcore.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

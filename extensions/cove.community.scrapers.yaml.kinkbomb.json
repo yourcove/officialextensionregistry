@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.kinkbomb",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/kinkbomb/extension.json",
+  "name": "KinkBomb",
+  "description": "YAML metadata scraper for KinkBomb.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

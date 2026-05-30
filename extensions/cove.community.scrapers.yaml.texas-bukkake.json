@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.texas-bukkake",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/texas-bukkake/extension.json",
+  "name": "Texas Bukkake",
+  "description": "YAML metadata scraper for Texas Bukkake.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

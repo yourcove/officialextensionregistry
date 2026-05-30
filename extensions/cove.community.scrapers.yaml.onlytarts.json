@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.onlytarts",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/onlytarts/extension.json",
+  "name": "OnlyTarts",
+  "description": "YAML metadata scraper for OnlyTarts.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

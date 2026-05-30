@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.glosstightsglamour",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/glosstightsglamour/extension.json",
+  "name": "GlossTightsGlamour",
+  "description": "YAML metadata scraper for GlossTightsGlamour.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

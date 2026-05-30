@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.plumperpass",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/plumperpass/extension.json",
+  "name": "PlumperPass",
+  "description": "YAML metadata scraper for PlumperPass.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

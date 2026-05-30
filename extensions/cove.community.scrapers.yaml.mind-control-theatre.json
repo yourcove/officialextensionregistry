@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mind-control-theatre",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mind-control-theatre/extension.json",
+  "name": "Mind Control Theatre",
+  "description": "YAML metadata scraper for Mind Control Theatre.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.beltbound",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/beltbound/extension.json",
+  "name": "BeltBound",
+  "description": "YAML metadata scraper for BeltBound.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

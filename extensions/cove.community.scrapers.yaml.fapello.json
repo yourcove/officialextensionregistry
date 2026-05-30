@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fapello",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fapello/extension.json",
+  "name": "Fapello",
+  "description": "YAML metadata scraper for Fapello.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

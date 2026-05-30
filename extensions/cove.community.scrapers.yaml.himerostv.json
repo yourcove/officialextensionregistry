@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.himerostv",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/himerostv/extension.json",
+  "name": "HimerosTV",
+  "description": "YAML metadata scraper for HimerosTV.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

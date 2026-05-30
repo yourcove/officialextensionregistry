@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.stripzvr",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/stripzvr/extension.json",
+  "name": "StripzVR",
+  "description": "YAML metadata scraper for StripzVR.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

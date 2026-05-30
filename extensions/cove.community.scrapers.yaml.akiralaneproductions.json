@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.akiralaneproductions",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/akiralaneproductions/extension.json",
+  "name": "AkiraLaneProductions",
+  "description": "YAML metadata scraper for AkiraLaneProductions.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

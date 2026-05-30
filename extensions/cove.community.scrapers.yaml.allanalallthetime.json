@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.allanalallthetime",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/allanalallthetime/extension.json",
+  "name": "allanalallthetime",
+  "description": "YAML metadata scraper for allanalallthetime.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

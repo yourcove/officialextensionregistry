@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.darttechstudios",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/darttechstudios/extension.json",
+  "name": "DartTechStudios",
+  "description": "YAML metadata scraper for DartTechStudios.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

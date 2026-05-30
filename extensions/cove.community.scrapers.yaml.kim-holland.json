@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.kim-holland",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/kim-holland/extension.json",
+  "name": "Kim Holland",
+  "description": "YAML metadata scraper for Kim Holland.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

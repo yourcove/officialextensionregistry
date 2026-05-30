@@ -1,0 +1,24 @@
+{
+  "id": "cove.community.scrapers.common-audio",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/CommonAudioScraper/extension.json",
+  "name": "Common Audio Scraper",
+  "description": "Extracts audio metadata from common hosted-audio pages such as Soundgasm and Whyp.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "categories": [
+    "scraper",
+    "metadata",
+    "audio"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial split scraper release.",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common-audio/v0.0.1/cove.community.scrapers.common-audio-0.0.1.zip",
+      "minCoveVersion": "0.0.16",
+      "checksum": "sha256:f2091fecf8be7c92b96b61400588766ccd7dcd29502260da7788d4ee6e4018aa",
+      "releasedAt": "2026-05-14T22:46:29Z"
+    }
+  ]
+}

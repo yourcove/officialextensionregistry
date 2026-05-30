@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.xes-pl",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/xes-pl/extension.json",
+  "name": "xes.pl",
+  "description": "YAML metadata scraper for xes.pl.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.swinger-blog",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/swinger-blog/extension.json",
+  "name": "Swinger-Blog",
+  "description": "YAML metadata scraper for Swinger-Blog.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

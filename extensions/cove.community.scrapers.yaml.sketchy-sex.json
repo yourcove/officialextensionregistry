@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sketchy-sex",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sketchy-sex/extension.json",
+  "name": "Sketchy Sex",
+  "description": "YAML metadata scraper for Sketchy Sex.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

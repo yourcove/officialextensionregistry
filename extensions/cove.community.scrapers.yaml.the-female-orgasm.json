@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.the-female-orgasm",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/the-female-orgasm/extension.json",
+  "name": "The-Female-Orgasm",
+  "description": "YAML metadata scraper for The-Female-Orgasm.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

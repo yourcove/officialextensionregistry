@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.trans500",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/trans500/extension.json",
+  "name": "Trans500",
+  "description": "YAML metadata scraper for Trans500.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

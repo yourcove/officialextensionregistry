@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sexlikereal-trans",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sexlikereal-trans/extension.json",
+  "name": "SexLikeReal (Trans)",
+  "description": "YAML metadata scraper for SexLikeReal (Trans).",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

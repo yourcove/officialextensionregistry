@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.ikissgirls",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/ikissgirls/extension.json",
+  "name": "IKissGirls",
+  "description": "YAML metadata scraper for IKissGirls.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

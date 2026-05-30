@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.my-slavegirl",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/my-slavegirl/extension.json",
+  "name": "My Slavegirl",
+  "description": "YAML metadata scraper for My Slavegirl.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

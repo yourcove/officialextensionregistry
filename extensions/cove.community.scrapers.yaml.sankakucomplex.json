@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sankakucomplex",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sankakucomplex/extension.json",
+  "name": "sankakucomplex",
+  "description": "YAML metadata scraper for sankakucomplex.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hypnotube",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hypnotube/extension.json",
+  "name": "Hypnotube",
+  "description": "YAML metadata scraper for Hypnotube.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

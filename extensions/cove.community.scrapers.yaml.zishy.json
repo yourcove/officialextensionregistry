@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.zishy",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/zishy/extension.json",
+  "name": "Zishy",
+  "description": "YAML metadata scraper for Zishy.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

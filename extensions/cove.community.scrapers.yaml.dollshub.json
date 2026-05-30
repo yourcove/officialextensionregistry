@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.dollshub",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/dollshub/extension.json",
+  "name": "DollsHub",
+  "description": "YAML metadata scraper for DollsHub.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

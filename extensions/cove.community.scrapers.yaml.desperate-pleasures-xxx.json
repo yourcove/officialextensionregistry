@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.desperate-pleasures-xxx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/desperate-pleasures-xxx/extension.json",
+  "name": "Desperate Pleasures XXX",
+  "description": "YAML metadata scraper for Desperate Pleasures XXX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

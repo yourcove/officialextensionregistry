@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.jade-net-home",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/jade-net-home/extension.json",
+  "name": "jade-net-home",
+  "description": "YAML metadata scraper for jade-net-home.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

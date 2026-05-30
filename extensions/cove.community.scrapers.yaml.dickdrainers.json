@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.dickdrainers",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/dickdrainers/extension.json",
+  "name": "Dickdrainers",
+  "description": "YAML metadata scraper for Dickdrainers.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.xhamster",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/xhamster/extension.json",
+  "name": "xhamster",
+  "description": "YAML metadata scraper for xhamster.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

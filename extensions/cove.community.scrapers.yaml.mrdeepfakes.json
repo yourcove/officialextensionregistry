@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mrdeepfakes",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mrdeepfakes/extension.json",
+  "name": "MrDeepFakes",
+  "description": "YAML metadata scraper for MrDeepFakes.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

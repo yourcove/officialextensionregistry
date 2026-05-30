@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.handdomination",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/handdomination/extension.json",
+  "name": "HandDomination",
+  "description": "YAML metadata scraper for HandDomination.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

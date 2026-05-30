@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.ericjohnssexadventures",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/ericjohnssexadventures/extension.json",
+  "name": "EricJohnsSexAdventures",
+  "description": "YAML metadata scraper for EricJohnsSexAdventures.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.gelbooru-json",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/gelbooru-json/extension.json",
+  "name": "gelbooru-json",
+  "description": "YAML metadata scraper for gelbooru-json.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

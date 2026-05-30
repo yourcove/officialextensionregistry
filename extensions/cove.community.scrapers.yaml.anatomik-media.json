@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.anatomik-media",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/anatomik-media/extension.json",
+  "name": "Anatomik Media",
+  "description": "YAML metadata scraper for Anatomik Media.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

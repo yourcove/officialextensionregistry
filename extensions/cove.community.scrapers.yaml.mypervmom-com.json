@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mypervmom-com",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mypervmom-com/extension.json",
+  "name": "mypervmom.com",
+  "description": "YAML metadata scraper for mypervmom.com.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

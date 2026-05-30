@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mvg",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mvg/extension.json",
+  "name": "MVG",
+  "description": "YAML metadata scraper for MVG.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

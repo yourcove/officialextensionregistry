@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pov-train",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pov-train/extension.json",
+  "name": "POV Train",
+  "description": "YAML metadata scraper for POV Train.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

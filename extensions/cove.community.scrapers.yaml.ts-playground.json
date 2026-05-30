@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.ts-playground",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/ts-playground/extension.json",
+  "name": "TS Playground",
+  "description": "YAML metadata scraper for TS Playground.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

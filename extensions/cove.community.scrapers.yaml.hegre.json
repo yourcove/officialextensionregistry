@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hegre",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hegre/extension.json",
+  "name": "Hegre",
+  "description": "YAML metadata scraper for Hegre.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

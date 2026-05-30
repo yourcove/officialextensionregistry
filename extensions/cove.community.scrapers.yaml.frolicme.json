@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.frolicme",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/frolicme/extension.json",
+  "name": "FrolicMe",
+  "description": "YAML metadata scraper for FrolicMe.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

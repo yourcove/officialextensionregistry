@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.slavemouth",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/slavemouth/extension.json",
+  "name": "SlaveMouth",
+  "description": "YAML metadata scraper for SlaveMouth.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

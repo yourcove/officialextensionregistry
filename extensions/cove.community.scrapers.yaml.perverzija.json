@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.perverzija",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/perverzija/extension.json",
+  "name": "Perverzija",
+  "description": "YAML metadata scraper for Perverzija.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

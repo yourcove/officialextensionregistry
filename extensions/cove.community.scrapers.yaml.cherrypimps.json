@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cherrypimps",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cherrypimps/extension.json",
+  "name": "CherryPimps",
+  "description": "YAML metadata scraper for CherryPimps.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

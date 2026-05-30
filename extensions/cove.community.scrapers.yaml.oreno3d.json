@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.oreno3d",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/oreno3d/extension.json",
+  "name": "Oreno3d",
+  "description": "YAML metadata scraper for Oreno3d.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

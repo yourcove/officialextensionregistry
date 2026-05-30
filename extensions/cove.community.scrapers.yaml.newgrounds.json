@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.newgrounds",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/newgrounds/extension.json",
+  "name": "Newgrounds",
+  "description": "YAML metadata scraper for Newgrounds.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

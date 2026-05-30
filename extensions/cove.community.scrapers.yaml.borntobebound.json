@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.borntobebound",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/borntobebound/extension.json",
+  "name": "BornToBeBound",
+  "description": "YAML metadata scraper for BornToBeBound.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

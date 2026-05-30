@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.xxx-job-interviews",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/xxx-job-interviews/extension.json",
+  "name": "XXX Job Interviews",
+  "description": "YAML metadata scraper for XXX Job Interviews.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.the-habib-show",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/the-habib-show/extension.json",
+  "name": "The Habib Show",
+  "description": "YAML metadata scraper for The Habib Show.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

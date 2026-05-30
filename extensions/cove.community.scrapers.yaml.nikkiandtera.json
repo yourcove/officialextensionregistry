@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.nikkiandtera",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/nikkiandtera/extension.json",
+  "name": "NikkiAndTera",
+  "description": "YAML metadata scraper for NikkiAndTera.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

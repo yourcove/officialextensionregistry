@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.graphis",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/graphis/extension.json",
+  "name": "graphis",
+  "description": "YAML metadata scraper for graphis.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

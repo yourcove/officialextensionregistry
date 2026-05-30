@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.tgirl-network",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/tgirl-network/extension.json",
+  "name": "TGirl-Network",
+  "description": "YAML metadata scraper for TGirl-Network.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

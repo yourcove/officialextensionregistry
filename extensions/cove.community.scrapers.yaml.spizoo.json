@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.spizoo",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/spizoo/extension.json",
+  "name": "Spizoo",
+  "description": "YAML metadata scraper for Spizoo.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

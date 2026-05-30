@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.velvetveronica",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/velvetveronica/extension.json",
+  "name": "VelvetVeronica",
+  "description": "YAML metadata scraper for VelvetVeronica.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

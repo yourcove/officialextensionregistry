@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.jeedoo",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/jeedoo/extension.json",
+  "name": "Jeedoo",
+  "description": "YAML metadata scraper for Jeedoo.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

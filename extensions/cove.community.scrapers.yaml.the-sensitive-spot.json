@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.the-sensitive-spot",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/the-sensitive-spot/extension.json",
+  "name": "The Sensitive Spot",
+  "description": "YAML metadata scraper for The Sensitive Spot.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

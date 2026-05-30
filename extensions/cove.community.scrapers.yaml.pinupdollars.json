@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pinupdollars",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pinupdollars/extension.json",
+  "name": "Pinupdollars",
+  "description": "YAML metadata scraper for Pinupdollars.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

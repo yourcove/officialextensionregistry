@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.realitystudio",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/realitystudio/extension.json",
+  "name": "RealityStudio",
+  "description": "YAML metadata scraper for RealityStudio.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

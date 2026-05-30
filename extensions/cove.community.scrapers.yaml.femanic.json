@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.femanic",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/femanic/extension.json",
+  "name": "Femanic",
+  "description": "YAML metadata scraper for Femanic.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

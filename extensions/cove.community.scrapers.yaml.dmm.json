@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.dmm",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/dmm/extension.json",
+  "name": "DMM",
+  "description": "YAML metadata scraper for DMM.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

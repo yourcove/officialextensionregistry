@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fuckedhard18",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fuckedhard18/extension.json",
+  "name": "FuckedHard18",
+  "description": "YAML metadata scraper for FuckedHard18.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mature-nl",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mature-nl/extension.json",
+  "name": "Mature.nl",
+  "description": "YAML metadata scraper for Mature.nl.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

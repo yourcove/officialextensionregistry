@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.littlecapricedreams",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/littlecapricedreams/extension.json",
+  "name": "LittleCapriceDreams",
+  "description": "YAML metadata scraper for LittleCapriceDreams.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

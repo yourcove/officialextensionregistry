@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.shy-girls",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/shy-girls/extension.json",
+  "name": "Shy Girls",
+  "description": "YAML metadata scraper for Shy Girls.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

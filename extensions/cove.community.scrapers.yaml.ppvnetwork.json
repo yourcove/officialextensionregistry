@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.ppvnetwork",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/ppvnetwork/extension.json",
+  "name": "PPVNetwork",
+  "description": "YAML metadata scraper for PPVNetwork.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

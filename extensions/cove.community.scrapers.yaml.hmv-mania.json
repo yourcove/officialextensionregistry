@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hmv-mania",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hmv-mania/extension.json",
+  "name": "HMV Mania",
+  "description": "YAML metadata scraper for HMV Mania.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

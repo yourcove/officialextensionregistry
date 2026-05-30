@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.camwhores-tv",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/camwhores-tv/extension.json",
+  "name": "CamWhores.tv",
+  "description": "YAML metadata scraper for CamWhores.tv.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

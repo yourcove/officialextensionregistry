@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vrbangers",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vrbangers/extension.json",
+  "name": "VRBangers",
+  "description": "YAML metadata scraper for VRBangers.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.bathroom-creepers",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/bathroom-creepers/extension.json",
+  "name": "Bathroom Creepers",
+  "description": "YAML metadata scraper for Bathroom Creepers.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

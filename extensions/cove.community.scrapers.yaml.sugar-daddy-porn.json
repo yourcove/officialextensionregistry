@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sugar-daddy-porn",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sugar-daddy-porn/extension.json",
+  "name": "Sugar Daddy Porn",
+  "description": "YAML metadata scraper for Sugar Daddy Porn.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

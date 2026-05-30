@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vivid",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vivid/extension.json",
+  "name": "Vivid",
+  "description": "YAML metadata scraper for Vivid.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

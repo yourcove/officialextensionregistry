@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.guybone",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/guybone/extension.json",
+  "name": "GuyBone",
+  "description": "YAML metadata scraper for GuyBone.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

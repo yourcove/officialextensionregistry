@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.heavyonhotties",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/heavyonhotties/extension.json",
+  "name": "HeavyOnHotties",
+  "description": "YAML metadata scraper for HeavyOnHotties.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

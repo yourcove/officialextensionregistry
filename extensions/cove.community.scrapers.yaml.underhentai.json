@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.underhentai",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/underhentai/extension.json",
+  "name": "UnderHentai",
+  "description": "YAML metadata scraper for UnderHentai.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

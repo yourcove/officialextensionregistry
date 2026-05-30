@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.homeclips",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/homeclips/extension.json",
+  "name": "HomeClips",
+  "description": "YAML metadata scraper for HomeClips.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

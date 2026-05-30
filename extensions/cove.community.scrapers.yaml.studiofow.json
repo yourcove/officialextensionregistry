@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.studiofow",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/studiofow/extension.json",
+  "name": "StudioFOW",
+  "description": "YAML metadata scraper for StudioFOW.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.a-pov-story",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/a-pov-story/extension.json",
+  "name": "A POV Story",
+  "description": "YAML metadata scraper for A POV Story.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

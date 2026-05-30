@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.bi-guys-fuck",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/bi-guys-fuck/extension.json",
+  "name": "Bi Guys Fuck",
+  "description": "YAML metadata scraper for Bi Guys Fuck.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

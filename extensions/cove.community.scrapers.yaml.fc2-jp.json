@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fc2-jp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fc2-jp/extension.json",
+  "name": "FC2-JP",
+  "description": "YAML metadata scraper for FC2-JP.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

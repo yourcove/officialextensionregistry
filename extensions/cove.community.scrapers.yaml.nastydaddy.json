@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.nastydaddy",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/nastydaddy/extension.json",
+  "name": "NastyDaddy",
+  "description": "YAML metadata scraper for NastyDaddy.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

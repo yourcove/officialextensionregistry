@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cospuri",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cospuri/extension.json",
+  "name": "Cospuri",
+  "description": "YAML metadata scraper for Cospuri.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}
