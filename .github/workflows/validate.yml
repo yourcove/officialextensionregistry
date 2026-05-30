@@ -23,6 +23,9 @@ jobs:
           import json
           import os
           import pathlib
+          import socket
+          import sys
+          import urllib.error
           import urllib.request
           from datetime import datetime, timezone
 
@@ -30,13 +33,38 @@ jobs:
           set_release_dates = os.environ.get('SET_RELEASE_DATES', '').lower() == 'true'
           changed = False
           extension_ids = []
+          download_errors = []
 
           def write_json(path, data):
               path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
 
-          def compute_sha256(url):
-              with urllib.request.urlopen(url, timeout=120) as response:
-                  payload = response.read()
+          def compute_sha256(ext_id, version_id, url):
+              try:
+                  with urllib.request.urlopen(url, timeout=120) as response:
+                      payload = response.read()
+              except urllib.error.HTTPError as exc:
+                  reason = f'HTTP {exc.code} {exc.reason}'
+                  asset = url.rsplit('/', 1)[-1]
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl returned {reason}: {url}. '
+                      f'Expected release asset {asset!r} to exist at that URL. Publish the release asset first, or correct downloadUrl.'
+                  )
+                  return None
+              except urllib.error.URLError as exc:
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl could not be reached: {url}. Reason: {exc.reason}'
+                  )
+                  return None
+              except (TimeoutError, socket.timeout) as exc:
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl timed out after 120 seconds: {url}. Reason: {exc}'
+                  )
+                  return None
+              except OSError as exc:
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl failed: {url}. Reason: {exc}'
+                  )
+                  return None
               return hashlib.sha256(payload).hexdigest().lower()
 
           for meta_path in sorted(pathlib.Path('extensions').glob('*.json')):
@@ -65,10 +93,12 @@ jobs:
               for version in meta.get('versions', []):
                   download_url = version.get('downloadUrl')
                   if download_url:
-                      actual = compute_sha256(download_url)
-                      expected = f'sha256:{actual}'
-                      if version.get('checksum') != expected:
-                          version['checksum'] = expected
+                      version_id = version.get('version') or '?'
+                      actual = compute_sha256(ext_id, version_id, download_url)
+                      if actual:
+                          expected = f'sha256:{actual}'
+                          if version.get('checksum') != expected:
+                              version['checksum'] = expected
 
                   if set_release_dates and not version.get('releasedAt'):
                       version['releasedAt'] = now
@@ -86,6 +116,12 @@ jobs:
           if existing != generated:
               write_json(index_path, generated)
               changed = True
+
+          if download_errors:
+              print('Registry normalization failed while computing checksum(s).', file=sys.stderr)
+              for error in download_errors:
+                  print(f'ERROR: {error}', file=sys.stderr)
+              sys.exit(1)
 
           print(f'Registry normalization complete at {now}; changed={changed}')
           PY
