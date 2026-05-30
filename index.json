@@ -2,12 +2,6 @@
   "schemaVersion": "2.0",
   "extensions": [
     {
-      "id": "cove.official.custom-home-page"
-    },
-    {
-      "id": "cove.community.downloaders"
-    },
-    {
       "id": "cove.community.downloaders.common-audio"
     },
     {
@@ -18,9 +12,6 @@
     },
     {
       "id": "cove.community.downloaders.ytdlp"
-    },
-    {
-      "id": "cove.community.scrapers"
     },
     {
       "id": "cove.community.scrapers.blackmaleme"
