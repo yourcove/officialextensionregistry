@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.naughty-natural",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/naughty-natural/extension.json",
+  "name": "Naughty Natural",
+  "description": "YAML metadata scraper for Naughty Natural.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

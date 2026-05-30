@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.rachelsteele",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/rachelsteele/extension.json",
+  "name": "RachelSteele",
+  "description": "YAML metadata scraper for RachelSteele.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

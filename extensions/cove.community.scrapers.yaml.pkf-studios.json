@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pkf-studios",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pkf-studios/extension.json",
+  "name": "PKF Studios",
+  "description": "YAML metadata scraper for PKF Studios.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

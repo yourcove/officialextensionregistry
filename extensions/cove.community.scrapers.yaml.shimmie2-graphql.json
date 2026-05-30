@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.shimmie2-graphql",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/shimmie2-graphql/extension.json",
+  "name": "shimmie2-graphql",
+  "description": "YAML metadata scraper for shimmie2-graphql.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

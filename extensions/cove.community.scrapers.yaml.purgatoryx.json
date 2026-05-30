@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.purgatoryx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/purgatoryx/extension.json",
+  "name": "PurgatoryX",
+  "description": "YAML metadata scraper for PurgatoryX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

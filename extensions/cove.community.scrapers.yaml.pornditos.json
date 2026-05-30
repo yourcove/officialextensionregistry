@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pornditos",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pornditos/extension.json",
+  "name": "Pornditos",
+  "description": "YAML metadata scraper for Pornditos.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

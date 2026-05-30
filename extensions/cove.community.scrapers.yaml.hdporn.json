@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hdporn",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hdporn/extension.json",
+  "name": "HDPorn",
+  "description": "YAML metadata scraper for HDPorn.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

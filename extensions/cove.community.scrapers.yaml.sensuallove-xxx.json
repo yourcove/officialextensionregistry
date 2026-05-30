@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sensuallove-xxx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sensuallove-xxx/extension.json",
+  "name": "sensuallove.xxx",
+  "description": "YAML metadata scraper for sensuallove.xxx.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

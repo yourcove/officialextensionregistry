@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.wake-up-n-fuck",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/wake-up-n-fuck/extension.json",
+  "name": "Wake Up n Fuck",
+  "description": "YAML metadata scraper for Wake Up n Fuck.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

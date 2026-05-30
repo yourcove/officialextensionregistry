@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.shemalestardb",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/shemalestardb/extension.json",
+  "name": "ShemaleStarDB",
+  "description": "YAML metadata scraper for ShemaleStarDB.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

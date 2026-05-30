@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vip4k",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vip4k/extension.json",
+  "name": "Vip4K",
+  "description": "YAML metadata scraper for Vip4K.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

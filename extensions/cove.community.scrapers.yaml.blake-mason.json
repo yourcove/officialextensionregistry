@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.blake-mason",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/blake-mason/extension.json",
+  "name": "Blake Mason",
+  "description": "YAML metadata scraper for Blake Mason.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

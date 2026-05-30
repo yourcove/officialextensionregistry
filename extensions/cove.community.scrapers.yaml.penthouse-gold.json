@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.penthouse-gold",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/penthouse-gold/extension.json",
+  "name": "Penthouse Gold",
+  "description": "YAML metadata scraper for Penthouse Gold.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

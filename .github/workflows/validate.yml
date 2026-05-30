@@ -23,6 +23,9 @@ jobs:
           import json
           import os
           import pathlib
+          import socket
+          import sys
+          import urllib.error
           import urllib.request
           from datetime import datetime, timezone
 
@@ -30,13 +33,38 @@ jobs:
           set_release_dates = os.environ.get('SET_RELEASE_DATES', '').lower() == 'true'
           changed = False
           extension_ids = []
+          download_errors = []
 
           def write_json(path, data):
               path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
 
-          def compute_sha256(url):
-              with urllib.request.urlopen(url, timeout=120) as response:
-                  payload = response.read()
+          def compute_sha256(ext_id, version_id, url):
+              try:
+                  with urllib.request.urlopen(url, timeout=120) as response:
+                      payload = response.read()
+              except urllib.error.HTTPError as exc:
+                  reason = f'HTTP {exc.code} {exc.reason}'
+                  asset = url.rsplit('/', 1)[-1]
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl returned {reason}: {url}. '
+                      f'Expected release asset {asset!r} to exist at that URL. Publish the release asset first, or correct downloadUrl.'
+                  )
+                  return None
+              except urllib.error.URLError as exc:
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl could not be reached: {url}. Reason: {exc.reason}'
+                  )
+                  return None
+              except (TimeoutError, socket.timeout) as exc:
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl timed out after 120 seconds: {url}. Reason: {exc}'
+                  )
+                  return None
+              except OSError as exc:
+                  download_errors.append(
+                      f'{ext_id}: version {version_id} downloadUrl failed: {url}. Reason: {exc}'
+                  )
+                  return None
               return hashlib.sha256(payload).hexdigest().lower()
 
           for meta_path in sorted(pathlib.Path('extensions').glob('*.json')):
@@ -65,10 +93,12 @@ jobs:
               for version in meta.get('versions', []):
                   download_url = version.get('downloadUrl')
                   if download_url:
-                      actual = compute_sha256(download_url)
-                      expected = f'sha256:{actual}'
-                      if version.get('checksum') != expected:
-                          version['checksum'] = expected
+                      version_id = version.get('version') or '?'
+                      actual = compute_sha256(ext_id, version_id, download_url)
+                      if actual:
+                          expected = f'sha256:{actual}'
+                          if version.get('checksum') != expected:
+                              version['checksum'] = expected
 
                   if set_release_dates and not version.get('releasedAt'):
                       version['releasedAt'] = now
@@ -86,6 +116,12 @@ jobs:
           if existing != generated:
               write_json(index_path, generated)
               changed = True
+
+          if download_errors:
+              print('Registry normalization failed while computing checksum(s).', file=sys.stderr)
+              for error in download_errors:
+                  print(f'ERROR: {error}', file=sys.stderr)
+              sys.exit(1)
 
           print(f'Registry normalization complete at {now}; changed={changed}')
           PY
@@ -154,8 +190,36 @@ jobs:
               if extra_generated_fields:
                   errors.append(f'{ext_id}: top-level fields must move to versions[] or source manifest: {extra_generated_fields}')
 
-              versions = meta.get('versions', [])
-              if not versions:
+              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
+              if not has_summary and not meta.get('sourceManifestUrl'):
+                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
+
+              source_manifest_url = meta.get('sourceManifestUrl') or ''
+              if 'github.com/' in source_manifest_url and '/blob/' in source_manifest_url:
+                  errors.append(f'{ext_id}: sourceManifestUrl must use raw.githubusercontent.com, not a github.com blob URL')
+
+              if not meta.get('repositoryUrl'):
+                  errors.append(f'{ext_id}: repositoryUrl is required')
+
+              for category in meta.get('categories', []):
+                  if category != category.lower() or ' ' in category:
+                      errors.append(f'{ext_id}: category must be lowercase kebab-case: {category}')
+
+              versions = meta.get('versions')
+              has_versions = isinstance(versions, list) and len(versions) > 0
+              is_source_scraper_pack = (
+                  meta.get('kind') == 'scraper-pack'
+                  and bool(meta.get('sourceManifestUrl'))
+                  and not has_versions
+              )
+
+              if versions is not None and not isinstance(versions, list):
+                  errors.append(f'{ext_id}: versions must be an array when provided')
+                  continue
+
+              if not has_versions:
+                  if is_source_scraper_pack:
+                      continue
                   errors.append(f'{ext_id}: metadata has no versions')
                   continue
 
@@ -180,21 +244,6 @@ jobs:
                   normalized = checksum[7:]
                   if not re.fullmatch(r'[A-Fa-f0-9]{64}', normalized):
                       errors.append(f'{ext_id}: version {version_id} has invalid checksum format')
-
-              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
-              if not has_summary and not meta.get('sourceManifestUrl'):
-                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
-
-              source_manifest_url = meta.get('sourceManifestUrl') or ''
-              if 'github.com/' in source_manifest_url and '/blob/' in source_manifest_url:
-                  errors.append(f'{ext_id}: sourceManifestUrl must use raw.githubusercontent.com, not a github.com blob URL')
-
-              if not meta.get('repositoryUrl'):
-                  errors.append(f'{ext_id}: repositoryUrl is required')
-
-              for category in meta.get('categories', []):
-                  if category != category.lower() or ' ' in category:
-                      errors.append(f'{ext_id}: category must be lowercase kebab-case: {category}')
 
           if set(ids) != set(meta_ids):
               errors.append(f'index IDs and metadata IDs mismatch (index={sorted(set(ids))}, metadata={sorted(set(meta_ids))})')

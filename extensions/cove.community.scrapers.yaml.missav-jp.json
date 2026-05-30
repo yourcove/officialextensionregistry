@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.missav-jp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/missav-jp/extension.json",
+  "name": "MissAV (jp)",
+  "description": "YAML metadata scraper for MissAV (jp).",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.karatmedia",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/karatmedia/extension.json",
+  "name": "karatmedia",
+  "description": "YAML metadata scraper for karatmedia.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

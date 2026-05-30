@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.iwantclips",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/iwantclips/extension.json",
+  "name": "IWantClips",
+  "description": "YAML metadata scraper for IWantClips.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

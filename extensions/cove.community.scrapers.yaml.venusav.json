@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.venusav",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/venusav/extension.json",
+  "name": "VenusAV",
+  "description": "YAML metadata scraper for VenusAV.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

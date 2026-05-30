@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.freshmen",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/freshmen/extension.json",
+  "name": "Freshmen",
+  "description": "YAML metadata scraper for Freshmen.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

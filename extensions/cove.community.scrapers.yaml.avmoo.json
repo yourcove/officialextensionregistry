@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.avmoo",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/avmoo/extension.json",
+  "name": "AVMoo",
+  "description": "YAML metadata scraper for AVMoo.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

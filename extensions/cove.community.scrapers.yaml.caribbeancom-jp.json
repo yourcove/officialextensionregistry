@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.caribbeancom-jp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/caribbeancom-jp/extension.json",
+  "name": "Caribbeancom-JP",
+  "description": "YAML metadata scraper for Caribbeancom-JP.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

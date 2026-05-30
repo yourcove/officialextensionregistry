@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sheer",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sheer/extension.json",
+  "name": "Sheer",
+  "description": "YAML metadata scraper for Sheer.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

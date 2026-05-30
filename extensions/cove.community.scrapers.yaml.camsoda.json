@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.camsoda",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/camsoda/extension.json",
+  "name": "CamSoda",
+  "description": "YAML metadata scraper for CamSoda.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

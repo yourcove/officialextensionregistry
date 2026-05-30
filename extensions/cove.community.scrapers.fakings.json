@@ -1,0 +1,23 @@
+{
+  "id": "cove.community.scrapers.fakings",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/FaKingsScraper/extension.json",
+  "name": "FaKings Scraper",
+  "description": "Extracts scene metadata from FaKings pages.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "categories": [
+    "scraper",
+    "metadata",
+    "video"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "Initial .NET scraper port from the community FaKings scraper.",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/fakings/v1.0.0/cove.community.scrapers.fakings-1.0.0.zip",
+      "minCoveVersion": "0.0.28",
+      "checksum": "sha256:df99c2703d684f19edec7be4fa695b97643ea9972b639e947d6fb2b0cf84b2e5",
+      "releasedAt": "2026-05-30T00:00:00Z"
+    }
+  ]
+}

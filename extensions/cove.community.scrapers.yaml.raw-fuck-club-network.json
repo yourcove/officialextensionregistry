@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.raw-fuck-club-network",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/raw-fuck-club-network/extension.json",
+  "name": "Raw Fuck Club # (Network)",
+  "description": "YAML metadata scraper for Raw Fuck Club # (Network).",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

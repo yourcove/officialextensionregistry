@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.girlsrimming",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/girlsrimming/extension.json",
+  "name": "GirlsRimming",
+  "description": "YAML metadata scraper for GirlsRimming.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cockyboys",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cockyboys/extension.json",
+  "name": "CockyBoys",
+  "description": "YAML metadata scraper for CockyBoys.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

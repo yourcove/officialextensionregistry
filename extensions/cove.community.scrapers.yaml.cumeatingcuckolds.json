@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cumeatingcuckolds",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cumeatingcuckolds/extension.json",
+  "name": "CumEatingCuckolds",
+  "description": "YAML metadata scraper for CumEatingCuckolds.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

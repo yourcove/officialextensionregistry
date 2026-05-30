@@ -1,0 +1,24 @@
+{
+  "id": "cove.community.scrapers.common-text",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/CommonTextScraper/extension.json",
+  "name": "Common Text Scraper",
+  "description": "Extracts story metadata from common text sites. Currently supports Literotica.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "categories": [
+    "scraper",
+    "metadata",
+    "text"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial split scraper release.",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common-text/v0.0.1/cove.community.scrapers.common-text-0.0.1.zip",
+      "minCoveVersion": "0.0.28",
+      "checksum": "sha256:9f471e739d0506524f0bbad5316489b29d2b1b2ccdd2473f0bfada5f579aca6c",
+      "releasedAt": "2026-05-14T22:46:29Z"
+    }
+  ]
+}

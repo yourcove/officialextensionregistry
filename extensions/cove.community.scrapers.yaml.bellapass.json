@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.bellapass",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/bellapass/extension.json",
+  "name": "bellapass",
+  "description": "YAML metadata scraper for bellapass.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

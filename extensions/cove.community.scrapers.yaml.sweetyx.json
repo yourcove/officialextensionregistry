@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sweetyx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sweetyx/extension.json",
+  "name": "SweetyX",
+  "description": "YAML metadata scraper for SweetyX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

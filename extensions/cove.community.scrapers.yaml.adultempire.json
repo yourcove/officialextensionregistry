@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.adultempire",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/adultempire/extension.json",
+  "name": "AdultEmpire",
+  "description": "YAML metadata scraper for AdultEmpire.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

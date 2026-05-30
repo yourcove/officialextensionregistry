@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.theclassicporn",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/theclassicporn/extension.json",
+  "name": "TheClassicPorn",
+  "description": "YAML metadata scraper for TheClassicPorn.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

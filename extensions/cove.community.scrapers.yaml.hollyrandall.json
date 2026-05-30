@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hollyrandall",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hollyrandall/extension.json",
+  "name": "HollyRandall",
+  "description": "YAML metadata scraper for HollyRandall.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

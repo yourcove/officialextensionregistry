@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.dollrotic",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/dollrotic/extension.json",
+  "name": "DollRotic",
+  "description": "YAML metadata scraper for DollRotic.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

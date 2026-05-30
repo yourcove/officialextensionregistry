@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.noelalejandro",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/noelalejandro/extension.json",
+  "name": "NoelAlejandro",
+  "description": "YAML metadata scraper for NoelAlejandro.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.adultsiterunner",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/adultsiterunner/extension.json",
+  "name": "AdultSiteRunner",
+  "description": "YAML metadata scraper for AdultSiteRunner.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

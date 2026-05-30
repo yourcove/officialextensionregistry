@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.ericvideos",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/ericvideos/extension.json",
+  "name": "EricVideos",
+  "description": "YAML metadata scraper for EricVideos.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vegasdreamworks",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vegasdreamworks/extension.json",
+  "name": "VegasDreamworks",
+  "description": "YAML metadata scraper for VegasDreamworks.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "cove.community.downloaders.ytdlp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communitydownloaders/main/extensions/YtDlpDownloader/extension.json",
+  "name": "yt-dlp Downloader",
+  "description": "Generic yt-dlp-powered video and audio downloads.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communitydownloaders",
+  "categories": [
+    "downloader",
+    "metadata",
+    "integration"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial split downloader release.",
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v0.0.1/cove.community.downloaders.ytdlp-0.0.1.zip",
+      "minCoveVersion": "0.0.28",
+      "checksum": "sha256:9800746617d65e7e87de9d40873304395708597e12ad3bba80fb9a50737097be",
+      "releasedAt": "2026-05-14T22:46:29Z"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.shopmaker",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/shopmaker/extension.json",
+  "name": "Shopmaker",
+  "description": "YAML metadata scraper for Shopmaker.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

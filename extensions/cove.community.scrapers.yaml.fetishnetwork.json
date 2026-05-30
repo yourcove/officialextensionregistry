@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fetishnetwork",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fetishnetwork/extension.json",
+  "name": "Fetishnetwork",
+  "description": "YAML metadata scraper for Fetishnetwork.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

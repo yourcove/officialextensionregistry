@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pjgirls",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pjgirls/extension.json",
+  "name": "pjgirls",
+  "description": "YAML metadata scraper for pjgirls.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

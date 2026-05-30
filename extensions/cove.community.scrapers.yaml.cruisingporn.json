@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cruisingporn",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cruisingporn/extension.json",
+  "name": "CruisingPorn",
+  "description": "YAML metadata scraper for CruisingPorn.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

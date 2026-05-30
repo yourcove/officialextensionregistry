@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.kristenbjorn",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/kristenbjorn/extension.json",
+  "name": "KristenBjorn",
+  "description": "YAML metadata scraper for KristenBjorn.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

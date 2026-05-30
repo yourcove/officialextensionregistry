@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.puffynetwork",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/puffynetwork/extension.json",
+  "name": "PuffyNetwork",
+  "description": "YAML metadata scraper for PuffyNetwork.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

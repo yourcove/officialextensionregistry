@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.femdom-empire",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/femdom-empire/extension.json",
+  "name": "Femdom Empire",
+  "description": "YAML metadata scraper for Femdom Empire.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

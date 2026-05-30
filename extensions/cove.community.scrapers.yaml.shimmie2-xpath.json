@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.shimmie2-xpath",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/shimmie2-xpath/extension.json",
+  "name": "shimmie2-xpath",
+  "description": "YAML metadata scraper for shimmie2-xpath.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

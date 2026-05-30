@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hanime",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hanime/extension.json",
+  "name": "hanime",
+  "description": "YAML metadata scraper for hanime.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

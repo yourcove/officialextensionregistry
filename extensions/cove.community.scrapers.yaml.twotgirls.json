@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.twotgirls",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/twotgirls/extension.json",
+  "name": "TwoTGirls",
+  "description": "YAML metadata scraper for TwoTGirls.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

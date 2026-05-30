@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.boxtrucksex",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/boxtrucksex/extension.json",
+  "name": "BoxTruckSex",
+  "description": "YAML metadata scraper for BoxTruckSex.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

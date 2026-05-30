@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.subspaceland",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/subspaceland/extension.json",
+  "name": "Subspaceland",
+  "description": "YAML metadata scraper for Subspaceland.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

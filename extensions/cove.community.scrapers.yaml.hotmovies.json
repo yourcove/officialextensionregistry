@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hotmovies",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hotmovies/extension.json",
+  "name": "Hotmovies",
+  "description": "YAML metadata scraper for Hotmovies.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

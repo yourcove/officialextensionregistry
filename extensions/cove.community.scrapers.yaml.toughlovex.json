@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.toughlovex",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/toughlovex/extension.json",
+  "name": "toughlovex",
+  "description": "YAML metadata scraper for toughlovex.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

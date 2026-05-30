@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.xsinsvr",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/xsinsvr/extension.json",
+  "name": "xSinsVR",
+  "description": "YAML metadata scraper for xSinsVR.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

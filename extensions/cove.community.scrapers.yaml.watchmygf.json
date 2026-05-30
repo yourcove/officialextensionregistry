@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.watchmygf",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/watchmygf/extension.json",
+  "name": "WatchMyGF",
+  "description": "YAML metadata scraper for WatchMyGF.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.groobynetwork-brazilian",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/groobynetwork-brazilian/extension.json",
+  "name": "GroobyNetwork-Brazilian",
+  "description": "YAML metadata scraper for GroobyNetwork-Brazilian.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

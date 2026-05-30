@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.nubiles",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/nubiles/extension.json",
+  "name": "Nubiles",
+  "description": "YAML metadata scraper for Nubiles.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

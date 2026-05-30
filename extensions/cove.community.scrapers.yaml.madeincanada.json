@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.madeincanada",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/madeincanada/extension.json",
+  "name": "MadeInCanada",
+  "description": "YAML metadata scraper for MadeInCanada.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

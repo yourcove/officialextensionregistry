@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.derpibooru",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/derpibooru/extension.json",
+  "name": "derpibooru",
+  "description": "YAML metadata scraper for derpibooru.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

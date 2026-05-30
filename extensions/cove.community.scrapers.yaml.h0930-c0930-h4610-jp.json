@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.h0930-c0930-h4610-jp",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/h0930-c0930-h4610-jp/extension.json",
+  "name": "H0930_C0930_H4610-JP",
+  "description": "YAML metadata scraper for H0930_C0930_H4610-JP.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

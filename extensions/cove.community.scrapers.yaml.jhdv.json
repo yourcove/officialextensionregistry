@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.jhdv",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/jhdv/extension.json",
+  "name": "Jhdv",
+  "description": "YAML metadata scraper for Jhdv.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

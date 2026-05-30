@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.aussieass",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/aussieass/extension.json",
+  "name": "AussieAss",
+  "description": "YAML metadata scraper for AussieAss.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

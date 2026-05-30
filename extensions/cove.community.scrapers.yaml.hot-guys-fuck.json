@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hot-guys-fuck",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hot-guys-fuck/extension.json",
+  "name": "Hot Guys Fuck",
+  "description": "YAML metadata scraper for Hot Guys Fuck.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

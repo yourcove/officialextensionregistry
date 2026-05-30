@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cumlouder",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cumlouder/extension.json",
+  "name": "Cumlouder",
+  "description": "YAML metadata scraper for Cumlouder.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

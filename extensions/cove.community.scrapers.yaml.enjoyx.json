@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.enjoyx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/enjoyx/extension.json",
+  "name": "EnjoyX",
+  "description": "YAML metadata scraper for EnjoyX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

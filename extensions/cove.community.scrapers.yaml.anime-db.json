@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.anime-db",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/anime-db/extension.json",
+  "name": "Anime-DB",
+  "description": "YAML metadata scraper for Anime-DB.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

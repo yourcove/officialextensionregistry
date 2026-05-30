@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.adultdvdmarketplace",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/adultdvdmarketplace/extension.json",
+  "name": "AdultDvdMarketPlace",
+  "description": "YAML metadata scraper for AdultDvdMarketPlace.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.kin8tengoku",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/kin8tengoku/extension.json",
+  "name": "Kin8tengoku",
+  "description": "YAML metadata scraper for Kin8tengoku.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

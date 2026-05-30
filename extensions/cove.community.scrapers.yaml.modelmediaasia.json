@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.modelmediaasia",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/modelmediaasia/extension.json",
+  "name": "ModelMediaAsia",
+  "description": "YAML metadata scraper for ModelMediaAsia.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

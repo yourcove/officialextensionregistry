@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.brickyates",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/brickyates/extension.json",
+  "name": "brickyates",
+  "description": "YAML metadata scraper for brickyates.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

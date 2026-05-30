@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.spermcocktail-com",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/spermcocktail-com/extension.json",
+  "name": "SpermCocktail.com",
+  "description": "YAML metadata scraper for SpermCocktail.com.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

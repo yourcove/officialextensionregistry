@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.danni",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/danni/extension.json",
+  "name": "Danni",
+  "description": "YAML metadata scraper for Danni.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

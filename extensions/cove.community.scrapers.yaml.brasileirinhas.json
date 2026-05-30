@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.brasileirinhas",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/brasileirinhas/extension.json",
+  "name": "Brasileirinhas",
+  "description": "YAML metadata scraper for Brasileirinhas.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

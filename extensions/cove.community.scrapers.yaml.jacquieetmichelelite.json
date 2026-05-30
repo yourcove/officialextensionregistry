@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.jacquieetmichelelite",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/jacquieetmichelelite/extension.json",
+  "name": "JacquieEtMichelElite",
+  "description": "YAML metadata scraper for JacquieEtMichelElite.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.fratx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/fratx/extension.json",
+  "name": "FratX",
+  "description": "YAML metadata scraper for FratX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

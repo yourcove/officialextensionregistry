@@ -1,0 +1,23 @@
+{
+  "id": "cove.community.downloaders.reddit",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communitydownloaders/main/extensions/RedditDownloader/extension.json",
+  "name": "Reddit Downloader",
+  "description": "Downloads Reddit-hosted post media and delegates linked URLs to other registered downloaders.",
+  "author": "Cove Team",
+  "repositoryUrl": "https://github.com/yourcove/communitydownloaders",
+  "categories": [
+    "downloader",
+    "integration"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial split downloader release.",
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/reddit/v0.0.1/cove.community.downloaders.reddit-0.0.1.zip",
+      "minCoveVersion": "0.0.28",
+      "checksum": "sha256:6602f830960b4d740cfc75e1d07d1bddea6a74fcee9888d9b9cd01c2704f0f90",
+      "releasedAt": "2026-05-14T22:46:29Z"
+    }
+  ]
+}

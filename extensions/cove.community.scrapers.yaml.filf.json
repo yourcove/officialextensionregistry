@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.filf",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/filf/extension.json",
+  "name": "FILF",
+  "description": "YAML metadata scraper for FILF.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

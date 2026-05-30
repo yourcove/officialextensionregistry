@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pornhex",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pornhex/extension.json",
+  "name": "PornHex",
+  "description": "YAML metadata scraper for PornHex.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

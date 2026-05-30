@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.giga",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/giga/extension.json",
+  "name": "GIGA",
+  "description": "YAML metadata scraper for GIGA.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

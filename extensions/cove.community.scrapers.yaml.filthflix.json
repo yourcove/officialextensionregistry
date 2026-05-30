@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.filthflix",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/filthflix/extension.json",
+  "name": "FilthFlix",
+  "description": "YAML metadata scraper for FilthFlix.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

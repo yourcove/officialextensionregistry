@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.hucows",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/hucows/extension.json",
+  "name": "HuCows",
+  "description": "YAML metadata scraper for HuCows.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

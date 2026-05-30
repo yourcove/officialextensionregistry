@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.1-pass-for-all-sites",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/1-pass-for-all-sites/extension.json",
+  "name": "1 Pass For All Sites",
+  "description": "YAML metadata scraper for 1 Pass For All Sites.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

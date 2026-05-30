@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.arch-angel-video",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/arch-angel-video/extension.json",
+  "name": "Arch Angel Video",
+  "description": "YAML metadata scraper for Arch Angel Video.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

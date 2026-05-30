@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.clubseventeen",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/clubseventeen/extension.json",
+  "name": "ClubSeventeen",
+  "description": "YAML metadata scraper for ClubSeventeen.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

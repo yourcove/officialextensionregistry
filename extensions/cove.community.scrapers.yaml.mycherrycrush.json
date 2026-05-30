@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mycherrycrush",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mycherrycrush/extension.json",
+  "name": "MyCherryCrush",
+  "description": "YAML metadata scraper for MyCherryCrush.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

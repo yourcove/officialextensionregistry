@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cdgirls",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cdgirls/extension.json",
+  "name": "CDGirls",
+  "description": "YAML metadata scraper for CDGirls.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

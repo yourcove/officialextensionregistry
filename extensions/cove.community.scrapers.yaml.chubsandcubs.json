@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.chubsandcubs",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/chubsandcubs/extension.json",
+  "name": "ChubsAndCubs",
+  "description": "YAML metadata scraper for ChubsAndCubs.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

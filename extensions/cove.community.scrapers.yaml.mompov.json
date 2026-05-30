@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mompov",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mompov/extension.json",
+  "name": "MomPov",
+  "description": "YAML metadata scraper for MomPov.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

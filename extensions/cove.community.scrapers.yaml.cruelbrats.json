@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cruelbrats",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cruelbrats/extension.json",
+  "name": "CruelBrats",
+  "description": "YAML metadata scraper for CruelBrats.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.colby-knox",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/colby-knox/extension.json",
+  "name": "Colby Knox",
+  "description": "YAML metadata scraper for Colby Knox.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

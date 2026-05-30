@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.mundomais",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/mundomais/extension.json",
+  "name": "MundoMais",
+  "description": "YAML metadata scraper for MundoMais.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

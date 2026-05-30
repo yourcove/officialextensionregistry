@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.brand-new-amateurs",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/brand-new-amateurs/extension.json",
+  "name": "Brand New Amateurs",
+  "description": "YAML metadata scraper for Brand New Amateurs.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

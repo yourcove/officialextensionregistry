@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.abby-winters",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/abby-winters/extension.json",
+  "name": "Abby Winters",
+  "description": "YAML metadata scraper for Abby Winters.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

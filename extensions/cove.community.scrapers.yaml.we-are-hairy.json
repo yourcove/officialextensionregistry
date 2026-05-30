@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.we-are-hairy",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/we-are-hairy/extension.json",
+  "name": "We Are Hairy",
+  "description": "YAML metadata scraper for We Are Hairy.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

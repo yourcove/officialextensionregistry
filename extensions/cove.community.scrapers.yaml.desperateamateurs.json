@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.desperateamateurs",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/desperateamateurs/extension.json",
+  "name": "DesperateAmateurs",
+  "description": "YAML metadata scraper for DesperateAmateurs.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

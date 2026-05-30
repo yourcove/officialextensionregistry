@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vtubie",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vtubie/extension.json",
+  "name": "vTubie",
+  "description": "YAML metadata scraper for vTubie.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

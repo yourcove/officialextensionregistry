@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.manyvids-club",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/manyvids-club/extension.json",
+  "name": "ManyVids Club",
+  "description": "YAML metadata scraper for ManyVids Club.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

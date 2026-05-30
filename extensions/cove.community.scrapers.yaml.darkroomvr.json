@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.darkroomvr",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/darkroomvr/extension.json",
+  "name": "DarkRoomVR",
+  "description": "YAML metadata scraper for DarkRoomVR.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

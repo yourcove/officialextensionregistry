@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.teeny-taboo",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/teeny-taboo/extension.json",
+  "name": "Teeny Taboo",
+  "description": "YAML metadata scraper for Teeny Taboo.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

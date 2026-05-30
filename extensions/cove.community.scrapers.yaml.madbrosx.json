@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.madbrosx",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/madbrosx/extension.json",
+  "name": "MadBrosX",
+  "description": "YAML metadata scraper for MadBrosX.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

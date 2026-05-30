@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.menatplay",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/menatplay/extension.json",
+  "name": "MenAtPlay",
+  "description": "YAML metadata scraper for MenAtPlay.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

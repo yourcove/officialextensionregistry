@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.javhub",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/javhub/extension.json",
+  "name": "JavHub",
+  "description": "YAML metadata scraper for JavHub.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

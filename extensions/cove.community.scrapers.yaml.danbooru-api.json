@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.danbooru-api",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/danbooru-api/extension.json",
+  "name": "danbooru-api",
+  "description": "YAML metadata scraper for danbooru-api.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.strokies",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/strokies/extension.json",
+  "name": "Strokies",
+  "description": "YAML metadata scraper for Strokies.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

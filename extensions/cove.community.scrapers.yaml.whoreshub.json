@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.whoreshub",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/whoreshub/extension.json",
+  "name": "WhoresHub",
+  "description": "YAML metadata scraper for WhoresHub.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

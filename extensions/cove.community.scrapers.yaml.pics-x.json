@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.pics-x",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/pics-x/extension.json",
+  "name": "Pics-X",
+  "description": "YAML metadata scraper for Pics-X.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

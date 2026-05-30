@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.javbus",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/javbus/extension.json",
+  "name": "Javbus",
+  "description": "YAML metadata scraper for Javbus.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

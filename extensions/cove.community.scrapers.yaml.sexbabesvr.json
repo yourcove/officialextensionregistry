@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.sexbabesvr",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/sexbabesvr/extension.json",
+  "name": "SexBabesVR",
+  "description": "YAML metadata scraper for SexBabesVR.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

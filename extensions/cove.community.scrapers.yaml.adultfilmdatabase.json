@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.adultfilmdatabase",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/adultfilmdatabase/extension.json",
+  "name": "AdultFilmDatabase",
+  "description": "YAML metadata scraper for AdultFilmDatabase.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

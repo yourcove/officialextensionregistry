@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.shagmag",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/shagmag/extension.json",
+  "name": "SHAGMAG",
+  "description": "YAML metadata scraper for SHAGMAG.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

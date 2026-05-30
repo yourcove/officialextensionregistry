@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.strapondreamer",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/strapondreamer/extension.json",
+  "name": "StraponDreamer",
+  "description": "YAML metadata scraper for StraponDreamer.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

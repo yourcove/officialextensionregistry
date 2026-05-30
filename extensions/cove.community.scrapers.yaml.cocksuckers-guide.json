@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.cocksuckers-guide",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/cocksuckers-guide/extension.json",
+  "name": "Cocksuckers Guide",
+  "description": "YAML metadata scraper for Cocksuckers Guide.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

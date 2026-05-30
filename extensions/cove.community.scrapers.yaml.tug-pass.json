@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.tug-pass",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/tug-pass/extension.json",
+  "name": "Tug Pass",
+  "description": "YAML metadata scraper for Tug Pass.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

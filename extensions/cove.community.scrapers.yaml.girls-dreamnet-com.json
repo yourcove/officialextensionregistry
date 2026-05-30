@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.girls-dreamnet-com",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/girls-dreamnet-com/extension.json",
+  "name": "Girls.Dreamnet.com",
+  "description": "YAML metadata scraper for Girls.Dreamnet.com.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

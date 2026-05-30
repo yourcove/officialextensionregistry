@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.demedia",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/demedia/extension.json",
+  "name": "DEMedia",
+  "description": "YAML metadata scraper for DEMedia.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

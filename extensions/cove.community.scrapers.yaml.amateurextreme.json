@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.amateurextreme",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/amateurextreme/extension.json",
+  "name": "AmateureXtreme",
+  "description": "YAML metadata scraper for AmateureXtreme.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

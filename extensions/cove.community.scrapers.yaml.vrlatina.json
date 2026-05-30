@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.vrlatina",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/vrlatina/extension.json",
+  "name": "VRLatina",
+  "description": "YAML metadata scraper for VRLatina.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}

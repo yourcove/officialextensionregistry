@@ -1,0 +1,13 @@
+{
+  "id": "cove.community.scrapers.yaml.themoviedb",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/yourcove/communityscrapers/main/extensions/yaml/themoviedb/extension.json",
+  "name": "TheMovieDB",
+  "description": "YAML metadata scraper for TheMovieDB.",
+  "repositoryUrl": "https://github.com/yourcove/communityscrapers",
+  "kind": "scraper-pack",
+  "categories": [
+    "scraper",
+    "metadata",
+    "yaml-scraper"
+  ]
+}
