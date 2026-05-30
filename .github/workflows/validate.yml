@@ -190,8 +190,36 @@ jobs:
               if extra_generated_fields:
                   errors.append(f'{ext_id}: top-level fields must move to versions[] or source manifest: {extra_generated_fields}')
 
-              versions = meta.get('versions', [])
-              if not versions:
+              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
+              if not has_summary and not meta.get('sourceManifestUrl'):
+                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
+
+              source_manifest_url = meta.get('sourceManifestUrl') or ''
+              if 'github.com/' in source_manifest_url and '/blob/' in source_manifest_url:
+                  errors.append(f'{ext_id}: sourceManifestUrl must use raw.githubusercontent.com, not a github.com blob URL')
+
+              if not meta.get('repositoryUrl'):
+                  errors.append(f'{ext_id}: repositoryUrl is required')
+
+              for category in meta.get('categories', []):
+                  if category != category.lower() or ' ' in category:
+                      errors.append(f'{ext_id}: category must be lowercase kebab-case: {category}')
+
+              versions = meta.get('versions')
+              has_versions = isinstance(versions, list) and len(versions) > 0
+              is_source_scraper_pack = (
+                  meta.get('kind') == 'scraper-pack'
+                  and bool(meta.get('sourceManifestUrl'))
+                  and not has_versions
+              )
+
+              if versions is not None and not isinstance(versions, list):
+                  errors.append(f'{ext_id}: versions must be an array when provided')
+                  continue
+
+              if not has_versions:
+                  if is_source_scraper_pack:
+                      continue
                   errors.append(f'{ext_id}: metadata has no versions')
                   continue
 
@@ -216,21 +244,6 @@ jobs:
                   normalized = checksum[7:]
                   if not re.fullmatch(r'[A-Fa-f0-9]{64}', normalized):
                       errors.append(f'{ext_id}: version {version_id} has invalid checksum format')
-
-              has_summary = all(meta.get(k) for k in ['name', 'description', 'author'])
-              if not has_summary and not meta.get('sourceManifestUrl'):
-                  errors.append(f'{ext_id}: provide summary fields or sourceManifestUrl')
-
-              source_manifest_url = meta.get('sourceManifestUrl') or ''
-              if 'github.com/' in source_manifest_url and '/blob/' in source_manifest_url:
-                  errors.append(f'{ext_id}: sourceManifestUrl must use raw.githubusercontent.com, not a github.com blob URL')
-
-              if not meta.get('repositoryUrl'):
-                  errors.append(f'{ext_id}: repositoryUrl is required')
-
-              for category in meta.get('categories', []):
-                  if category != category.lower() or ' ' in category:
-                      errors.append(f'{ext_id}: category must be lowercase kebab-case: {category}')
 
           if set(ids) != set(meta_ids):
               errors.append(f'index IDs and metadata IDs mismatch (index={sorted(set(ids))}, metadata={sorted(set(meta_ids))})')
