@@ -13,12 +13,11 @@
   "dependencies": {},
   "versions": [
     {
-      "version": "0.0.1",
+      "version": "1.0.0",
       "changelog": "Initial split downloader release.",
-      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v0.0.1/cove.community.downloaders.ytdlp-0.0.1.zip",
-      "minCoveVersion": "0.0.28",
-      "checksum": "sha256:9800746617d65e7e87de9d40873304395708597e12ad3bba80fb9a50737097be",
-      "releasedAt": "2026-05-14T22:46:29Z"
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v1.0.0/cove.community.downloaders.ytdlp-1.0.0.zip",
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:538837aee9820fa5caf7fabe9eb145cc0f37a4cc8ea71dfa4717991c8282fbee"
     }
   ]
 }

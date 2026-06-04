@@ -15,9 +15,8 @@
       "version": "1.0.0",
       "changelog": "Initial .NET scraper port from the community FaKings scraper.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/fakings/v1.0.0/cove.community.scrapers.fakings-1.0.0.zip",
-      "minCoveVersion": "0.0.28",
-      "checksum": "sha256:df99c2703d684f19edec7be4fa695b97643ea9972b639e947d6fb2b0cf84b2e5",
-      "releasedAt": "2026-05-30T00:00:00Z"
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:e7e7702d457486bff982b5e1d554c8f6cf3b645f24d0205451712cd73f792d99"
     }
   ]
 }
