@@ -12,12 +12,10 @@
   "dependencies": {},
   "versions": [
     {
-      "version": "0.0.1",
+      "version": "1.0.0",
       "changelog": "Initial split downloader release.",
-      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/common-text/v0.0.1/cove.community.downloaders.common-text-0.0.1.zip",
-      "minCoveVersion": "0.0.28",
-      "checksum": "sha256:31d18f474ce0289d76f9522628269748adfbea85e62eba83afe5daf478e9dc37",
-      "releasedAt": "2026-05-14T22:46:29Z"
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/common-text/v1.0.0/cove.community.downloaders.common-text-1.0.0.zip",
+      "minCoveVersion": "0.0.32"
     }
   ]
 }

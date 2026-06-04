@@ -13,12 +13,10 @@
   "dependencies": {},
   "versions": [
     {
-      "version": "0.0.1",
+      "version": "1.0.0",
       "changelog": "Initial split scraper release.",
-      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common-audio/v0.0.1/cove.community.scrapers.common-audio-0.0.1.zip",
-      "minCoveVersion": "0.0.28",
-      "checksum": "sha256:2d8d4b45d2be89ba9fa161012e3d11c3481aa86314366184b255257d60f337b7",
-      "releasedAt": "2026-05-14T22:46:29Z"
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common-audio/v1.0.0/cove.community.scrapers.common-audio-1.0.0.zip",
+      "minCoveVersion": "0.0.32"
     }
   ]
 }

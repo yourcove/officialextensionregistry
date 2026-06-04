@@ -12,12 +12,10 @@
   "dependencies": {},
   "versions": [
     {
-      "version": "0.0.1",
+      "version": "1.0.0",
       "changelog": "Initial split downloader release.",
-      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/reddit/v0.0.1/cove.community.downloaders.reddit-0.0.1.zip",
-      "minCoveVersion": "0.0.28",
-      "checksum": "sha256:6602f830960b4d740cfc75e1d07d1bddea6a74fcee9888d9b9cd01c2704f0f90",
-      "releasedAt": "2026-05-14T22:46:29Z"
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/reddit/v1.0.0/cove.community.downloaders.reddit-1.0.0.zip",
+      "minCoveVersion": "0.0.32"
     }
   ]
 }

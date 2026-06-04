@@ -13,12 +13,10 @@
   "dependencies": {},
   "versions": [
     {
-      "version": "0.0.1",
+      "version": "1.0.0",
       "changelog": "Initial split scraper release.",
-      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/ytdlp/v0.0.1/cove.community.scrapers.ytdlp-0.0.1.zip",
-      "minCoveVersion": "0.0.28",
-      "checksum": "sha256:342173bf4396b190a528205a47a48b21ce4e202291e55a997b26924d83ac1cc5",
-      "releasedAt": "2026-05-14T22:46:29Z"
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/ytdlp/v1.0.0/cove.community.scrapers.ytdlp-1.0.0.zip",
+      "minCoveVersion": "0.0.32"
     }
   ]
 }
