@@ -17,7 +17,8 @@
       "changelog": "Initial split scraper release.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/ytdlp/v1.0.0/cove.community.scrapers.ytdlp-1.0.0.zip",
       "minCoveVersion": "0.0.32",
-      "checksum": "sha256:6789af4da4f8e99cdae1d9a402661b744b1184f5b02c0768825d5f2813c32d5b"
+      "checksum": "sha256:6789af4da4f8e99cdae1d9a402661b744b1184f5b02c0768825d5f2813c32d5b",
+      "releasedAt": "2026-06-04T17:29:59Z"
     }
   ]
 }

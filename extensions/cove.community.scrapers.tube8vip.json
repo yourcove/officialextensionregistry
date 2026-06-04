@@ -16,7 +16,8 @@
       "changelog": "Initial .NET scraper port from the community Tube8Vip scraper.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/tube8vip/v1.0.0/cove.community.scrapers.tube8vip-1.0.0.zip",
       "minCoveVersion": "0.0.32",
-      "checksum": "sha256:0b46cddb30c273a7ef29609f2d9f1c7fd84f0c4423958e4213997aa58f85ef73"
+      "checksum": "sha256:0b46cddb30c273a7ef29609f2d9f1c7fd84f0c4423958e4213997aa58f85ef73",
+      "releasedAt": "2026-06-04T17:29:59Z"
     }
   ]
 }

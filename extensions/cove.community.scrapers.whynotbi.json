@@ -16,7 +16,8 @@
       "changelog": "Initial .NET scraper port from the community Why Not Bi scraper.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/whynotbi/v1.0.0/cove.community.scrapers.whynotbi-1.0.0.zip",
       "minCoveVersion": "0.0.32",
-      "checksum": "sha256:781216d68cfedd10db8099b46a975f0e5de4de83ef061379a2b51c9c2f788164"
+      "checksum": "sha256:781216d68cfedd10db8099b46a975f0e5de4de83ef061379a2b51c9c2f788164",
+      "releasedAt": "2026-06-04T17:29:59Z"
     }
   ]
 }
