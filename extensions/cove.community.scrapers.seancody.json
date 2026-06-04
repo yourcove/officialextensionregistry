@@ -15,7 +15,8 @@
       "version": "1.0.0",
       "changelog": "Initial .NET scraper port from the community Sean Cody scraper.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/seancody/v1.0.0/cove.community.scrapers.seancody-1.0.0.zip",
-      "minCoveVersion": "0.0.32"
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:517fc2b90d05d26902046a1fbdd063080162469e49ed6354c528c7d77e5b2286"
     }
   ]
 }

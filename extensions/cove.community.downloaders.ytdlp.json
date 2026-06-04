@@ -16,7 +16,8 @@
       "version": "1.0.0",
       "changelog": "Initial split downloader release.",
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v1.0.0/cove.community.downloaders.ytdlp-1.0.0.zip",
-      "minCoveVersion": "0.0.32"
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:538837aee9820fa5caf7fabe9eb145cc0f37a4cc8ea71dfa4717991c8282fbee"
     }
   ]
 }

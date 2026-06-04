@@ -16,7 +16,8 @@
       "version": "1.0.0",
       "changelog": "Initial split scraper release.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/common-text/v1.0.0/cove.community.scrapers.common-text-1.0.0.zip",
-      "minCoveVersion": "0.0.32"
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:12d342a11120b53b0c4df9b484b2181df88ea704fd9c94e3ef97f459feee286e"
     }
   ]
 }

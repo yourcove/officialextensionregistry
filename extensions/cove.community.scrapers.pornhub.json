@@ -15,7 +15,8 @@
       "version": "1.0.0",
       "changelog": "Initial .NET scraper port from the community Pornhub scraper.",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/pornhub/v1.0.0/cove.community.scrapers.pornhub-1.0.0.zip",
-      "minCoveVersion": "0.0.32"
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:0daba83836b52a03515cf28302c4a3198bad5d4d83a02a4fe3b6d546f9fecd8d"
     }
   ]
 }
