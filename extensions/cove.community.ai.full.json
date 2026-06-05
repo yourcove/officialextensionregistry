@@ -17,7 +17,8 @@
       "changelog": "Initial release of AI Full.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-full/v0.0.1/cove.ai.full-0.0.1.zip",
       "minCoveVersion": "0.0.32",
-      "checksum": "sha256:3c198bfd01ee7ad3232360d28f05f1d8d1a8bf859122c3a1a418e78768170e25"
+      "checksum": "sha256:3c198bfd01ee7ad3232360d28f05f1d8d1a8bf859122c3a1a418e78768170e25",
+      "releasedAt": "2026-06-05T00:21:34Z"
     }
   ]
 }
