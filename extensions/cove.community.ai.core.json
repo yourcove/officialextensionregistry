@@ -15,7 +15,8 @@
       "version": "0.0.1",
       "changelog": "Initial release of AI Core.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.0.1/cove.community.ai.core-0.0.1.zip",
-      "minCoveVersion": "0.0.32"
+      "minCoveVersion": "0.0.32",
+      "checksum": "sha256:6803a41b57a0371a02b13b43ba460e9a004017f5ca8507c99be3865afa104196"
     }
   ]
 }
