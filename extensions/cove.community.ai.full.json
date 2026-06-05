@@ -1,0 +1,22 @@
+{
+  "id": "cove.community.ai.full",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/blob/main/extensions/AI.Full/extension.json",
+  "name": "AI Full",
+  "description": "Bundle of All AI functionalities.",
+  "author": "skier233",
+  "kind": "bundle",
+  "repositoryUrl": "https://github.com/skier233/AI.Extensions",
+  "categories": [
+    "ai",
+    "bundle"
+  ],
+  "dependencies": {},
+  "versions": [
+    {
+      "version": "0.0.1",
+      "changelog": "Initial release of AI Full.",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-full/v0.0.1/cove.ai.full-0.0.1.zip",
+      "minCoveVersion": "0.0.32"
+    }
+  ]
+}
