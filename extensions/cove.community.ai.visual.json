@@ -2,15 +2,13 @@
   "id": "cove.community.ai.visual",
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Visual/extension.json",
   "name": "AI Visual",
-  "description": "Visual similarity and search capability contributions for AI runs.",
-  "author": "skier233",
+  "description": "Visual detection and region-analysis capability contributions for image and video AI runs.",
+  "author": "Cove Team",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
     "metadata",
-    "automation",
-    "visual",
-    "embedding"
+    "automation"
   ],
   "dependencies": {
     "cove.community.ai.core": ">=0.0.1"
@@ -20,7 +18,8 @@
       "version": "0.0.1",
       "changelog": "Initial release of AI Visual.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.0.1/cove.community.ai.visual-0.0.1.zip",
-      "minCoveVersion": "0.0.35"
+      "minCoveVersion": "0.0.35",
+      "checksum": "sha256:ca787d5eb9c7ccca17be3597b80bc83e03f3ccc90aa8b82903cb37a5da2e888d"
     }
   ]
 }
