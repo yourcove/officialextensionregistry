@@ -2,10 +2,16 @@
   "schemaVersion": "2.0",
   "extensions": [
     {
+      "id": "cove.community.ai.audio"
+    },
+    {
       "id": "cove.community.ai.core"
     },
     {
       "id": "cove.community.ai.tagging"
+    },
+    {
+      "id": "cove.community.ai.visual"
     },
     {
       "id": "cove.community.downloaders.common-audio"
