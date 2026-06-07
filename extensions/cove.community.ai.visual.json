@@ -19,7 +19,8 @@
       "changelog": "Initial release of AI Visual.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.0.1/cove.community.ai.visual-0.0.1.zip",
       "minCoveVersion": "0.0.35",
-      "checksum": "sha256:eb5348213ec50599169a19ebd2b171e990eb5fd6a22facf08f11d15541a7806c"
+      "checksum": "sha256:eb5348213ec50599169a19ebd2b171e990eb5fd6a22facf08f11d15541a7806c",
+      "releasedAt": "2026-06-07T15:04:26Z"
     }
   ]
 }

@@ -19,7 +19,8 @@
       "changelog": "Initial release of AI Tagging.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.0.1/cove.community.ai.tagging-0.0.1.zip",
       "minCoveVersion": "0.0.35",
-      "checksum": "sha256:adffd9724f1cd750070909217fa2f980130789582237466fa9c17d4ff8e17a2d"
+      "checksum": "sha256:adffd9724f1cd750070909217fa2f980130789582237466fa9c17d4ff8e17a2d",
+      "releasedAt": "2026-06-07T15:04:26Z"
     }
   ]
 }

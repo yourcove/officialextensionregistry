@@ -19,7 +19,8 @@
       "changelog": "Initial release of AI Audio.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.0.1/cove.community.ai.audio-0.0.1.zip",
       "minCoveVersion": "0.0.35",
-      "checksum": "sha256:dc419847a11cc9c26fc1efedc767d9a65ea58bb0b70324908712d9954958ff72"
+      "checksum": "sha256:dc419847a11cc9c26fc1efedc767d9a65ea58bb0b70324908712d9954958ff72",
+      "releasedAt": "2026-06-07T15:04:26Z"
     }
   ]
 }
