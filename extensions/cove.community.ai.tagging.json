@@ -3,7 +3,7 @@
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Tagging/extension.json",
   "name": "AI Tagging",
   "description": "Tagging capability contributions for image and video AI runs.",
-  "author": "Cove Team",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
@@ -18,9 +18,7 @@
       "version": "0.0.1",
       "changelog": "Initial release of AI Tagging.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.0.1/cove.community.ai.tagging-0.0.1.zip",
-      "minCoveVersion": "0.0.35",
-      "checksum": "sha256:50922e049f45b0945bee1dcbe1754c14e2bcd3f1af63968e1f7e96023dacc047",
-      "releasedAt": "2026-06-06T20:01:28Z"
+      "minCoveVersion": "0.0.35"
     }
   ]
 }
