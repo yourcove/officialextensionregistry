@@ -11,7 +11,7 @@
     "automation"
   ],
   "dependencies": {
-    "cove.community.ai.core": ">=0.0.1"
+    "cove.community.ai.core": ">=0.0.2"
   },
   "versions": [
     {
@@ -19,14 +19,15 @@
       "changelog": "Initial release of AI Audio.",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.0.1/cove.community.ai.audio-0.0.1.zip",
       "minCoveVersion": "0.0.35",
-      "checksum": "sha256:a32a589fc3d0944d9ae7a6efae47a3d70483ac823eb1e58a65c0cdb24bbb22b1",
+      "checksum": "sha256:dc419847a11cc9c26fc1efedc767d9a65ea58bb0b70324908712d9954958ff72",
       "releasedAt": "2026-06-06T20:01:28Z"
     },
     {
       "version": "0.0.2",
       "changelog": "Audio classification improvements",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.0.2/cove.community.ai.audio-0.0.2.zip",
-      "minCoveVersion": "0.1.0"
+      "minCoveVersion": "0.1.0",
+      "checksum": "sha256:529943179aa117a2a40b1c2381467e0f4318a3eef359a9daec8f638f94523372"
     }
   ]
 }
