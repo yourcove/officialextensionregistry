@@ -11,7 +11,7 @@
     "automation"
   ],
   "dependencies": {
-    "cove.community.ai.core": ">=0.0.1"
+    "cove.community.ai.core": ">=0.0.2"
   },
   "versions": [
     {
@@ -20,7 +20,14 @@
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.0.1/cove.community.ai.visual-0.0.1.zip",
       "minCoveVersion": "0.0.35",
       "checksum": "sha256:eb5348213ec50599169a19ebd2b171e990eb5fd6a22facf08f11d15541a7806c",
-      "releasedAt": "2026-06-07T15:04:26Z"
+      "releasedAt": "2026-06-06T20:01:28Z"
+    },
+    {
+      "version": "0.0.2",
+      "changelog": "Visual AI improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.0.2/cove.community.ai.visual-0.0.2.zip",
+      "minCoveVersion": "0.1.0",
+      "checksum": "sha256:691a4c1ce2c3347347f49b8b5c7cdbfd1fc31731ed9b1aff09ed138fb2b4a54b"
     }
   ]
 }

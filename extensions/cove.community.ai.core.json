@@ -19,7 +19,14 @@
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.0.1/cove.community.ai.core-0.0.1.zip",
       "minCoveVersion": "0.0.35",
       "checksum": "sha256:db121f587de9a2c1b549fd0f8937968242d5f03fe1a74118b33ed51c3d16191f",
-      "releasedAt": "2026-06-07T15:04:26Z"
+      "releasedAt": "2026-06-06T20:01:28Z"
+    },
+    {
+      "version": "0.0.2",
+      "changelog": "Improved path mappings, other improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.0.2/cove.community.ai.core-0.0.2.zip",
+      "minCoveVersion": "0.1.0",
+      "checksum": "sha256:1571f162caa57c70476e343a14ca3592151ad426ca99ab137e4ad3206371f4c1"
     }
   ]
 }
