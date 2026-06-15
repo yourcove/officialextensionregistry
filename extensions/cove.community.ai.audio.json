@@ -36,7 +36,8 @@
       "changelog": "Audio classification improvements",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.1.0/cove.community.ai.audio-0.1.0.zip",
       "minCoveVersion": "0.4.2",
-      "checksum": "sha256:542abe08d2b1f16f658b8b9e50bf59debfd4e8572c227f112e048a103bf4e71b"
+      "checksum": "sha256:542abe08d2b1f16f658b8b9e50bf59debfd4e8572c227f112e048a103bf4e71b",
+      "releasedAt": "2026-06-15T23:45:20Z"
     }
   ]
 }

@@ -20,7 +20,8 @@
       "changelog": "Initial Facial Recognition Release",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-faces/v0.1.0/cove.community.ai.faces-0.1.0.zip",
       "minCoveVersion": "0.4.2",
-      "checksum": "sha256:5ad42164368444a7e9130ce5ddc315e8d4b7709b11ff9ead64df1b52b3e9fb6f"
+      "checksum": "sha256:5ad42164368444a7e9130ce5ddc315e8d4b7709b11ff9ead64df1b52b3e9fb6f",
+      "releasedAt": "2026-06-15T23:45:20Z"
     }
   ]
 }
