@@ -33,7 +33,8 @@
       "version": "0.1.0",
       "changelog": "Improved path mappings, other improvements",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.1.0/cove.community.ai.core-0.1.0.zip",
-      "minCoveVersion": "0.4.2"
+      "minCoveVersion": "0.4.2",
+      "checksum": "sha256:00e1ba44a210b11fd4bfc2764fb82b921d2484b0d9432aacc25e9dbdfc161c11"
     }
   ]
 }

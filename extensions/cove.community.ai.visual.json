@@ -35,7 +35,8 @@
       "version": "0.1.0",
       "changelog": "Visual AI improvements",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.1.0/cove.community.ai.visual-0.1.0.zip",
-      "minCoveVersion": "0.4.2"
+      "minCoveVersion": "0.4.2",
+      "checksum": "sha256:09a023b4046b9c571a3c47a68cadacd1ead9451de6ca6fed4183c9f6354dc16c"
     }
   ]
 }
