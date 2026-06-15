@@ -3,7 +3,7 @@
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Core/extension.json",
   "name": "AI Core",
   "description": "AI orchestration, model management, and nsfw_ai_server connectivity for Cove.",
-  "author": "Cove Team",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
@@ -28,6 +28,12 @@
       "minCoveVersion": "0.1.0",
       "checksum": "sha256:1571f162caa57c70476e343a14ca3592151ad426ca99ab137e4ad3206371f4c1",
       "releasedAt": "2026-06-09T20:29:21Z"
+    },
+    {
+      "version": "0.1.0",
+      "changelog": "Improved path mappings, other improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.1.0/cove.community.ai.core-0.1.0.zip",
+      "minCoveVersion": "0.4.0"
     }
   ]
 }

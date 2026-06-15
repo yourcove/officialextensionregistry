@@ -3,15 +3,16 @@
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Audio/extension.json",
   "name": "AI Audio",
   "description": "Audio embedding and classification capability contributions for AI runs.",
-  "author": "Cove Team",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
     "metadata",
-    "automation"
+    "automation",
+    "audio"
   ],
   "dependencies": {
-    "cove.community.ai.core": ">=0.0.2"
+    "cove.community.ai.core": ">=0.1.0"
   },
   "versions": [
     {
@@ -29,6 +30,12 @@
       "minCoveVersion": "0.1.0",
       "checksum": "sha256:529943179aa117a2a40b1c2381467e0f4318a3eef359a9daec8f638f94523372",
       "releasedAt": "2026-06-09T20:29:21Z"
+    },
+    {
+      "version": "0.1.0",
+      "changelog": "Audio classification improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.1.0/cove.community.ai.audio-0.1.0.zip",
+      "minCoveVersion": "0.4.0"
     }
   ]
 }

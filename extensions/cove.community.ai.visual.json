@@ -3,7 +3,7 @@
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Visual/extension.json",
   "name": "AI Visual",
   "description": "Visual detection and region-analysis capability contributions for image and video AI runs.",
-  "author": "Cove Team",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
@@ -11,7 +11,7 @@
     "automation"
   ],
   "dependencies": {
-    "cove.community.ai.core": ">=0.0.2"
+    "cove.community.ai.core": ">=0.1.0"
   },
   "versions": [
     {
@@ -29,6 +29,12 @@
       "minCoveVersion": "0.1.0",
       "checksum": "sha256:691a4c1ce2c3347347f49b8b5c7cdbfd1fc31731ed9b1aff09ed138fb2b4a54b",
       "releasedAt": "2026-06-09T20:29:21Z"
+    },
+    {
+      "version": "0.1.0",
+      "changelog": "Visual AI improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.1.0/cove.community.ai.visual-0.1.0.zip",
+      "minCoveVersion": "0.4.0"
     }
   ]
 }
