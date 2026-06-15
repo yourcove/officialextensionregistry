@@ -2,13 +2,14 @@
   "id": "cove.community.ai.faces",
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Faces/extension.json",
   "name": "AI Faces",
-  "description": "Face-oriented AI capability contributions for image and video analysis.",
-  "author": "Cove Team",
+  "description": "Facial Recognition and Analysis for Image and Videos.",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
     "metadata",
-    "automation"
+    "automation",
+    "faces"
   ],
   "dependencies": {
     "cove.community.ai.core": ">=0.1.0"

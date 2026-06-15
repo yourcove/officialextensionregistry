@@ -3,7 +3,7 @@
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Core/extension.json",
   "name": "AI Core",
   "description": "AI orchestration, model management, and nsfw_ai_server connectivity for Cove.",
-  "author": "Cove Team",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",

@@ -3,12 +3,13 @@
   "sourceManifestUrl": "https://raw.githubusercontent.com/skier233/AI.Extensions/main/extensions/AI.Audio/extension.json",
   "name": "AI Audio",
   "description": "Audio embedding and classification capability contributions for AI runs.",
-  "author": "Cove Team",
+  "author": "skier233",
   "repositoryUrl": "https://github.com/skier233/AI.Extensions",
   "categories": [
     "ai",
     "metadata",
-    "automation"
+    "automation",
+    "audio"
   ],
   "dependencies": {
     "cove.community.ai.core": ">=0.1.0"
