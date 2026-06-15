@@ -11,7 +11,7 @@
     "automation"
   ],
   "dependencies": {
-    "cove.community.ai.core": ">=2"
+    "cove.community.ai.core": ">=0.1.0"
   },
   "versions": [
     {
