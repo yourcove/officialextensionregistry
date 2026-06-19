@@ -11,7 +11,6 @@
     "automation",
     "tagging"
   ],
-  
   "versions": [
     {
       "version": "0.1.0",
@@ -31,7 +30,11 @@
       "minCoveVersion": "0.6.0",
       "dependencies": {
         "cove.community.ai.core": ">=0.2.0"
-      }
+      },
+      "checksum": "sha256:8c71316c8d36da3a21ce600711129ca2b9b274d9f4a7a16ab8cca6b12131f4d5"
     }
-  ]
+  ],
+  "dependencies": {
+    "cove.community.ai.core": ">=0.1.0"
+  }
 }
