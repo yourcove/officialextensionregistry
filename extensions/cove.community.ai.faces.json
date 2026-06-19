@@ -33,8 +33,5 @@
       },
       "checksum": "sha256:2d0951921531778732ea8446fd08b6f5e16e6f5a5160ee76d6baf7aa11897c43"
     }
-  ],
-  "dependencies": {
-    "cove.community.ai.core": ">=0.1.0"
-  }
+  ]
 }

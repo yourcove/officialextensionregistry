@@ -27,6 +27,5 @@
       "minCoveVersion": "0.6.0",
       "checksum": "sha256:4cd90005b4c6dfd296f33f992cdc37a06dc8a2c83cef896039b7923bf6f43ace"
     }
-  ],
-  "dependencies": {}
+  ]
 }
