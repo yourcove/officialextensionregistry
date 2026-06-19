@@ -11,9 +11,7 @@
     "automation",
     "faces"
   ],
-  "dependencies": {
-    "cove.community.ai.core": ">=0.1.0"
-  },
+  
   "versions": [
     {
       "version": "0.1.0",
@@ -21,7 +19,19 @@
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-faces/v0.1.0/cove.community.ai.faces-0.1.0.zip",
       "minCoveVersion": "0.4.2",
       "checksum": "sha256:5ad42164368444a7e9130ce5ddc315e8d4b7709b11ff9ead64df1b52b3e9fb6f",
-      "releasedAt": "2026-06-15T23:45:20Z"
+      "releasedAt": "2026-06-15T23:45:20Z",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.1.0"
+      }
+    },
+    {
+      "version": "0.2.0",
+      "changelog": "Initial Facial Recognition Release",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-faces/v0.2.0/cove.community.ai.faces-0.2.0.zip",
+      "minCoveVersion": "0.6.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.2.0"
+      }
     }
   ]
 }
