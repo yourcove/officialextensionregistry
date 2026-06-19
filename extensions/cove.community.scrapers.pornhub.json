@@ -9,7 +9,6 @@
     "metadata",
     "video"
   ],
-  "dependencies": {},
   "versions": [
     {
       "version": "1.0.0",
@@ -17,7 +16,8 @@
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/pornhub/v1.0.0/cove.community.scrapers.pornhub-1.0.0.zip",
       "minCoveVersion": "0.0.32",
       "checksum": "sha256:0daba83836b52a03515cf28302c4a3198bad5d4d83a02a4fe3b6d546f9fecd8d",
-      "releasedAt": "2026-06-04T17:29:59Z"
+      "releasedAt": "2026-06-04T17:29:59Z",
+      "dependencies": {}
     }
   ]
 }

@@ -11,33 +11,27 @@
     "automation",
     "tagging"
   ],
-  "dependencies": {
-    "cove.community.ai.core": ">=0.1.0"
-  },
   "versions": [
-    {
-      "version": "0.0.1",
-      "changelog": "Initial release of AI Tagging.",
-      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.0.1/cove.community.ai.tagging-0.0.1.zip",
-      "minCoveVersion": "0.0.35",
-      "checksum": "sha256:adffd9724f1cd750070909217fa2f980130789582237466fa9c17d4ff8e17a2d",
-      "releasedAt": "2026-06-06T20:01:28Z"
-    },
-    {
-      "version": "0.0.2",
-      "changelog": "Tagging improvements",
-      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.0.2/cove.community.ai.tagging-0.0.2.zip",
-      "minCoveVersion": "0.1.0",
-      "checksum": "sha256:42bd9fdae90add05fc716c23705afdab18d615452e9abbf5f483629106258054",
-      "releasedAt": "2026-06-09T20:29:21Z"
-    },
     {
       "version": "0.1.0",
       "changelog": "Tagging improvements",
       "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.1.0/cove.community.ai.tagging-0.1.0.zip",
       "minCoveVersion": "0.4.2",
       "checksum": "sha256:7835a7830d420ff5dce82b85398003884e34a4bcf810d500240b44e65cd11926",
-      "releasedAt": "2026-06-15T23:45:20Z"
+      "releasedAt": "2026-06-15T23:45:20Z",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.1.0"
+      }
+    },
+    {
+      "version": "0.2.0",
+      "changelog": "Tagging improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.2.0/cove.community.ai.tagging-0.2.0.zip",
+      "minCoveVersion": "0.6.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.2.0"
+      },
+      "checksum": "sha256:8c71316c8d36da3a21ce600711129ca2b9b274d9f4a7a16ab8cca6b12131f4d5"
     }
   ]
 }

@@ -9,7 +9,6 @@
     "downloader",
     "integration"
   ],
-  "dependencies": {},
   "versions": [
     {
       "version": "1.0.0",
@@ -17,7 +16,8 @@
       "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/reddit/v1.0.0/cove.community.downloaders.reddit-1.0.0.zip",
       "minCoveVersion": "0.0.32",
       "checksum": "sha256:f20e38adf95fd4cd78798b036c422a54eb9028e3b58093ff89cd4990c138b21b",
-      "releasedAt": "2026-06-04T17:29:59Z"
+      "releasedAt": "2026-06-04T17:29:59Z",
+      "dependencies": {}
     }
   ]
 }

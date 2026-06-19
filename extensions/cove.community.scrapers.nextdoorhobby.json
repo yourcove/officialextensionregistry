@@ -9,7 +9,6 @@
     "metadata",
     "video"
   ],
-  "dependencies": {},
   "versions": [
     {
       "version": "1.0.0",
@@ -17,7 +16,8 @@
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/nextdoorhobby/v1.0.0/cove.community.scrapers.nextdoorhobby-1.0.0.zip",
       "minCoveVersion": "0.0.32",
       "checksum": "sha256:74a33bc9d9f869a536c861e41f094bfadc421cbfe4796efc12ef4d9da09accaa",
-      "releasedAt": "2026-06-04T17:29:59Z"
+      "releasedAt": "2026-06-04T17:29:59Z",
+      "dependencies": {}
     }
   ]
 }

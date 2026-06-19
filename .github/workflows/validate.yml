@@ -76,19 +76,31 @@ jobs:
               if meta.get('id') != ext_id:
                   meta['id'] = ext_id
 
+              source_manifest = None
               source_manifest_url = meta.get('sourceManifestUrl')
               if source_manifest_url:
                   try:
                       with urllib.request.urlopen(source_manifest_url, timeout=60) as response:
                           source_manifest = json.loads(response.read().decode('utf-8'))
 
-                      # Keep registry entries thin: sync display metadata only.
-                      sync_fields = ['name', 'description', 'author', 'iconUrl', 'kind', 'categories', 'dependencies']
+                      # Keep registry entries thin: sync display metadata only. Dependencies are NOT synced
+                      # to the top level — they are captured per release into versions[].dependencies below,
+                      # so older releases keep the dependency requirements they shipped with instead of
+                      # inheriting the latest version's (which can require a newer, host-incompatible dep).
+                      sync_fields = ['name', 'description', 'author', 'iconUrl', 'kind', 'categories']
                       for field in sync_fields:
                           if source_manifest.get(field) is not None and meta.get(field) != source_manifest.get(field):
                               meta[field] = source_manifest[field]
                   except Exception:
-                      pass
+                      source_manifest = None
+
+              # Dependencies live per version now; drop any legacy extension-level block so it can't be
+              # used as a fallback that forces older releases to require the latest version's deps.
+              if 'dependencies' in meta:
+                  del meta['dependencies']
+
+              source_version = source_manifest.get('version') if source_manifest else None
+              source_dependencies = (source_manifest.get('dependencies') if source_manifest else None) or {}
 
               for version in meta.get('versions', []):
                   download_url = version.get('downloadUrl')
@@ -102,6 +114,12 @@ jobs:
 
                   if set_release_dates and not version.get('releasedAt'):
                       version['releasedAt'] = now
+
+                  # Auto-fill a newly added release's dependencies from the source manifest that currently
+                  # describes it. Only fills when absent so hand-authored per-version deps are never
+                  # clobbered, and other (older) versions are left untouched.
+                  if source_version and 'dependencies' not in version and version.get('version') == source_version:
+                      version['dependencies'] = source_dependencies
 
               if json.dumps(meta, sort_keys=True) != original:
                   write_json(meta_path, meta)
