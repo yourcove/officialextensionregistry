@@ -33,6 +33,16 @@
       },
       "checksum": "sha256:a2b06c58632c15e71ce357b94c6432164f4dc8cc54a60f631a5fca8706bed9ef",
       "releasedAt": "2026-06-19T20:40:16Z"
+    },
+    {
+      "version": "0.3.0",
+      "changelog": "Audio classification improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-audio/v0.3.0/cove.community.ai.audio-0.3.0.zip",
+      "minCoveVersion": "0.6.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.3.0"
+      },
+      "checksum": "sha256:ae89b71c532167caf47d76f04fc66081083362fbbd13311cea19afaa84c6e8e3"
     }
   ]
 }
