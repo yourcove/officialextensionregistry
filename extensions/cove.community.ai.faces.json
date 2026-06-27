@@ -41,7 +41,8 @@
       "minCoveVersion": "0.6.0",
       "dependencies": {
         "cove.community.ai.core": ">=0.3.0"
-      }
+      },
+      "checksum": "sha256:5b26a15669ee5f3d22ed3c1fc20491cab8913f5c27f59786359c3f6209ec017a"
     }
   ]
 }
