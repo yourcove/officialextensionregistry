@@ -33,6 +33,15 @@
       },
       "checksum": "sha256:2d0951921531778732ea8446fd08b6f5e16e6f5a5160ee76d6baf7aa11897c43",
       "releasedAt": "2026-06-19T20:40:16Z"
+    },
+    {
+      "version": "0.3.0",
+      "changelog": "Facial Recognition improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-faces/v0.3.0/cove.community.ai.faces-0.3.0.zip",
+      "minCoveVersion": "0.6.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.3.0"
+      }
     }
   ]
 }

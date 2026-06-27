@@ -33,6 +33,15 @@
       },
       "checksum": "sha256:59dd0a5af39202b8ce45a36eddd5909dc9c0a93372e54c48e089c60c04203acb",
       "releasedAt": "2026-06-19T20:40:16Z"
+    },
+    {
+      "version": "0.3.0",
+      "changelog": "Visual AI improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-visual/v0.3.0/cove.community.ai.visual-0.3.0.zip",
+      "minCoveVersion": "0.6.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.3.0"
+      }
     }
   ]
 }
