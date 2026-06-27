@@ -42,7 +42,8 @@
       "dependencies": {
         "cove.community.ai.core": ">=0.3.0"
       },
-      "checksum": "sha256:24f55d52d33e25cac486c79f7d7301f540c9d24a2f105e77981f9925ccd88f88"
+      "checksum": "sha256:24f55d52d33e25cac486c79f7d7301f540c9d24a2f105e77981f9925ccd88f88",
+      "releasedAt": "2026-06-27T21:31:28Z"
     }
   ]
 }
