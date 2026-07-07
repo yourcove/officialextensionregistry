@@ -2,18 +2,23 @@
   "id": "com.alextomas955.renamer",
   "sourceManifestUrl": "https://raw.githubusercontent.com/alextomas955/cove-extensions/main/extensions/Renamer/src/Renamer/extension.json",
   "name": "Renamer",
-  "description": "Bulk-rename and optionally relocate Cove media from metadata using configurable naming templates. Renames the file on disk and updates its Cove database record together, with a read-only preview, a whole-library dry run, cross-drive moves that never lose a file, and one-click undo.",
+  "description": "Bulk-renames Cove library items using configurable metadata templates. Reads and writes video and image files on disk and updates the matching Cove database records, always disk and DB together. Exposes preview, rename, and undo API endpoints under /api/extensions/com.alextomas955.renamer. Needs videos.read to preview and videos.write to rename or undo. Makes no network calls and runs no scraper or downloader code.",
   "author": "alextomas955",
   "repositoryUrl": "https://github.com/alextomas955/cove-extensions",
-  "categories": ["tools", "automation"],
-  "dependencies": {},
+  "categories": [
+    "tools",
+    "automation"
+  ],
   "screenshots": [],
   "versions": [
     {
       "version": "0.1.0",
       "changelog": "Initial release: template-based bulk renaming of videos and images with preview, whole-library dry run, destination routing across drives, and undo, over the extension API.",
       "minCoveVersion": "0.7.1",
-      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.1.0/com.alextomas955.renamer-0.1.0.zip"
+      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.1.0/com.alextomas955.renamer-0.1.0.zip",
+      "checksum": "sha256:9ecefb6acf91242c411eda3fc6ffdb091acaca0c88baf6e84976ff430e4900a5",
+      "releasedAt": "2026-07-07T00:09:22Z",
+      "dependencies": {}
     }
   ]
 }

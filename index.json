@@ -2,6 +2,9 @@
   "schemaVersion": "2.0",
   "extensions": [
     {
+      "id": "com.alextomas955.renamer"
+    },
+    {
       "id": "cove.community.ai.audio"
     },
     {
