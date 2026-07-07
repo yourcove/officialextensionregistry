@@ -44,6 +44,16 @@
       },
       "checksum": "sha256:4de640066ae4462fa9ce35bc9f7258984d59d143a11546df0b4b40131dd99144",
       "releasedAt": "2026-06-27T21:31:28Z"
+    },
+    {
+      "version": "0.4.0",
+      "changelog": "Tagging improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-tagging/v0.4.0/cove.community.ai.tagging-0.4.0.zip",
+      "minCoveVersion": "0.9.0",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.4.0"
+      },
+      "checksum": "sha256:947f22119ee4cf61c64529281bff4ca141bf7b058b883d8fae766a6191f1f679"
     }
   ]
 }
