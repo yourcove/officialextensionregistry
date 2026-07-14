@@ -1812,6 +1812,9 @@
     },
     {
       "id": "cove.community.scrapers.ytdlp"
+    },
+    {
+      "id": "hash-the-cove"
     }
   ]
 }
