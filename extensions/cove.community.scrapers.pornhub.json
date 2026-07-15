@@ -18,6 +18,14 @@
       "checksum": "sha256:0daba83836b52a03515cf28302c4a3198bad5d4d83a02a4fe3b6d546f9fecd8d",
       "releasedAt": "2026-06-04T17:29:59Z",
       "dependencies": {}
+    },
+    {
+      "version": "1.1.0",
+      "changelog": "Add support for video thumbnails when searching by name",
+      "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/pornhub/v1.1.0/cove.community.scrapers.pornhub-1.1.0.zip",
+      "minCoveVersion": "0.9.0",
+      "dependencies": {},
+      "checksum": "sha256:cd9220c8ace46bb63f2c6a2452055028a45b70ffa6c16672705b2e64baf49964"
     }
   ]
 }
