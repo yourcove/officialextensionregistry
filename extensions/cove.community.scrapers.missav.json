@@ -16,7 +16,8 @@
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/missav/v1.0.0/cove.community.scrapers.missav-1.0.0.zip",
       "minCoveVersion": "0.0.32",
       "dependencies": {},
-      "checksum": "sha256:4f5819ee03ce3c41a565d6ff1952d1982098c333412ad56c15285f77fd9cf94f"
+      "checksum": "sha256:4f5819ee03ce3c41a565d6ff1952d1982098c333412ad56c15285f77fd9cf94f",
+      "releasedAt": "2026-07-15T14:23:04Z"
     }
   ]
 }
