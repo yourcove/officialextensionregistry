@@ -24,7 +24,8 @@
       "changelog": "Add support for video thumbnails when searching by name",
       "downloadUrl": "https://github.com/yourcove/communityscrapers/releases/download/pornhub/v1.1.0/cove.community.scrapers.pornhub-1.1.0.zip",
       "minCoveVersion": "0.9.0",
-      "dependencies": {}
+      "dependencies": {},
+      "checksum": "sha256:cd9220c8ace46bb63f2c6a2452055028a45b70ffa6c16672705b2e64baf49964"
     }
   ]
 }
