@@ -12,6 +12,22 @@
   "screenshots": [],
   "versions": [
     {
+      "version": "0.3.0",
+      "changelog": "Bounds the two pieces of state that grew with the size of the library. A whole-library dry run stored one row per file in a single extension-data value; on a very large library that value grew past the serializer's limit, so every read of the settings page failed and repeated attempts could exhaust the server's memory. A scan now stores counts and a move summary only, and dry-run rows are planned a page at a time as you scroll. The undo record is bounded the same way: it keeps only the most recent rename, stores less per file, and does not record a rename of more than 5,000 files \u2014 the confirmation and the dry-run footer say so before it runs. An oversized value left by an earlier version is cleared on first load, so an affected install recovers by upgrading. Dry-run column sorting is removed: a true sort needs every row at once, which no longer exists.",
+      "minCoveVersion": "1.0.0",
+      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.3.0/com.alextomas955.renamer-0.3.0.zip",
+      "checksum": "sha256:91386cf29dbba130b498b12b474034b7ac3cd574f7f7945de7f232ed2bd9a4b7",
+      "dependencies": {}
+    },
+    {
+      "version": "0.2.0",
+      "changelog": "Settings render as a full page using Cove's page-layout settings tab: the extension owns the whole tab canvas instead of the host's card chrome. Same location and controls; only the container changed.",
+      "minCoveVersion": "1.0.0",
+      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.2.0/com.alextomas955.renamer-0.2.0.zip",
+      "checksum": "sha256:dc0b8e3a48cd4afd42a501739d227c2e030f0695b0d41bcc500276427c8437e2",
+      "dependencies": {}
+    },
+    {
       "version": "0.1.0",
       "changelog": "Initial release: template-based bulk renaming of videos and images with preview, whole-library dry run, destination routing across drives, and undo, over the extension API.",
       "minCoveVersion": "0.7.1",
