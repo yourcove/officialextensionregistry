@@ -17,7 +17,8 @@
       "minCoveVersion": "1.0.0",
       "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.3.0/com.alextomas955.renamer-0.3.0.zip",
       "checksum": "sha256:91386cf29dbba130b498b12b474034b7ac3cd574f7f7945de7f232ed2bd9a4b7",
-      "dependencies": {}
+      "dependencies": {},
+      "releasedAt": "2026-07-28T19:22:38Z"
     },
     {
       "version": "0.2.0",
@@ -25,7 +26,8 @@
       "minCoveVersion": "1.0.0",
       "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.2.0/com.alextomas955.renamer-0.2.0.zip",
       "checksum": "sha256:dc0b8e3a48cd4afd42a501739d227c2e030f0695b0d41bcc500276427c8437e2",
-      "dependencies": {}
+      "dependencies": {},
+      "releasedAt": "2026-07-28T19:22:38Z"
     },
     {
       "version": "0.1.0",
