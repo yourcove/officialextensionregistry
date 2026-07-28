@@ -2,7 +2,7 @@
   "id": "com.alextomas955.renamer",
   "sourceManifestUrl": "https://raw.githubusercontent.com/alextomas955/cove-extensions/main/extensions/Renamer/src/Renamer/extension.json",
   "name": "Renamer",
-  "description": "Bulk-renames Cove library items using configurable metadata templates. Reads and writes video and image files on disk and updates the matching Cove database records, always disk and DB together. Exposes preview, rename, and undo API endpoints (undo covers the most recent rename, up to 5,000 files) under /api/extensions/com.alextomas955.renamer. Needs videos.read to preview and videos.write to rename or undo. Makes no network calls and runs no scraper or downloader code.",
+  "description": "Bulk-renames Cove library items using configurable metadata templates. Reads and writes video and image files on disk and updates the matching Cove database records, always disk and DB together. Exposes preview, rename, and undo API endpoints under /api/extensions/com.alextomas955.renamer. Needs videos.read to preview and videos.write to rename or undo. Makes no network calls and runs no scraper or downloader code.",
   "author": "alextomas955",
   "repositoryUrl": "https://github.com/alextomas955/cove-extensions",
   "categories": [
