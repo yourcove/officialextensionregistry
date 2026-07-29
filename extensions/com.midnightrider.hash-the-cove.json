@@ -8,7 +8,17 @@
       "version": "1.0.0",
       "changelog": "Initial release: calculate missing xxHash64, SHA-256, and SHA-1 fingerprints for video and gallery files with preflight counts, progress reporting, and native Cove settings.",
       "minCoveVersion": "0.9.0",
-      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.hash-the-cove/v1.0.0/com.midnightrider.hash-the-cove-1.0.0.zip"
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.hash-the-cove/v1.0.0/com.midnightrider.hash-the-cove-1.0.0.zip",
+      "checksum": "sha256:7875e736bd729c383656e89c6fcc2f964abdee34091fb6af2b87efc7de9af74f",
+      "releasedAt": "2026-07-29T16:02:36Z",
+      "dependencies": {}
     }
+  ],
+  "name": "Hash The Cove",
+  "description": "Calculates additional whole-file fingerprints for Cove video and gallery files.",
+  "author": "MidnightRider",
+  "categories": [
+    "metadata",
+    "tools"
   ]
 }

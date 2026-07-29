@@ -8,7 +8,10 @@
       "version": "1.1.0",
       "changelog": "Initial release: build a native catalog of remote videos missing from this Cove for selected performers, studios, and tags, with configurable metadata providers and excluded tags.",
       "minCoveVersion": "1.1.0",
-      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.complete-the-cove/v1.1.0/com.midnightrider.complete-the-cove-1.1.0.zip"
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.complete-the-cove/v1.1.0/com.midnightrider.complete-the-cove-1.1.0.zip",
+      "checksum": "sha256:13a75df39adae8694ebfeb575c4b613582db1b0490e4812ae730998388508293",
+      "releasedAt": "2026-07-29T16:02:36Z",
+      "dependencies": {}
     }
   ],
   "name": "Complete the Cove",

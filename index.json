@@ -5,7 +5,10 @@
       "id": "com.alextomas955.renamer"
     },
     {
-      "id": "complete-the-cove"
+      "id": "com.midnightrider.complete-the-cove"
+    },
+    {
+      "id": "com.midnightrider.hash-the-cove"
     },
     {
       "id": "cove.community.ai.audio"
@@ -1818,9 +1821,6 @@
     },
     {
       "id": "cove.community.scrapers.ytdlp"
-    },
-    {
-      "id": "hash-the-cove"
     }
   ]
 }
