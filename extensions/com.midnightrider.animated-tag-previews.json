@@ -1,0 +1,14 @@
+{
+  "id": "com.midnightrider.animated-tag-previews",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/MinasukiHikimuna/MidnightRider-Cove/main/extensions/animated-tag-previews/src/AnimatedTagPreviews/extension.json",
+  "repositoryUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "Initial release: create cropped VP9 WebM previews from Cove videos or upload finished previews, then use them as optional animated tag media with static-image and reduced-motion fallbacks.",
+      "minCoveVersion": "1.1.0",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.animated-tag-previews/v1.0.0/com.midnightrider.animated-tag-previews-1.0.0.zip"
+    }
+  ]
+}
