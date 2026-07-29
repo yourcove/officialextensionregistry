@@ -1,0 +1,27 @@
+{
+  "id": "io.github.jiwenjimiran.duplicate-manager",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_dupe_manager/main/src/DuplicateManager/extension.json",
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_dupe_manager",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "1.9.7",
+      "changelog": "Initial registry release: find duplicates by exact fingerprint, pHash distance, title, or remote ID; persist controls and result filters in shareable URLs; compare videos with authenticated, resilient FFmpeg playback; configure missing or conflicting metadata transfer; refresh Cove authentication in place during long jobs; process metadata copying and deletion independently per video; preserve unresolved videos; reconcile ambiguous deletion responses; and report exact progress and partial results.",
+      "minCoveVersion": "1.0.0",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_dupe_manager/releases/download/v1.9.7/io.github.jiwenjimiran.duplicate-manager-1.9.7.zip",
+      "checksum": "sha256:02eba9a06a86e7eae92918b55d0b9ba9aa440fa63a176a7f97acf4df65b79d74",
+      "dependencies": {}
+    }
+  ],
+  "name": "Duplicate Manager",
+  "description": "Advanced duplicate review, comparison, selection, and bulk deletion for Cove videos.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "tools",
+    "library",
+    "content-management",
+    "search",
+    "ui"
+  ]
+}
