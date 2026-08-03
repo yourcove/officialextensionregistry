@@ -1,0 +1,14 @@
+{
+  "id": "com.midnightrider.stash-filter-importer",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/MinasukiHikimuna/MidnightRider-Cove/main/extensions/stash-filter-importer/src/StashFilterImporter/extension.json",
+  "repositoryUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "Initial release: review compatible saved scene, performer, image, gallery, tag, studio, and scene-marker filters from a read-only Stash SQLite backup, then selectively import them as Cove saved filters.",
+      "minCoveVersion": "1.1.1-dev.0",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.stash-filter-importer/v1.0.0/com.midnightrider.stash-filter-importer-1.0.0.zip"
+    }
+  ]
+}
