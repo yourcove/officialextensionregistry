@@ -1,0 +1,27 @@
+{
+  "id": "io.github.jiwenjimiran.better-scrapers",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_scraper_enhancement/main/src/BetterScrapers/extension.json",
+  "name": "Better Scrapers",
+  "description": "Rate-limited Scrape All and one-click Save All controls for Cove's video tagger.",
+  "author": "jiwenji",
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_scraper_enhancement",
+  "categories": [
+    "tools",
+    "metadata",
+    "scrapers",
+    "ui"
+  ],
+  "dependencies": {},
+  "screenshots": [
+    "https://raw.githubusercontent.com/jiwenjimiran/cove_scraper_enhancement/main/docs/images/tagger-controls.jpg",
+    "https://raw.githubusercontent.com/jiwenjimiran/cove_scraper_enhancement/main/docs/images/better-scrapers-settings.jpg"
+  ],
+  "versions": [
+    {
+      "version": "1.2.0",
+      "changelog": "Initial registry release with rolling rate-limited batch scraping, exponential 429 backoff, Save All, and optional automatic saving after each successful scrape.",
+      "minCoveVersion": "1.0.0",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_scraper_enhancement/releases/download/v1.2.0/io.github.jiwenjimiran.better-scrapers-1.2.0.zip"
+    }
+  ]
+}
