@@ -8,7 +8,17 @@
       "version": "1.0.0",
       "changelog": "Initial release: simulate browser-local API failures, timeouts, gateway errors, and latency through a recoverable floating control for Cove development and troubleshooting.",
       "minCoveVersion": "1.1.1-dev.81",
-      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.api-fault-simulator/v1.0.0/com.midnightrider.api-fault-simulator-1.0.0.zip"
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.api-fault-simulator/v1.0.0/com.midnightrider.api-fault-simulator-1.0.0.zip",
+      "checksum": "sha256:014566b6c4e9d599f2ea5ff4e3edd9582676d70ae8e2bc54f0523d3331e56fc5",
+      "releasedAt": "2026-08-05T16:02:26Z",
+      "dependencies": {}
     }
+  ],
+  "name": "API Fault Simulator",
+  "description": "Simulates browser-local API faults for development and troubleshooting.",
+  "author": "MidnightRider",
+  "kind": "extension",
+  "categories": [
+    "tools"
   ]
 }
