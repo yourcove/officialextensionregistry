@@ -12,6 +12,12 @@
       "checksum": "sha256:13a75df39adae8694ebfeb575c4b613582db1b0490e4812ae730998388508293",
       "releasedAt": "2026-07-29T16:02:36Z",
       "dependencies": {}
+    },
+    {
+      "version": "1.2.0",
+      "changelog": "Adopt Cove's shared ListPage controls for search, sorting, pagination, saved filters, and performer, studio, and tag criteria; expand tag and studio hierarchies on the server while preserving URL-backed catalog and entity-tab views.",
+      "minCoveVersion": "1.1.1-dev.153",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.complete-the-cove/v1.2.0/com.midnightrider.complete-the-cove-1.2.0.zip"
     }
   ],
   "name": "Complete the Cove",
