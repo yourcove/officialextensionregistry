@@ -2,7 +2,7 @@
   "id": "com.alextomas955.renamer",
   "sourceManifestUrl": "https://raw.githubusercontent.com/alextomas955/cove-extensions/main/extensions/Renamer/src/Renamer/extension.json",
   "name": "Renamer",
-  "description": "Bulk-renames Cove library items using configurable metadata templates. Reads and writes video and image files on disk and updates the matching Cove database records, always disk and DB together. Exposes preview, rename, and undo API endpoints under /api/extensions/com.alextomas955.renamer. Needs videos.read to preview and videos.write to rename or undo. Makes no network calls and runs no scraper or downloader code.",
+  "description": "Bulk-renames Cove library items using configurable metadata templates. Reads and writes video, image and audio files on disk and updates the matching Cove database records, always disk and DB together. Exposes preview, rename, and undo API endpoints under /api/extensions/com.alextomas955.renamer. Needs a kind's read permission to preview it and its write permission to rename or undo it, per kind: videos.read and videos.write, images.read and images.write, audios.read and audios.write. The \"Rename selected\" bulk action is registered on video and image lists only; audio is renamed from the Rename settings page and the API. Makes no network calls and runs no scraper or downloader code.",
   "author": "alextomas955",
   "repositoryUrl": "https://github.com/alextomas955/cove-extensions",
   "categories": [
@@ -11,6 +11,14 @@
   ],
   "screenshots": [],
   "versions": [
+    {
+      "version": "0.4.0",
+      "changelog": "Every destination is now a library path you pick from Cove's own list, plus a folder template made under it \u2014 you no longer type a path for one. A folder template is measured from that root rather than from wherever the file sits at the time, so running a rename twice no longer buries the file one directory deeper each run. Preview a dry run before your first rename after upgrading: an item no rule matches can move once. Requires Cove 1.3.1.",
+      "minCoveVersion": "1.3.1",
+      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.4.0/com.alextomas955.renamer-0.4.0.zip",
+      "checksum": "sha256:9cf47514c45509120a0b793f62ebee32b2fdeb7e395e00a3e428f4a6f15a6a0f",
+      "dependencies": {}
+    },
     {
       "version": "0.3.0",
       "changelog": "Bounds the two pieces of state that grew with the size of the library. A whole-library dry run stored one row per file in a single extension-data value; on a very large library that value grew past the serializer's limit, so every read of the settings page failed and repeated attempts could exhaust the server's memory. A scan now stores counts and a move summary only, and dry-run rows are planned a page at a time as you scroll. The undo record is bounded the same way: it keeps only the most recent rename, stores less per file, and does not record a rename of more than 5,000 files \u2014 the confirmation and the dry-run footer say so before it runs. An oversized value left by an earlier version is cleared on first load, so an affected install recovers by upgrading. Dry-run column sorting is removed: a true sort needs every row at once, which no longer exists.",
