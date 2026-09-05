@@ -1,0 +1,23 @@
+{
+  "id": "segment-studio",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/MinasukiHikimuna/MidnightRider-Cove/main/extensions/segment-studio/src/SegmentStudio/extension.json",
+  "repositoryUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "changelog": "Initial release: review and edit canonical video segments with timeline workflows, performer slots, native tag groups, derivation rules, history, recycling, and optional AI-assisted analysis.",
+      "minCoveVersion": "1.4.0-rc.1",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/segment-studio/v0.1.0/segment-studio-0.1.0.zip",
+      "dependencies": {}
+    }
+  ],
+  "name": "Segment Studio",
+  "description": "Provides focused, direct review and timing edits for canonical Cove video segments.",
+  "author": "MidnightRider",
+  "kind": "extension",
+  "categories": [
+    "metadata",
+    "workflow"
+  ]
+}
