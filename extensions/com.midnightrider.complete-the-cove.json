@@ -26,7 +26,10 @@
       "version": "1.2.1",
       "changelog": "Clarify completion tracking status and prompts, speed up refreshes for large catalogs, add a checklist navigation icon, and sort undated releases consistently.",
       "minCoveVersion": "1.4.0-rc.2",
-      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.complete-the-cove/v1.2.1/com.midnightrider.complete-the-cove-1.2.1.zip"
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.complete-the-cove/v1.2.1/com.midnightrider.complete-the-cove-1.2.1.zip",
+      "checksum": "sha256:1d2fefff458aa8ec39685da73c6445ceb09a3df83d492ce7a4a14b2f55bb84c8",
+      "releasedAt": "2026-09-05T18:42:34Z",
+      "dependencies": {}
     }
   ],
   "name": "Complete the Cove",
