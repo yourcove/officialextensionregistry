@@ -21,6 +21,12 @@
       "checksum": "sha256:4017bc366ec03978ca702e1d2cbc56590a39bfa6bc91790f3ee24d119c63a520",
       "releasedAt": "2026-08-09T15:36:48Z",
       "dependencies": {}
+    },
+    {
+      "version": "1.2.1",
+      "changelog": "Clarify completion tracking status and prompts, speed up refreshes for large catalogs, add a checklist navigation icon, and sort undated releases consistently.",
+      "minCoveVersion": "1.4.0-rc.2",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.complete-the-cove/v1.2.1/com.midnightrider.complete-the-cove-1.2.1.zip"
     }
   ],
   "name": "Complete the Cove",
