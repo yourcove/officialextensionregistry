@@ -1827,6 +1827,9 @@
     },
     {
       "id": "cove.community.scrapers.ytdlp"
+    },
+    {
+      "id": "io.github.jiwenjimiran.better-scrapers"
     }
   ]
 }
