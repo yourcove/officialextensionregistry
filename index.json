@@ -1830,9 +1830,6 @@
     },
     {
       "id": "cove.community.scrapers.ytdlp"
-    },
-    {
-      "id": "segment-studio"
     }
   ]
 }
