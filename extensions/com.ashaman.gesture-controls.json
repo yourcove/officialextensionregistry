@@ -1,0 +1,23 @@
+{
+  "id": "com.ashaman.gesture-controls",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/Ashaman-GH/cove-gesture-controls/main/src/GestureControls/extension.json",
+  "name": "YouTube-like Player Gesture Controls",
+  "description": "YouTube-style video player controls: double-tap to skip back/forward, hold to play at 2x, drag to scrub, J/L/,/. keyboard shortcuts, and a mute state that is remembered across devices.",
+  "author": "Ashaman",
+  "repositoryUrl": "https://github.com/Ashaman-GH/cove-gesture-controls",
+  "categories": [
+    "ui",
+    "media-player"
+  ],
+  "dependencies": {},
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "changelog": "Initial release: double-tap to skip back/forward (accumulating), press-and-hold 2x playback, drag-to-scrub with live target time, J/L/,/./</>/Home/End keys, and a per-user muted state remembered on the server. Settings panel under Settings \u2192 Extensions.",
+      "minCoveVersion": "1.2.1",
+      "downloadUrl": "https://github.com/Ashaman-GH/cove-gesture-controls/releases/download/v0.1.0/com.ashaman.gesture-controls-0.1.0.zip",
+      "dependencies": {}
+    }
+  ]
+}
