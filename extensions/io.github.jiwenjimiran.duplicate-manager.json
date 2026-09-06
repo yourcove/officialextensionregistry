@@ -1,0 +1,35 @@
+{
+  "id": "io.github.jiwenjimiran.duplicate-manager",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_dupe_manager/main/src/DuplicateManager/extension.json",
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_dupe_manager",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "2.0.2",
+      "changelog": "Adds balanced, codec-aware keeper ranking with review risk explanations, preserves engagement data, and adds review-only duplicate image cleanup. Restores metadata-first video deletion through Cove's normal records-only or permanent file-removal flow, removes .dedup-trash creation, protects archive entries, and keeps long-running deletion progress visually stable.",
+      "minCoveVersion": "1.1.0",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_dupe_manager/releases/download/v2.0.2/io.github.jiwenjimiran.duplicate-manager-2.0.2.zip",
+      "checksum": "sha256:53d0ec797aaaaadc89c1402886f5a84f5a7f8dcc4b93c0bd3fe02eacea822b80",
+      "dependencies": {}
+    },
+    {
+      "version": "1.9.7",
+      "changelog": "Initial registry release: find duplicates by exact fingerprint, pHash distance, title, or remote ID; persist controls and result filters in shareable URLs; compare videos with authenticated, resilient FFmpeg playback; configure missing or conflicting metadata transfer; refresh Cove authentication in place during long jobs; process metadata copying and deletion independently per video; preserve unresolved videos; reconcile ambiguous deletion responses; and report exact progress and partial results.",
+      "minCoveVersion": "1.0.0",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_dupe_manager/releases/download/v1.9.7/io.github.jiwenjimiran.duplicate-manager-1.9.7.zip",
+      "checksum": "sha256:02eba9a06a86e7eae92918b55d0b9ba9aa440fa63a176a7f97acf4df65b79d74",
+      "dependencies": {}
+    }
+  ],
+  "name": "Duplicate Manager",
+  "description": "Safe, explainable duplicate review and cleanup for Cove videos and images.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "tools",
+    "library",
+    "content-management",
+    "search",
+    "ui"
+  ]
+}
