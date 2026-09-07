@@ -7,9 +7,8 @@
   "repositoryUrl": "https://github.com/Ashaman-GH/cove-gesture-controls",
   "categories": [
     "ui",
-    "media-player"
+    "tools"
   ],
-  "dependencies": {},
   "screenshots": [],
   "versions": [
     {
@@ -17,7 +16,9 @@
       "changelog": "Initial release: double-tap to skip back/forward (accumulating), press-and-hold 2x playback, drag-to-scrub with live target time, J/L/,/./</>/Home/End keys, and a per-user muted state remembered on the server. Settings panel under Settings \u2192 Extensions.",
       "minCoveVersion": "1.2.1",
       "downloadUrl": "https://github.com/Ashaman-GH/cove-gesture-controls/releases/download/v0.1.0/com.ashaman.gesture-controls-0.1.0.zip",
-      "dependencies": {}
+      "dependencies": {},
+      "checksum": "sha256:040278cdf7c24b341b2ca26ca8781e7c2f85aebbd57882101d2d8eeede140be1"
     }
-  ]
+  ],
+  "kind": "extension"
 }
