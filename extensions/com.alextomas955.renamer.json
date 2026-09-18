@@ -16,7 +16,8 @@
       "changelog": "Renamer now renames text documents alongside videos, images and audio, with the same templates, dry run and undo. Each kind can be left out on its own, or sent to a folder of its own, from the Per kind list under Where files go. Undoing a rename now tells the rest of Cove the right sort of item changed. Requires Cove 1.4.1.",
       "minCoveVersion": "1.4.1",
       "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.5.0/com.alextomas955.renamer-0.5.0.zip",
-      "dependencies": {}
+      "dependencies": {},
+      "checksum": "sha256:48674e72b3d2f61be40021c3550785922c9f490b5055efd350ad23b9bf0ecd88"
     },
     {
       "version": "0.4.0",
