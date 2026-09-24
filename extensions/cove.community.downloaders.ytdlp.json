@@ -19,6 +19,14 @@
       "checksum": "sha256:538837aee9820fa5caf7fabe9eb145cc0f37a4cc8ea71dfa4717991c8282fbee",
       "releasedAt": "2026-06-04T17:29:59Z",
       "dependencies": {}
+    },
+    {
+      "version": "1.1.0",
+      "changelog": "Add support for logged-in users and other general fixes/improvements.",
+      "downloadUrl": "https://github.com/yourcove/communitydownloaders/releases/download/ytdlp/v1.1.0/cove.community.downloaders.ytdlp-1.1.0.zip",
+      "minCoveVersion": "1.5.0",
+      "dependencies": {}
     }
+
   ]
 }

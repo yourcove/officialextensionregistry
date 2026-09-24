@@ -46,6 +46,13 @@
       "dependencies": {},
       "checksum": "sha256:c340da32943a217f9a88481d010bab938851d3855de5fb6fb5e72278625b5b6b",
       "releasedAt": "2026-07-07T23:05:50Z"
+    },
+    {
+      "version": "0.6.0",
+      "changelog": "Core AI improvements",
+      "downloadUrl": "https://github.com/skier233/AI.Extensions/releases/download/ai-core/v0.6.0/cove.community.ai.core-0.6.0.zip",
+      "minCoveVersion": "1.5.0",
+      "dependencies": {}
     }
   ]
 }
