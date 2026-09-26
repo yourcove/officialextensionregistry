@@ -1,0 +1,23 @@
+{
+  "id": "com.binarygeek119.text-to-audio",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/binarygeek119/cove-ai-plugins/main/plugins/text-to-audio/src/TextToAudio/extension.json",
+  "name": "Text to Audio",
+  "description": "Converts text files to speech through the shared AI Provider plugin and writes the files into a folder you choose. Optionally imports the generated audio into the Cove library.",
+  "author": "binarygeek119",
+  "kind": "extension",
+  "repositoryUrl": "https://github.com/binarygeek119/cove-ai-plugins",
+  "readmeUrl": "https://raw.githubusercontent.com/binarygeek119/cove-ai-plugins/main/plugins/text-to-audio/README.md",
+  "categories": ["ai", "tools", "import", "automation"],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.2.1",
+      "changelog": "Rename plugin id to com.binarygeek119.text-to-audio to match the other plugins. Uninstall com.yourcove.text-to-audio if it is still installed.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/text-to-audio/v0.2.1/com.binarygeek119.text-to-audio-0.2.1.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.1.0"
+      }
+    }
+  ]
+}

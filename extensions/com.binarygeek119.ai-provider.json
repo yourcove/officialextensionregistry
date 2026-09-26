@@ -1,0 +1,42 @@
+{
+  "id": "com.binarygeek119.ai-provider",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/binarygeek119/cove-ai-plugins/main/plugins/ai-provider/src/AiProvider/extension.json",
+  "name": "AI Provider",
+  "description": "Shared OpenAI-compatible AI backend (Venice by default) that other Cove plugins use for chat, speech, and images.",
+  "author": "binarygeek119",
+  "kind": "extension",
+  "repositoryUrl": "https://github.com/binarygeek119/cove-ai-plugins",
+  "readmeUrl": "https://raw.githubusercontent.com/binarygeek119/cove-ai-plugins/main/plugins/ai-provider/README.md",
+  "categories": ["ai", "tools", "integration"],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "changelog": "Initial shared provider: Venice/OpenAI-compatible chat and speech for other plugins.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/ai-provider/v0.1.0/com.binarygeek119.ai-provider-0.1.0.zip",
+      "dependencies": {}
+    },
+    {
+      "version": "0.2.0",
+      "changelog": "Adds image generation (Venice 16:9 /image/generate and OpenAI-compatible /images/generations) for cover plugins.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/ai-provider/v0.2.0/com.binarygeek119.ai-provider-0.2.0.zip",
+      "dependencies": {}
+    },
+    {
+      "version": "0.2.1",
+      "changelog": "Keep Venice images when the API still returns image bytes, even if a content-violation header is set.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/ai-provider/v0.2.1/com.binarygeek119.ai-provider-0.2.1.zip",
+      "dependencies": {}
+    },
+    {
+      "version": "0.2.2",
+      "changelog": "Treat Venice content-violation as a refusal so cover jobs can retry with less prompt content.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/ai-provider/v0.2.2/com.binarygeek119.ai-provider-0.2.2.zip",
+      "dependencies": {}
+    }
+  ]
+}
