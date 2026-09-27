@@ -12,6 +12,14 @@
       "dependencies": {},
       "checksum": "sha256:61a8f0298cb84095dba680d5b682d20676a540db745228c58b0efdc98b4e6f73",
       "releasedAt": "2026-09-27T06:06:06Z"
+    },
+    {
+      "version": "0.2.0",
+      "changelog": "Show every video from each selected anniversary year in the On This Day dashboard widget. Feature a video with a filmstrip of the rest, show year counts and previews, and open the full date-filtered list when more videos are available.",
+      "minCoveVersion": "1.3.2-dev.36",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.on-this-day/v0.2.0/com.midnightrider.on-this-day-0.2.0.zip",
+      "checksum": "sha256:0150f0a6675c489ae9448bedab303ea65308e213677211864dd27ac905e58359",
+      "dependencies": {}
     }
   ],
   "name": "On This Day",
