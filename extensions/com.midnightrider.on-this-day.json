@@ -28,7 +28,7 @@
   "author": "MidnightRider",
   "kind": "extension",
   "categories": [
-    "library",
-    "ui"
+    "ui",
+    "widget"
   ]
 }
