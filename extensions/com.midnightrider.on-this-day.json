@@ -21,6 +21,14 @@
       "checksum": "sha256:0150f0a6675c489ae9448bedab303ea65308e213677211864dd27ac905e58359",
       "dependencies": {},
       "releasedAt": "2026-09-27T06:44:04Z"
+    },
+    {
+      "version": "0.2.1",
+      "changelog": "Make each shuffle choose a fresh random set of years and videos, remember the last shuffle across reloads until local midnight, and keep keyboard focus on the shuffle button while it loads.",
+      "minCoveVersion": "1.3.2-dev.36",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.on-this-day/v0.2.1/com.midnightrider.on-this-day-0.2.1.zip",
+      "checksum": "sha256:5fa79ec425fd90c6b209bb60b2791311a55e5ec9eccecfad405d5766df437eee",
+      "dependencies": {}
     }
   ],
   "name": "On This Day",
