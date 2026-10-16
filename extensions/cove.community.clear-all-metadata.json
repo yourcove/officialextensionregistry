@@ -1,0 +1,22 @@
+{
+  "id": "cove.community.clear-all-metadata",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/clear-all-metadata/main/src/ClearAllMetadata/extension.json",
+  "name": "clear-all-metadata",
+  "description": "Clear video identification metadata without deleting or rescanning media.",
+  "author": "jiwenji",
+  "categories": [
+    "video",
+    "tools"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/clear-all-metadata",
+  "versions": [
+    {
+      "version": "0.1.6",
+      "changelog": "Cover image (restore default frame) now clears scraped/explicit artwork and replaces the primary generated-cover cache using Cove's own Generate default frame logic. The cover URL is refreshed after generation completes to avoid caching an earlier image under the final URL. This option remains enabled by default.\n\nOther thumbnails and VR cards, sprite sheets, video previews, pHash, MD5, and AI Tagging evidence remain preserved by default. The separate Thumbnails wipe remains off. If explicitly enabled, it deletes thumbnails instead of regenerating the primary cover. The confirmation modal distinguishes these cases. Red action text and eraser icon are retained.\n\nCover restoration requires readable primary media and FFmpeg; failure appears in Jobs while committed metadata clearing remains applied. Unchecking Cover image preserves artwork and skips generation.\n\nValidated with PostgreSQL, the real Cove thumbnail/stream services, and FFmpeg on a 5.37-second portrait source: the served image matches the exact default frame after replacing a stale cover. Verified other generated assets and fingerprints are unchanged, disabled cover behavior, unavailable-source failures, AI preservation, bulk outcomes, and permissions. All 11 frontend tests and Release ZIP packaging passed.\n\nRequires Cove 1.5.1+.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/clear-all-metadata/releases/download/v0.1.6/clear-all-metadata-0.1.6.zip",
+      "dependencies": {},
+      "checksum": "sha256:d709e1602f33de366adb400b33761351a765d810b090157806ff21dd9c434711"
+    }
+  ]
+}
