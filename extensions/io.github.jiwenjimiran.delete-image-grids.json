@@ -1,0 +1,25 @@
+{
+  "id": "io.github.jiwenjimiran.delete-image-grids",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/img_grid_deleter/main/src/DeleteImageGrids/extension.json",
+  "name": "Delete Image Grids",
+  "description": "Classify image grids with a bundled vision model, review them, and safely delete them from Cove.",
+  "author": "jiwenji",
+  "categories": [
+    "ai",
+    "tools",
+    "library",
+    "content-management",
+    "ui"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/img_grid_deleter",
+  "versions": [
+    {
+      "version": "0.2.26",
+      "changelog": "# Delete Image Grids 0.2.26\n\nFailed source decodes now include source size and header bytes plus separate\nImageSharp, FFmpeg, and thumbnail failure summaries. FFmpeg stderr is drained\nwith bounded retention so malformed PNGs cannot flood Cove's logs. Completion\nprogress identifies skipped source images separately from metadata errors.\nThis release retains the SQLite update-lock fix from 0.2.25. It does not restore\nmissing image bytes or classify partial images as if they were complete.\n\nDisabled SQLite connection pooling so completed and cancelled jobs release the\nresults database file handle. Idle page reads also release their connections.\nThis fixes the classification-results.sqlite3 lock blocking extension updates.\nFor this one-time upgrade from an older version, fully exit Cove and extract\nthe ZIP over the installed extension folder while Cove is stopped, then reopen\nCove. Restarting the older version recreates its pooled handles.\n\nPNG checksum failures now retry with tolerant PNG decoding. Unsupported JPEG\nand other image sources retry directly through FFmpeg before Cove thumbnails,\nbypassing failed thumbnail caches. Recovery times out after 30 seconds and\nhonors cancellation. Source files remain untouched; unreadable data still skips.\n\nWhen ImageSharp rejects an unsupported or damaged image, classification now\nretries through Cove's thumbnail pipeline, including its FFmpeg recovery path.\nSuccessful recovery is logged; unrecoverable files still log detailed warnings.\nOriginal files are not modified.\n\nEvery skipped image now produces a warning in Cove's logs with its image ID,\nrun ID, source path, reason, and full exception. Cancellation is not logged as\nan image failure.\n\nClassify likely image grids with a bundled model, review results, and delete\nselected images through Cove. Include and Exclude folder scopes protect files\noutside the selected paths. Archive-backed entries can be removed from Cove;\nZIP archives are never rewritten or deleted.\n\n- Standard ZIP: classification, review, and selected deletion.\n- Developer ZIP (`_dev`): adds local dataset corrections, training, evaluation,\n  and model/package building. See `training/README.md` in the source repository.\n\nBoth editions use the same extension ID; install one edition at a time.\nTraining images and evaluation data are not included in either ZIP or the\nsource repository. Contributors provide their own labelled datasets.\n\nClassification now starts after the first candidate batch without a preliminary\nlibrary-wide counting pass. The page shows live processed, grid, and skipped\ncounts with an activity indicator. Unknown-total runs remain resumable after\ncancellation, interruption, or failure; completed runs save the final total.\nCandidate discovery now queries image records directly and excludes classification\ntags through Cove's denormalized tag arrays before pagination. This eliminates\nfile-table deduplication and walking batches of already-classified images.\nAll-folder runs avoid file-table queries until loading a candidate batch's files;\nInclude/Exclude runs retain exact file-path scope checks. Cove's image authorization\nfilters remain enabled. Batches stay bounded to 128 image IDs.\nRequires Cove 1.5.2-dev.167-segments.1 or newer, including stable 1.5.2.\n\nValidation: frontend tests, C# regression checks, Python training policy and\npreprocessing tests, both edition builds, and ZIP content checks passed.\nLarge-library runtime validation remains pending. Build audit reports\nImageSharp 3.1.12 advisories; production shares the host's ImageSharp assembly,\nso host dependency compatibility needs review before a stable public release.\n\nRegistry submission: after runtime validation and release publication, copy\n`registry/io.github.jiwenjimiran.delete-image-grids.json` into the official\nregistry's `extensions/` directory and submit a PR. Registry CI adds checksums\nand release timestamps. The registry install URL selects the standard edition.",
+      "minCoveVersion": "1.5.2-dev.167-segments.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/img_grid_deleter/releases/download/v0.2.26/io.github.jiwenjimiran.delete-image-grids-0.2.26.zip",
+      "dependencies": {},
+      "checksum": "sha256:149735ca29271cc9c358f94d1a111a9463fe6f95234b812e167cea692ed489b7"
+    }
+  ]
+}
