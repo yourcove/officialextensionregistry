@@ -1,0 +1,25 @@
+{
+  "id": "io.github.jiwenjimiran.duplicate-manager",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_dupe_manager/main/src/DuplicateManager/extension.json",
+  "name": "Duplicate Manager",
+  "description": "Safe, explainable duplicate review and cleanup for Cove videos and images.",
+  "author": "jiwenji",
+  "categories": [
+    "tools",
+    "library",
+    "content-management",
+    "search",
+    "ui"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_dupe_manager",
+  "versions": [
+    {
+      "version": "2.1.9",
+      "changelog": "**Full Changelog**: https://github.com/jiwenjimiran/cove_dupe_manager/compare/v2.1.8...v2.1.9",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_dupe_manager/releases/download/v2.1.9/io.github.jiwenjimiran.duplicate-manager-2.1.9.zip",
+      "dependencies": {},
+      "checksum": "sha256:4335df3512129b692fc1f2ee788de77b9e85b08b8398b934bbb45bed69f60f9b"
+    }
+  ]
+}
