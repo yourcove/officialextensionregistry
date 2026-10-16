@@ -1,0 +1,23 @@
+{
+  "id": "cove.community.split-scenes",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove-split-scenes/main/src/SplitScenes/extension.json",
+  "name": "Cove Split Scenes",
+  "description": "Split selected videos at chapter markers, with fades-to-black fallback, without reencoding. Optional import, Identify and AI Faces.",
+  "author": "jiwenji",
+  "categories": [
+    "video",
+    "tools",
+    "automation"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove-split-scenes",
+  "versions": [
+    {
+      "version": "0.1.7",
+      "changelog": "# Split Scenes 0.1.7\r\n\r\n- Shows a scissors icon for Split Scenes in the individual video Operations menu and the selection bar.\r\n- Includes compatibility with Cove builds that ignore the declared extension action icon and always render a puzzle piece. Other actions and loading indicators keep their existing icons.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove-split-scenes/releases/download/v0.1.7/cove-split-scenes-0.1.7.zip",
+      "dependencies": {},
+      "checksum": "sha256:97570ac286efbd35ef96929a34b4127bd8a4258cd1f489b2f916262adb383501"
+    }
+  ]
+}

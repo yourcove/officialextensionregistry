@@ -1845,6 +1845,9 @@
     },
     {
       "id": "cove.community.scrapers.ytdlp"
+    },
+    {
+      "id": "cove.community.split-scenes"
     }
   ]
 }
