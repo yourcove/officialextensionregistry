@@ -1,0 +1,23 @@
+{
+  "id": "io.github.jiwenjimiran.export-segment",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/export-segment-extension/main/src/ExportSegment/extension.json",
+  "name": "Export Segment",
+  "description": "Export a resolved segment span's exact intervals as an MP4 saved on your client machine.",
+  "author": "jiwenjimiran",
+  "kind": "extension",
+  "categories": [
+    "tools",
+    "ui"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/export-segment-extension",
+  "versions": [
+    {
+      "version": "0.2.0",
+      "changelog": "Export Segment now saves clips on the client computer running your browser.\r\n\r\n- Supporting browsers on HTTPS/localhost open a native Save As picker before exporting and stream the MP4 into your selected client file.\r\n- HTTP LAN URLs use a normal client browser download. Enable Ask where to save each file before downloading in your browser's Downloads settings to get the normal Save As dialog. Webpages cannot force that preference, and the native picker API is restricted to secure contexts.\r\n- Removed the server folder browser and arbitrary server save paths. Server clips are temporary and deleted after successful/failed transfers or cancellation.\r\n- The export endpoint now requires video/segment read access, not administrator filesystem/settings permissions.\r\n\r\nValidation: 11 automated tests passed; real browser download of a 112-second example span, instrumented native-picker streaming, chooser cancellation, and extension-unload checks passed. The client clip measured 112.01 seconds and about 46 MB. No live Cove restart, library changes, or database migrations were needed.\r\n\n\n**Full Changelog**: https://github.com/jiwenjimiran/export-segment-extension/compare/v0.1.0...v0.2.0",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/export-segment-extension/releases/download/v0.2.0/export-segment-extension.zip",
+      "dependencies": {},
+      "checksum": "sha256:af29a75e7fc6182ea0c1335d3e4ccc4f605ed43b5d59395fe75ccc56139550a9"
+    }
+  ]
+}
