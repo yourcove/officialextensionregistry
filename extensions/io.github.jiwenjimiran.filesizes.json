@@ -1,0 +1,23 @@
+{
+  "id": "io.github.jiwenjimiran.filesizes",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_filesizes/main/src/Filesizes/extension.json",
+  "name": "Filesizes",
+  "description": "Show total file sizes on cards and filter library lists by filesize.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "ui",
+    "library"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_filesizes",
+  "versions": [
+    {
+      "version": "1.2.0",
+      "changelog": "# 1.2.0\n\n- Replace the Filesize comparison/text controls with numerical Minimum (inclusive) and Maximum (inclusive) inputs, each with an independent MB/GB dropdown.\n- Empty minimum means 0; empty maximum means unlimited. Both empty leaves the list unrestricted by size.\n- Preserve filtering across all supported lists and drilldowns, including summed performer/studio totals, native pagination, and permissions.\n\nValidation: real React controlled-input integration, clearing/reopening and cleanup checks, Chromium range-control visibility/responsive checks, inclusive/open-bound database regressions, and existing card/backend tests.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_filesizes/releases/download/v1.2.0/io.github.jiwenjimiran.filesizes-1.2.0.zip",
+      "dependencies": {},
+      "checksum": "sha256:fce75794eda3dcef830ece25cdd4dfa887eae575db75f4e32e363d8639fd9e4f"
+    }
+  ]
+}
