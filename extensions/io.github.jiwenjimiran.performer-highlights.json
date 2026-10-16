@@ -1,0 +1,23 @@
+{
+  "id": "io.github.jiwenjimiran.performer-highlights",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_performer_highlights/main/src/PerformerHighlights/extension.json",
+  "name": "Performer Highlights Extension",
+  "description": "Red 1px borders around favorite performer badges.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "ui",
+    "style"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_performer_highlights",
+  "versions": [
+    {
+      "version": "1.0.1",
+      "changelog": "Fix favorite performer badges to use exactly border: 1px solid var(--color-red-400). Remove outline and outline-offset.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_performer_highlights/releases/download/v1.0.1/io.github.jiwenjimiran.performer-highlights-1.0.1.zip",
+      "dependencies": {},
+      "checksum": "sha256:e97a0024c7f6415e745a890451a6b9b4554c48d8bebe9f06113a11b615628b21"
+    }
+  ]
+}
