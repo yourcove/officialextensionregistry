@@ -1,0 +1,23 @@
+{
+  "id": "io.github.jiwenjimiran.sticky-action-bar",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/sticky-action-bar/main/src/StickyActionBar/extension.json",
+  "name": "Sticky Action Bar",
+  "description": "Keep list filters, titles, and selection actions visible while scrolling.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "ui",
+    "style"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/sticky-action-bar",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "Keep Cove list filters, title/count, and selection actions visible while scrolling. Responsive offsets follow the navbar and toolbar heights. Requires Cove 1.5.1 or newer. Build and browser validation passed.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/sticky-action-bar/releases/download/v1.0.0/io.github.jiwenjimiran.sticky-action-bar-1.0.0.zip",
+      "dependencies": {},
+      "checksum": "sha256:38a3f20dbe04eee4e2a99bd4335ba63b1539c18bdf880ac6ef7b8b6ce962b6fa"
+    }
+  ]
+}
