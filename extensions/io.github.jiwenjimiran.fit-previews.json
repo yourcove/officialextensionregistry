@@ -1,0 +1,23 @@
+{
+  "id": "io.github.jiwenjimiran.fit-previews",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove_fit_previews/main/src/FitPreviews/extension.json",
+  "name": "Fit Previews",
+  "description": "Fit video covers, animated previews, and scrub frames inside thumbnails without cropping.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "ui",
+    "style"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove_fit_previews",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "changelog": "# 1.0.0\n\n- Fit video covers, playing previews, and scrub frames within thumbnails without cropping.\n- Center the full frame over black bars while preserving thumbnail dimensions.\n- Restore Cove's configured thumbnail fit when disabled.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove_fit_previews/releases/download/v1.0.0/io.github.jiwenjimiran.fit-previews-1.0.0.zip",
+      "dependencies": {},
+      "checksum": "sha256:2f611c3dac54e2815e3257713841c852e438b732dc6dd3cd801f0ad1a6f09fc4"
+    }
+  ]
+}
