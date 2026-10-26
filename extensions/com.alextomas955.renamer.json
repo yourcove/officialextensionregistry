@@ -12,6 +12,14 @@
   "screenshots": [],
   "versions": [
     {
+      "version": "0.6.0",
+      "changelog": "Needs Cove 1.7.0; below that Cove will not load it and 0.5.0 keeps working. Do a dry run before your first rename: resolution labels and frame rates have changed, so a file renamed under an older version can work out to a different name. $resolution now reads the same as the resolution badge Cove shows, $height renders as a label such as 432p or 4K, and $frameRate rounds to two decimals instead of writing every digit of the stored fraction. The settings page is one stack of titled cards with a token list that tints what your templates already use, and the dry run states each number once. Sorting performers by favourites is gone, because Cove made favourites per-user and a filename is the same for everyone; a saved setting that used it now reads Name (A to Z).",
+      "minCoveVersion": "1.7.0",
+      "downloadUrl": "https://github.com/alextomas955/cove-extensions/releases/download/renamer/v0.6.0/com.alextomas955.renamer-0.6.0.zip",
+      "dependencies": {},
+      "checksum": "sha256:909e511aec5a7cf059b3caa84803f942e94fa53f45eaacc6c09d773e5bb57daa"
+    },
+    {
       "version": "0.5.0",
       "changelog": "Renamer now renames text documents alongside videos, images and audio, with the same templates, dry run and undo. Each kind can be left out on its own, or sent to a folder of its own, from the Per kind list under Where files go. Undoing a rename now tells the rest of Cove the right sort of item changed. Requires Cove 1.5.0.",
       "minCoveVersion": "1.5.0",
