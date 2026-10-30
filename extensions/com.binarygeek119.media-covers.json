@@ -1,0 +1,77 @@
+{
+  "id": "com.binarygeek119.media-covers",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/binarygeek119/cove-ai-plugins/main/plugins/media-covers/src/MediaCovers/extension.json",
+  "name": "Media Covers",
+  "description": "Generates 16:9 adult-rated movie-style AI covers for audio and text library items that are missing an image.",
+  "author": "binarygeek119",
+  "kind": "extension",
+  "repositoryUrl": "https://github.com/binarygeek119/cove-ai-plugins",
+  "readmeUrl": "https://raw.githubusercontent.com/binarygeek119/cove-ai-plugins/main/plugins/media-covers/README.md",
+  "categories": ["ai", "tools", "automation"],
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "changelog": "Generate missing 16:9 movie-poster covers for audio and text from library metadata, with prompt sanitizing and content-refusal retries.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.0/com.binarygeek119.media-covers-0.1.0.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.0"
+      }
+    },
+    {
+      "version": "0.1.1",
+      "changelog": "Bias covers toward adult-rated imagery and young adults unless metadata calls for older characters.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.1/com.binarygeek119.media-covers-0.1.1.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.0"
+      }
+    },
+    {
+      "version": "0.1.2",
+      "changelog": "Show fetish and kink tags on covers instead of flattening them into a vanilla poster.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.2/com.binarygeek119.media-covers-0.1.2.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.0"
+      }
+    },
+    {
+      "version": "0.1.3",
+      "changelog": "Add a Replace all covers button that regenerates existing audio and text covers.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.3/com.binarygeek119.media-covers-0.1.3.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.0"
+      }
+    },
+    {
+      "version": "0.1.4",
+      "changelog": "Drop disallowed fetishes from cover prompts; keep allowed adult kinks.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.4/com.binarygeek119.media-covers-0.1.4.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.0"
+      }
+    },
+    {
+      "version": "0.1.5",
+      "changelog": "Retry refused covers by dropping likely trigger content, then fall back to a plain stylized title poster.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.5/com.binarygeek119.media-covers-0.1.5.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.1"
+      }
+    },
+    {
+      "version": "0.1.6",
+      "changelog": "On content-violation, discard the image and retry by dropping likely trigger content, then a plain title poster.",
+      "minCoveVersion": "1.4.0",
+      "downloadUrl": "https://github.com/binarygeek119/cove-ai-plugins/releases/download/media-covers/v0.1.6/com.binarygeek119.media-covers-0.1.6.zip",
+      "dependencies": {
+        "com.binarygeek119.ai-provider": ">=0.2.2"
+      }
+    }
+  ]
+}
