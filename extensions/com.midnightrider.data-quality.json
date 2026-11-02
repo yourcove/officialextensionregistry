@@ -1,0 +1,22 @@
+{
+  "id": "com.midnightrider.data-quality",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/MinasukiHikimuna/MidnightRider-Cove/main/extensions/data-quality/src/DataQuality/extension.json",
+  "repositoryUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.4.0",
+      "changelog": "Initial release: add a Data Quality page for saved, keyboard-driven reviews of videos, audios, performer occurrences and tags. Each review keeps its own queue, filters and actions on fixed letter keys that add or remove tags and custom fields, then move on to the next item. Video reviews also offer a card grid with tag and filter bins, and Recent changes can undo what an action wrote.",
+      "minCoveVersion": "1.6.0",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.data-quality/v0.4.0/com.midnightrider.data-quality-0.4.0.zip"
+    }
+  ],
+  "name": "Data Quality",
+  "description": "Adds dedicated keyboard-driven video, audio and tag data-quality review workspaces.",
+  "author": "MidnightRider",
+  "kind": "extension",
+  "categories": [
+    "metadata",
+    "tools"
+  ]
+}
