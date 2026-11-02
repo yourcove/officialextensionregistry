@@ -8,7 +8,9 @@
       "version": "0.4.0",
       "changelog": "Initial release: add a Data Quality page for saved, keyboard-driven reviews of videos, audios, performer occurrences and tags. Each review keeps its own queue, filters and actions on fixed letter keys that add or remove tags and custom fields, then move on to the next item. Video reviews also offer a card grid with tag and filter bins, and Recent changes can undo what an action wrote.",
       "minCoveVersion": "1.6.0",
-      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.data-quality/v0.4.0/com.midnightrider.data-quality-0.4.0.zip"
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.data-quality/v0.4.0/com.midnightrider.data-quality-0.4.0.zip",
+      "checksum": "sha256:fc1a9976a07bf977d226fc3c986cf55ebff1595ce0344536f2c612e3bc26b8b1",
+      "dependencies": {}
     }
   ],
   "name": "Data Quality",
