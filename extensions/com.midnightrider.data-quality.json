@@ -10,7 +10,8 @@
       "minCoveVersion": "1.6.0",
       "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.data-quality/v0.4.0/com.midnightrider.data-quality-0.4.0.zip",
       "checksum": "sha256:fc1a9976a07bf977d226fc3c986cf55ebff1595ce0344536f2c612e3bc26b8b1",
-      "dependencies": {}
+      "dependencies": {},
+      "releasedAt": "2026-11-02T03:03:52Z"
     }
   ],
   "name": "Data Quality",
