@@ -20,5 +20,6 @@
   "categories": [
     "metadata",
     "tools"
-  ]
+  ],
+  "kind": "extension"
 }
