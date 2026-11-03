@@ -1,0 +1,26 @@
+{
+  "id": "com.midnightrider.segment-studio",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/MinasukiHikimuna/MidnightRider-Cove/main/extensions/segment-studio/src/SegmentStudio/extension.json",
+  "repositoryUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove",
+  "screenshots": [],
+  "versions": [
+    {
+      "version": "0.3.1",
+      "changelog": "Initial release: add Segment Studio, a timeline editor for reviewing and publishing a video's tag segments. Segments sit in swimlanes grouped by Cove tag group, with keyboard shortcuts for review decisions, boundary edits, merges, retagging, frame stepping and undo through editor history. Run AI from AI Core queues AI tag predictions as drafts to approve, trim or reject; drafts that published segments already cover are skipped, and each run keeps its per-frame predictions for comparing AI output with what was published. Derivation rules publish implied segments and map performer slots, and shot boundaries are read and edited from Cove's native shot storage. The segment browser searches and filters videos with Cove's video filters and sorts segments by timing, tag, title, review state or at random. Requires Cove 1.7.0 and AI Core 0.6.0.",
+      "minCoveVersion": "1.7.0",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.segment-studio/v0.3.1/com.midnightrider.segment-studio-0.3.1.zip",
+      "checksum": "sha256:77c7949ebbb18f0810e67332048202fe520719872baefef57e904d1e37db14ad",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.6.0"
+      }
+    }
+  ],
+  "name": "Segment Studio",
+  "description": "Provides focused, direct review and timing edits for canonical Cove video segments.",
+  "author": "MidnightRider",
+  "kind": "extension",
+  "categories": [
+    "metadata",
+    "workflow"
+  ]
+}
