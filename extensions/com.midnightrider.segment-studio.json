@@ -23,7 +23,8 @@
       "checksum": "sha256:4fd600bd958ac6828a3c89e5d1acd96b163175363cdb7acdd5d38ab282af7377",
       "dependencies": {
         "cove.community.ai.core": ">=0.6.0"
-      }
+      },
+      "releasedAt": "2026-11-04T02:41:26Z"
     }
   ],
   "name": "Segment Studio",
