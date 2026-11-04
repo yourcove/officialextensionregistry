@@ -14,6 +14,16 @@
         "cove.community.ai.core": ">=0.6.0"
       },
       "releasedAt": "2026-11-03T04:42:25Z"
+    },
+    {
+      "version": "0.3.2",
+      "changelog": "Segment Studio's provenance and lineage permissions now register under its extension ID, so Cove accepts them, lists them under Segment Studio in the role editor, and grants them to admins by default. Previously Cove rejected all four keys at startup, leaving those endpoints reachable only by the superuser.",
+      "minCoveVersion": "1.7.0",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.segment-studio/v0.3.2/com.midnightrider.segment-studio-0.3.2.zip",
+      "checksum": "sha256:4fd600bd958ac6828a3c89e5d1acd96b163175363cdb7acdd5d38ab282af7377",
+      "dependencies": {
+        "cove.community.ai.core": ">=0.6.0"
+      }
     }
   ],
   "name": "Segment Studio",
