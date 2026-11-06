@@ -1,0 +1,23 @@
+{
+  "id": "io.github.jiwenjimiran.nudity-level",
+  "sourceManifestUrl": "https://raw.githubusercontent.com/jiwenjimiran/cove-nudity-level/main/src/NudityLevel/extension.json",
+  "name": "Nudity Level",
+  "description": "Filter videos and images by configurable AI-first nudity levels.",
+  "author": "jiwenji",
+  "kind": "extension",
+  "categories": [
+    "ui",
+    "library"
+  ],
+  "repositoryUrl": "https://github.com/jiwenjimiran/cove-nudity-level",
+  "versions": [
+    {
+      "version": "1.2.1",
+      "changelog": "# Nudity Level v1.2.1\r\n\r\nMove these 18 defaults to Neutral with no standalone nudity signal:\r\n\r\n- All Chastity variants: Chastity, Chastity (Male), Chastity (Female), Metal Chastity, Plastic Chastity, Cum in Chastity.\r\n- Footjob, Pussy Rubbing, Gloryhole, Stand Cradle, Catheter.\r\n- Weights, Clover Clamps, Clothes Pin, Alligator Clamp.\r\n- Vibrating, Nipple Clamps, Sucking Toy/Dildo.\r\n\r\nThese tags alone remain Unknown when body analysis is absent, and do not raise a completed body analysis above None. Other positive tags and explicitly configured compound rules continue to contribute normally.\r\n\r\nUpgrade applies the changes once to matching factory assignments, preserving moved/custom tags, removed assignments, bound IDs, and compound rules. Restore defaults uses the revised buckets.\r\n\r\nValidation: classification and upgrade regression checks, existing frontend/browser checks, and ZIP loading through Cove's isolated extension loader. Requires Cove 1.5.1 or newer.",
+      "minCoveVersion": "1.5.1",
+      "downloadUrl": "https://github.com/jiwenjimiran/cove-nudity-level/releases/download/v1.2.1/io.github.jiwenjimiran.nudity-level-1.2.1.zip",
+      "dependencies": {},
+      "checksum": "sha256:0f5b02807b8addf0030783f98b983587d845bb87dc0bed8844662e79ea27dc95"
+    }
+  ]
+}

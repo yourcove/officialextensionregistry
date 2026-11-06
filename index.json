@@ -1866,6 +1866,9 @@
     },
     {
       "id": "cove.community.scrapers.ytdlp"
+    },
+    {
+      "id": "io.github.jiwenjimiran.nudity-level"
     }
   ]
 }
