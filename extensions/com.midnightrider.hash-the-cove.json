@@ -12,6 +12,14 @@
       "checksum": "sha256:7875e736bd729c383656e89c6fcc2f964abdee34091fb6af2b87efc7de9af74f",
       "releasedAt": "2026-07-29T16:02:36Z",
       "dependencies": {}
+    },
+    {
+      "version": "1.1.0",
+      "changelog": "Hash The Cove now ships a User Guide article. In a Cove that supports extension feature guides, it appears in the User Guide and opens from the Help button on the extension's settings tab, explaining what each fingerprint is for, how to choose fingerprints and file types, how to run the task and read its counts, and why a changed or missing file fails to hash. Hashing behaviour is unchanged, and older Cove versions ignore the article.",
+      "minCoveVersion": "0.9.0",
+      "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.hash-the-cove/v1.1.0/com.midnightrider.hash-the-cove-1.1.0.zip",
+      "checksum": "sha256:d736f51921cba2bff5178bf12011b752a6c0a9aa3ca4abb69f0c58d7fa8afc09",
+      "dependencies": {}
     }
   ],
   "name": "Hash The Cove",
