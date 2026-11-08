@@ -19,7 +19,8 @@
       "minCoveVersion": "0.9.0",
       "downloadUrl": "https://github.com/MinasukiHikimuna/MidnightRider-Cove/releases/download/com.midnightrider.hash-the-cove/v1.1.0/com.midnightrider.hash-the-cove-1.1.0.zip",
       "checksum": "sha256:d736f51921cba2bff5178bf12011b752a6c0a9aa3ca4abb69f0c58d7fa8afc09",
-      "dependencies": {}
+      "dependencies": {},
+      "releasedAt": "2026-11-08T05:42:04Z"
     }
   ],
   "name": "Hash The Cove",
